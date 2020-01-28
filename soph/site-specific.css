@@ -76,7 +76,6 @@
 .soph-grad-programs-grid {
     display: flex;
     flex-wrap: wrap;
-    grid-gap: 20px;
     height: auto !important;
     margin-left: 0 !important;
 }
