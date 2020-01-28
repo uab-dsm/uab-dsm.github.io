@@ -108,6 +108,10 @@
     margin: 0;
 }
 
+.soph-grad-programs-grid img {
+    border-bottom: 3px solid #80bc00;
+}
+
 /*adjusts grid item */
 .soph-grad-programs-grid .uk-panel {
     height: 100%;
@@ -131,7 +135,7 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    border-top: 3px solid #80bc00;
+
 }
 
 /*title for each grid item */
