@@ -10,7 +10,7 @@
 
 .uk-switcher ul,
 .uk-grid ul,
-uk-accordion ul {
+.uk-accordion ul {
     margin: 0 0 0 30px;
     list-style-type: disc;
 }
