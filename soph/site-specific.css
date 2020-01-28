@@ -1,3 +1,8 @@
 .sidebar-heading--first-level {
     border-bottom: none;
 }
+
+.item-page .wk-bullets {
+    margin: 0 0 0 30px;
+    list-style-type: disc;
+  }
