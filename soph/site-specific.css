@@ -1,3 +1,7 @@
+
+
+
+
 .sidebar-heading--first-level {
     border-bottom: none;
 }
@@ -7,9 +11,63 @@
 .uk-switcher ul {
     margin: 0 0 0 30px;
     list-style-type: disc;
-  }
+}
 
 /*#endregion Widgetkit Bulleted List */
+
+
+/*#region ODEI Events Focus Box */
+.soph-odei-events-focus-box {
+    margin: 20px 10px;
+    box-shadow: 0 1px 6px 1px #d3d3d3;
+    background-color: #fafafa;
+}
+
+.soph-odei-events-focus-box__heading {
+    margin-top: 0;
+    font-size: 1.6em;
+    text-align: center;
+    border-bottom: 3px solid #80bc00;
+    padding: 10px 0;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif !important;
+}
+
+.soph-odei-events-focus-box .localist-widget-eds li {
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+    margin: 0 !important;
+}
+
+.soph-odei-events-focus-box ul.localist-widget-eds {
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.soph-odei-events-focus-box__button {
+    display: inline-block;
+    margin-bottom: 1em;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+.soph-odei-events-focus-box__button:hover {
+    text-decoration: none;
+    background-color: #1E6B52;
+    color: #fff !important;
+    border: 1px solid #1E6B52;
+}
+
+@media all and (min-width:700px) {
+    .soph-odei-events-focus-box {
+        float: right;
+        margin: 0 0 20px 20px;
+    }
+}
+
+/*#endregion ODEI Events Focus Box */
 
 
 /*#region Graduate Programs Widgekit Grid */
@@ -35,14 +93,14 @@
 @media all and (min-width:700px) {
     .soph-grad-programs-grid>div {
         flex-basis: calc(50% - 20px);
-     
+
     }
 }
 
 @media all and (min-width:1024px) {
     .soph-grad-programs-grid>div {
         flex-basis: calc(33.3% - 20px);
-        
+
     }
 }
 
