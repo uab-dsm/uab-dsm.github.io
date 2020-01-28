@@ -9,7 +9,8 @@
 /*#region Widgetkit Bulleted List */
 
 .uk-switcher ul,
-.uk-grid ul {
+.uk-grid ul,
+uk-accordion ul {
     margin: 0 0 0 30px;
     list-style-type: disc;
 }
