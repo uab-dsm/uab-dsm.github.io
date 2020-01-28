@@ -17,13 +17,13 @@
 
 
 /*#region ODEI Events Focus Box */
-.soph-odei-events-focus-box {
+.soph-events-focus-box {
     margin: 20px 10px;
     box-shadow: 0 1px 6px 1px #d3d3d3;
     background-color: #fafafa;
 }
 
-.soph-odei-events-focus-box__heading {
+.soph-events-focus-box__heading {
     margin-top: 0;
     font-size: 1.6rem;
     text-align: center;
@@ -32,19 +32,19 @@
     font-family: "proxima-nova", Arial, Helvetica, sans-serif !important;
 }
 
-.soph-odei-events-focus-box .localist-widget-eds li {
+.soph-events-focus-box .localist-widget-eds li {
     padding: 10px;
     box-sizing: border-box;
     background-color: transparent;
     margin: 0 !important;
 }
 
-.soph-odei-events-focus-box ul.localist-widget-eds {
+.soph-events-focus-box ul.localist-widget-eds {
     padding: 0 10px;
     box-sizing: border-box;
 }
 
-.soph-odei-events-focus-box__button {
+.soph-events-focus-box__button {
     display: inline-block;
     margin-bottom: 1em;
     background-color: #fff;
@@ -53,7 +53,7 @@
     box-sizing: border-box;
 }
 
-.soph-odei-events-focus-box__button:hover {
+.soph-events-focus-box__button:hover {
     text-decoration: none;
     background-color: #1E6B52;
     color: #fff !important;
@@ -61,7 +61,7 @@
 }
 
 @media all and (min-width:700px) {
-    .soph-odei-events-focus-box {
+    .soph-events-focus-box {
         float: right;
         margin: 0 0 20px 20px;
     }
