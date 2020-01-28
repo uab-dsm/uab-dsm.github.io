@@ -64,8 +64,8 @@
 
 
 .soph-grad-programs-grid .uk-panel:hover {
-    border:1px solid #1E6B52;
-    box-shadow: 0;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 0 1px #444;
 }
 
 /*adjusts content box container */
