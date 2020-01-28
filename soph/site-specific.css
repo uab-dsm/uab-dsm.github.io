@@ -2,6 +2,15 @@
     border-bottom: none;
 }
 
+/*#region Widgetkit Bulleted List */
+
+.item-page .wk-bullets {
+    margin: 0 0 0 30px;
+    list-style-type: disc;
+  }
+
+/*#endregion Widgetkit Bulleted List */
+
 
 /*#region Graduate Programs Widgekit Grid */
 
