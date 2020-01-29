@@ -1,9 +1,21 @@
-
-
-
+/*#region Removes bottom border from parent menu items */
 
 .sidebar-heading--first-level {
     border-bottom: none;
+}
+
+/*#endregion Removes bottom border from parent menu items */
+
+/*#region Widgetkit Read More Buttons */
+
+.read-more-btns .uk-button {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #1e6b52;
+    color: #fff !important;
+    font-weight: 600 !important;
+    left: 0;
 }
 
 /*#region Widgetkit Read More Buttons */
