@@ -1,3 +1,13 @@
+/*#region Switcher background */
+
+.uk-switcher .uk-panel {
+    background-color: 
+    #eee;
+    margin-top: -15px;
+}
+
+/*#endregion Switcher background */
+
 /*#region Grid People Directory */
 
 .grid-people-directory .uk-panel {
