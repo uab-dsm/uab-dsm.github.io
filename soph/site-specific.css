@@ -3,6 +3,7 @@
 .program-tag {
     background-color: #eee;
     padding: 5px 20px;
+    font-weight: bold;
 }
 
 /*#endregion Program tags for articles */
