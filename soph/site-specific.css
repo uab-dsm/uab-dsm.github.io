@@ -112,6 +112,10 @@
     color: #1e6b52 !important;
 }
 
+.grid-btns-in-text .uk-margin {
+    margin-bottom: 40px !important;
+}
+
 /*#endregion Widgetkit Read More Buttons */
 
 /*#region Widgetkit Bulleted List */
