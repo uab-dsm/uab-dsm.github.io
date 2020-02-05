@@ -5,6 +5,11 @@
     margin-top: 50px;
 }
 
+@media screen and (max-width: 650px) {
+    .strategic-plan--heading {
+        border: 1px solid #80bc00;
+}
+
 /*#endregion Strategic Plan */
 
 /*#region Research Grid */
