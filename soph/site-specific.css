@@ -8,6 +8,7 @@
 @media screen and (max-width: 650px) {
     .strategic-plan--heading {
         border: 1px solid #80bc00;
+        padding: 10px;
 }
 
 /*#endregion Strategic Plan */
