@@ -42,6 +42,21 @@
     text-align: center;
 }
 
+@media screen and (max-width: 650px) {
+    .research-grid--3-items {
+        flex-direction: column;
+    }
+    
+    .research-grid--3-items > div:nth-child(n+2) {
+        border-left: none;
+        border-top: 1px solid #80bc00
+    }
+    
+    .research-grid--3-items > div {
+        padding: 50px;
+    }    
+    }    
+
 /*#endregion Research Grid */
 
 /*#region Program tags for articles */
