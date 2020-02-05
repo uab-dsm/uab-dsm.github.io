@@ -1,3 +1,14 @@
+/*#region Strategic Plan */
+
+.strategic-plan--heading {
+    background-color: #1e6b52;
+    padding: 10px 20px;
+    color: #fff;
+    margin-left: -15px;
+}
+
+/*#endregion Strategic Plan */
+
 /*#region Research Grid */
 
 .research-grid--3-items {
