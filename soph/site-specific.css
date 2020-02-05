@@ -18,8 +18,9 @@
 }
 
 .research-grid--3-items > div {
-    flex-basis: calc(33.3% - 20px);
+    flex-basis: 33.3%;
     padding: 0 50px;
+    box-sizing: border-box;
 }
 
 .research-grid--3-items > div:nth-child(n+2) {
