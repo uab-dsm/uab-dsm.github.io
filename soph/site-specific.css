@@ -24,6 +24,11 @@
 .research-grid--3-items div h2 {
     font-size: 1.3em;
     margin-top: 0;
+    text-align: center;
+}
+
+.research-grid--3-items div p {
+    text-align: center;
 }
 
 /*#endregion Research Grid */
