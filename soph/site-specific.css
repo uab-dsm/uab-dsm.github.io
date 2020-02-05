@@ -32,7 +32,8 @@
     #1e6b52;
 }
 
-.research-grid--3-items div h2 {
+.research-grid--3-items div h2,
+.research-grid--3-items div h3 {
     font-size: 1.3em;
     margin-top: 0;
     text-align: center;
