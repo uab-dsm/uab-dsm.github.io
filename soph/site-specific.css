@@ -1,3 +1,21 @@
+/*#region Research Grid */
+
+.research-grid--3-items {
+    display: flex;
+    align-content: center;
+}
+
+.research-grid--3-items > div {
+    flex-basis: calc(33.3% - 20px);
+    padding: 0 50px;
+}
+
+.research-grid--3-items > div:nth-child(n+2) {
+    border-left: 1px solid #80bc00;
+}
+
+/*#endregion Research Grid */
+
 /*#region Program tags for articles */
 
 .program-tag {
