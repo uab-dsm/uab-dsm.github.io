@@ -14,6 +14,7 @@
 .research-grid--3-items {
     display: flex;
     align-content: center;
+    margin-top: 30px;
 }
 
 .research-grid--3-items > div {
