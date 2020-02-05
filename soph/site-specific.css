@@ -100,7 +100,12 @@
 
 .switcher-tabs-left .uk-panel {
     margin-top: 0;
-    margin-left: -35px;
+    background-color: transparent;
+}
+
+.switcher-tabs-left .uk-switcher {
+    background-color: #eee;
+    margin-left: -5px;
 }
 
 /*#endregion Switcher background */
