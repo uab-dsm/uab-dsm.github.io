@@ -1,6 +1,3 @@
-
-
-
 /*#region Strategic Plan */
 
 .strategic-plan--heading {
@@ -99,6 +96,11 @@
 .uk-switcher .uk-panel {
     background-color: #eee;
     margin-top: -15px;
+}
+
+.switcher-tabs-left .uk-panel {
+    margin-top: 0;
+    margin-left: -35px;
 }
 
 /*#endregion Switcher background */
