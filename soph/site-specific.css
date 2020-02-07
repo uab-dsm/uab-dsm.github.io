@@ -1,3 +1,31 @@
+/*#region Two-Column styling */
+
+.border.two-column-item {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    }
+    
+    .two-column-wrapper {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+    
+    .two-column-item {
+        flex-basis: 50%;
+    }
+    
+    @media screen and (max-width: 768px) {
+       .two-column-wrapper {
+          flex-direction: column; 
+       }
+    }
+    
+/*#endregion Two-Column styling */
+
 /*#region Strategic Plan */
 
 .strategic-plan--heading {
