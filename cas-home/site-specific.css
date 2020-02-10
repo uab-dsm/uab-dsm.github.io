@@ -1,1 +1,5 @@
 /*site specific css for CAS home */
+
+p {
+    color:blue !important;
+}
