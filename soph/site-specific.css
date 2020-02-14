@@ -67,6 +67,10 @@
     display:block;
 }
 
+.soph-faulty-research-spotlight__link {
+    display:block;
+}
+
 .blog.soph-faulty-research-spotlight__page .readmore {
     flex-basis:100%;
     order:3;
