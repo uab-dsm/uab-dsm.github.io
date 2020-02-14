@@ -1,3 +1,106 @@
+/*#region Faculty Research Spotlight */
+
+
+
+.soph-faulty-research-spotlight__page .item {
+    display:flex;
+    flex-wrap:wrap;
+    border:1px solid #1E6B52;
+
+}
+
+.soph-faulty-research-spotlight__page .item-image {
+    flex-basis:50%;
+    order:1;
+    margin:0;
+
+}
+
+ .soph-faulty-research-spotlight__page .item-image img {
+    margin:0 !important;
+    border-radius:0 !important;
+
+}
+
+
+.blog.soph-faulty-research-spotlight__page .soph-faulty-research-spotlight__details {
+    flex-basis:50%;
+    order:1;
+    padding:20px;
+    box-sizing:border-box;
+}
+
+.blog.soph-faulty-research-spotlight__page .soph-faulty-research-spotlight__date {
+    font-size:1em;
+    margin-top:0;
+    color:#808285;
+
+}
+
+.item-page.soph-faulty-research-spotlight__page  .soph-faulty-research-spotlight__date {
+      font-size:1.4em;
+    margin-top:0;
+    color:#808285;
+}
+
+.soph-faulty-research-spotlight__name {
+    font-weight:600;
+    font-size:1.2em;
+    display:block;
+    margin-bottom:10px;
+    
+}
+ 
+.item-page.soph-faulty-research-spotlight__page .soph-faulty-research-spotlight__name {
+   
+    font-size: 2em;
+    margin-bottom: 0;
+    color: #444;
+
+}
+
+.item-page.soph-faulty-research-spotlight__page   .item-image {
+    max-width:300px;
+}
+
+.soph-faulty-research-spotlight__title {
+    display:block;
+}
+
+.soph-faulty-research-spotlight__link {
+    display:block;
+}
+
+.blog.soph-faulty-research-spotlight__page .readmore {
+    flex-basis:100%;
+    order:3;
+    margin:0;
+
+}
+
+.blog.soph-faulty-research-spotlight__page .readmore .btn {
+    width:100%;
+    box-sizing:border-box;
+      text-align:center !important;   
+    justify-content: center;
+    background-color:#1E6B52 !important;
+    background-image:none;
+    border-radius:0;
+    border:0;
+    padding:10px;
+    text-shadow:none;
+    color:#fff;
+
+}
+.soph-faulty-research-spotlight__page .readmore .btn:hover {
+        color:#fff !important;
+        background-color:#295135 !important;
+}
+
+
+/*#endregion Faculty Research Spotlight */
+
+
 /*#region Two-Column styling */
 
 .border.two-column-item {
@@ -6,24 +109,24 @@
     padding: 10px 0;
     margin-bottom: 25px;
     box-sizing: border-box;
-    }
-    
+}
+
+.two-column-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.two-column-item {
+    flex-basis: 50%;
+}
+
+@media screen and (max-width: 768px) {
     .two-column-wrapper {
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
+        flex-direction: column;
     }
-    
-    .two-column-item {
-        flex-basis: 50%;
-    }
-    
-    @media screen and (max-width: 768px) {
-       .two-column-wrapper {
-          flex-direction: column; 
-       }
-    }
-    
+}
+
 /*#endregion Two-Column styling */
 
 /*#region Strategic Plan */
@@ -37,7 +140,7 @@
     .strategic-plan--heading {
         border: 1px solid #80bc00;
         padding: 10px;
-}
+    }
 }
 
 /*#endregion Strategic Plan */
@@ -51,20 +154,20 @@
     margin-top: 30px;
 }
 
-.research-grid--3-items > div {
+.research-grid--3-items>div {
     flex-basis: 33.3%;
     padding: 0 50px;
     box-sizing: border-box;
 }
 
-.plan-grid--4-items > div {
+.plan-grid--4-items>div {
     flex-basis: 25%;
     padding: 0 20px;
     box-sizing: border-box;
 }
 
-.research-grid--3-items > div:nth-child(n+2),
-.plan-grid--4-items > div:nth-child(n+2) {
+.research-grid--3-items>div:nth-child(n+2),
+.plan-grid--4-items>div:nth-child(n+2) {
     border-left: 1px solid #80bc00;
 }
 
@@ -72,8 +175,8 @@
 .plan-grid--4-items div span {
     font-size: 1.3em;
     display: block;
-    color: 
-    #1e6b52;
+    color:
+        #1e6b52;
 }
 
 .research-grid--3-items div h2,
@@ -89,22 +192,22 @@
 }
 
 @media screen and (max-width: 650px) {
+
     .research-grid--3-items,
     .plan-grid--4-items {
         flex-direction: column;
     }
-    
-    .research-grid--3-items > div:nth-child(n+2),
-    .plan-grid--4-items > div:nth-child(n+2) {
+
+    .research-grid--3-items>div:nth-child(n+2),
+    .plan-grid--4-items>div:nth-child(n+2) {
         border-left: none;
         border-top: 1px solid #80bc00
     }
-    
-    .research-grid--3-items > div
-    .plan-grid--4-items > div {
+
+    .research-grid--3-items>div .plan-grid--4-items>div {
         padding: 50px;
-    }    
-    }    
+    }
+}
 
 /*#endregion Research Grid */
 
@@ -239,7 +342,7 @@
 
 .read-more-btns:hover {
     background-color: #fff !important;
-    border: 1px solid #1e6b52!important;
+    border: 1px solid #1e6b52 !important;
     color: #1e6b52 !important;
 }
 
