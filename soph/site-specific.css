@@ -1,79 +1,89 @@
 /*#region Faculty Research Spotlight */
 
 
+
 .soph-faulty-research-spotlight__page .item {
-    display: flex;
-    flex-wrap: wrap;
-    border: 1px solid #1E6B52;
+    display:flex;
+    flex-wrap:wrap;
+    border:1px solid #1E6B52;
 
 }
 
 .soph-faulty-research-spotlight__page .item-image {
-    flex-basis: 50%;
-    order: 1;
-    margin: 0;
+    flex-basis:50%;
+    order:1;
+    margin:0;
 
 }
 
-.soph-faulty-research-spotlight__page .item-image img {
-    margin: 0 !important;
-    border-radius: 0 !important;
+ .soph-faulty-research-spotlight__page .item-image img {
+    margin:0 !important;
+    border-radius:0 !important;
 
 }
 
-.soph-faulty-research-spotlight__details {
-    flex-basis: 50%;
-    order: 1;
-    padding: 20px;
-    box-sizing: border-box;
+
+.blog.soph-faulty-research-spotlight__page .soph-faulty-research-spotlight__details {
+    flex-basis:50%;
+    order:1;
+    padding:20px;
+    box-sizing:border-box;
 }
 
-.soph-faulty-research-spotlight__date {
-    font-size: 1em;
-    margin-top: 0;
-    color: #808285;
+.blog.soph-faulty-research-spotlight__page .soph-faulty-research-spotlight__date {
+    font-size:1em;
+    margin-top:0;
+    color:#808285;
 
+}
+
+.item-page.soph-faulty-research-spotlight__page  .soph-faulty-research-spotlight__date {
+      font-size:1.4em;
+    margin-top:0;
+    color:#808285;
 }
 
 .soph-faulty-research-spotlight__name {
-    font-weight: 600;
-    font-size: 1.2em;
-    display: block;
-    margin-bottom: 10px;
+    font-weight:600;
+    font-size:1.2em;
+    display:block;
+    margin-bottom:10px;
+    
+}
 
+.item-page.soph-faulty-research-spotlight__page   .item-image {
+    max-width:300px;
 }
 
 .soph-faulty-research-spotlight__title {
-    display: block;
+    display:block;
 }
 
-.soph-faulty-research-spotlight__page .readmore {
-    flex-basis: 100%;
-    order: 3;
-    margin: 0;
+.blog.soph-faulty-research-spotlight__page .soph-faulty-research-spotlight__page .readmore {
+    flex-basis:100%;
+    order:3;
+    margin:0;
 
 }
 
-.soph-faulty-research-spotlight__page .readmore .btn {
-    width: 100%;
-    box-sizing: border-box;
-    text-align: center !important;
+.blog.soph-faulty-research-spotlight__page .soph-faulty-research-spotlight__page .readmore .btn {
+    width:100%;
+    box-sizing:border-box;
+      text-align:center !important;   
     justify-content: center;
-    background-color: #1E6B52 !important;
-    background-image: none;
-    border-radius: 0;
-    border: 0;
-    padding: 10px;
-    text-shadow: none;
-    color: #fff;
+    background-color:#1E6B52 !important;
+    background-image:none;
+    border-radius:0;
+    border:0;
+    padding:10px;
+    text-shadow:none;
+    color:#fff;
 
 }
-
 .soph-faulty-research-spotlight__page .readmore .btn:hover {
-    color: #fff !important;
-    background-color: #295135 !important;
+        color:#fff !important;
+        background-color:#295135 !important;
 }
-
 
 
 /*#endregion Faculty Research Spotlight */
