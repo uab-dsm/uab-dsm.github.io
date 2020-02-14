@@ -189,6 +189,40 @@ body.ribbonFullwidth #epilogue {
     }
 }
 
+/*NEWS/EVENTS - TWO-COLUMN WITH MIDDLE BORDER*/
+.two-column-middle-border {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.two-column-middle-border div {
+    flex: 1 1 400px;
+    box-sizing: border-box;
+    padding: 0.5em 1em;
+    text-align: center;
+}
+
+@media all and (min-width: 832px) {
+    .two-column-middle-border div:first-child {
+        border-right: 2px solid #80bc00;
+    }
+}
+
+.two-column-middle-border h3 {
+    color: #1E6B52;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 19px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.two-column-middle-border a.btn--md {
+    margin-bottom: 1.25em;
+}
+
+
 /*SWITCHER STYLE*/
 .switcher-nav-center .uk-subnav {
     justify-content: center;
@@ -314,6 +348,34 @@ body.ribbonFullwidth #epilogue {
     padding: 0.5em 3em 2.5em 3em;
 }
 
+
+/*HOME*/
+.home-intro {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 1em 0 2.75em 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+.home-intro p span,
+.home-intro p {
+    font-size: 1.4rem;
+    color: #1E6B52;
+    font-weight: 600;
+}
+.home-inner {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 1em 1em 2em 1em;
+    box-sizing: border-box;
+}
+
+.home-inner-heading {
+    text-align: center;
+    color: #1E6B52;
+    margin-bottom: 1em;
+}
+
 /*ABOUT PAGE*/
 /*Leadership*/
 .about-leadership {
@@ -334,7 +396,7 @@ body.ribbonFullwidth #epilogue {
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
-    background-image: url('images/placeholder-800x640.jpg');
+    background-image: url('https://dev.uab.edu/cas/home//images/placeholder-800x640.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -348,6 +410,9 @@ body.ribbonFullwidth #epilogue {
     .about-leadership-image-bg {
         order: 2;
     }
+}
+.about-leadership-content h2 {
+    margin-top: 0px;
 }
 .about-leadership-content a.btn--md {
     text-align: center;
@@ -508,38 +573,6 @@ div.next-fifty-content {
     font-size: 14px;
 }
 
-/*Research Events*/
-.two-column-middle-border {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-.two-column-middle-border div {
-    flex: 1 1 400px;
-    box-sizing: border-box;
-    padding: 0.5em 1em;
-    text-align: center;
-}
-
-@media all and (min-width: 832px) {
-    .two-column-middle-border div:first-child {
-        border-right: 2px solid #80bc00;
-    }
-}
-
-.two-column-middle-border h3 {
-    color: #1E6B52;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 19px;
-    text-align: center;
-    letter-spacing: 1px;
-}
-
-.two-column-middle-border a.btn--md {
-    margin-bottom: 1.25em;
-}
 
 
 /*ALUMNI*/
