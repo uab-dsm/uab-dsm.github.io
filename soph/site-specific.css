@@ -67,14 +67,14 @@
     display:block;
 }
 
-.blog.soph-faulty-research-spotlight__page .soph-faulty-research-spotlight__page .readmore {
+.blog.soph-faulty-research-spotlight__page .readmore {
     flex-basis:100%;
     order:3;
     margin:0;
 
 }
 
-.blog.soph-faulty-research-spotlight__page .soph-faulty-research-spotlight__page .readmore .btn {
+.blog.soph-faulty-research-spotlight__page .readmore .btn {
     width:100%;
     box-sizing:border-box;
       text-align:center !important;   
