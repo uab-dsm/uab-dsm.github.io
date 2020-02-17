@@ -375,6 +375,37 @@ body.ribbonFullwidth #epilogue {
     color: #1E6B52;
     margin-bottom: 1em;
 }
+/*Degrees, Dept., Centers Switcher*/
+.home-degrees-dept .uk-switcher {
+    background-color: #f4f8ee;
+    border-top: 1px solid #80bc00;
+}
+.home-degrees-dept .uk-switcher div.uk-margin {
+    max-width: 1080px;
+    margin:0 auto;
+    padding: 1em 0;
+}
+.home-degrees-dept  .uk-tab-center {
+    border-bottom-width: 0px;
+}
+.home-degrees-dept .uk-tab-center .uk-tab>li,
+.home-degrees-dept .uk-switcher li {
+    margin-bottom: 0px !important;
+}
+.home-degrees-dept .uk-tab > li > a {
+    border-width: 0px;
+    color: #1E6B52;
+}
+.home-degrees-dept .uk-tab > li.uk-active > a {
+    background-color: #f4f8ee;
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+    border-color:#80bc00;
+}
+.home-degrees-dept .uk-tab > li.uk-active > a:hover {
+    color: #1E6B52 !important;
+}
+
 
 /*ABOUT PAGE*/
 /*Leadership*/
