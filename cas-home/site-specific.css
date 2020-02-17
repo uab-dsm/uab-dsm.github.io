@@ -395,6 +395,10 @@ body.ribbonFullwidth #epilogue {
 .home-degrees-dept .uk-tab > li > a {
     border-width: 0px;
     color: #1E6B52;
+    border: 1px solid #fff;
+}
+.home-degrees-dept .uk-tab > li > a:hover {
+    border:  1px solid #f5f5f5;
 }
 .home-degrees-dept .uk-tab > li.uk-active > a {
     background-color: #f4f8ee;
@@ -404,6 +408,69 @@ body.ribbonFullwidth #epilogue {
 }
 .home-degrees-dept .uk-tab > li.uk-active > a:hover {
     color: #1E6B52 !important;
+}
+/*Student Resources*/
+.DCHomepage .two-column-two-thirds>div {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.student-resources {
+    flex: 2 1 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+	padding: 0.5em 3em 2.5em 3em;
+    margin-bottom: 30px;
+}
+
+.info-for-students {
+	flex: 1 1 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 0px !important;
+}
+
+.info-for-students h2 {
+    background-color: #1E6B52;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "proxima-nova", sans-serif !important;
+    padding: 0.5em;
+    margin: 0px;
+    text-align: center;
+}
+
+.recruiter-info {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px !important;
+}
+
+.recruiter-info img {
+    flex: 1 1 100px;
+    width: 180px !important;
+    height: auto;
+}
+.recruiter-info div {
+    flex: 2 1 100px;
+    padding: 1em;
+    align-self: center;
+}
+.recruiter-info h3 {
+    font-family: "kulturista-web", serif !important;
+    color: #1E6B52;
+    margin-top: 0px;
+}
+@media all and (min-width: 980px) {
+    .student-resources {
+        margin-right: 30px;
+    }
+    .info-for-students {
+        margin-bottom: 30px;
+    }
 }
 
 
