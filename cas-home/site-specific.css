@@ -199,7 +199,7 @@ body.ribbonFullwidth #epilogue {
 .two-column-middle-border-col {
     flex: 1 1 400px;
     box-sizing: border-box;
-    padding: 0.5em 1em;
+    padding: 30px;
     text-align: center;
 }
 
@@ -352,7 +352,7 @@ body.ribbonFullwidth #epilogue {
 .news .clr {
     display: none;
 }
-.news .srfrContainer  li.srfrRow {
+.news .srfrContainer li.srfrRow {
     display: flex;
 }
 .news .srfrImage {
@@ -514,6 +514,52 @@ body.ribbonFullwidth #epilogue {
     }
     .info-for-students {
         margin-bottom: 30px;
+    }
+}
+/*Events - Four Boxes*/
+.home-events .localist-widget-uab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-gap: 0px;
+}
+.home-events > .localist-widget-uab > a {
+    flex: 1 0 40% !important;
+}
+.two-column-middle-border .home-events div {
+    border-right: 0px !important;
+}
+.home-events h4 {
+    text-align: center;
+    color: #fff;
+    padding: 0 0.5em;
+    font-size: 16px !important;
+}
+.home-events .localist-widget-uab li {
+    background-color: #1E6B52;
+}
+.home-events .localist-widget-uab div.titlespace {
+    margin-bottom: 0px !important; 
+    margin-top: 0px !important;
+}
+.home-events .localist-widget-uab .lwd {
+    padding: 0px;
+}
+.home-events .localist-widget-uab .des, 
+.home-events .localist-widget-uab .time,
+.home-events .localist-widget-uab .moredates,
+.home-events .localist-widget-uab .secondblock {
+    display: none;
+}
+@media all and (min-width: 980px) {
+    .home-events > .localist-widget-uab > a:nth-child(2),
+    .home-events > .localist-widget-uab > a:nth-child(4) {
+        margin-right: 20px; 
+        margin-bottom: 20px;
+    }
+    .home-events > .localist-widget-uab > a:nth-child(3),
+    .home-events > .localist-widget-uab > a:nth-child(5) {
+        margin-bottom: 20px;
     }
 }
 
