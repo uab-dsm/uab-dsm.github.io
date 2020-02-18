@@ -196,7 +196,7 @@ body.ribbonFullwidth #epilogue {
     justify-content: space-between;
 }
 
-.two-column-middle-border div {
+.two-column-middle-border-col {
     flex: 1 1 400px;
     box-sizing: border-box;
     padding: 0.5em 1em;
@@ -204,7 +204,7 @@ body.ribbonFullwidth #epilogue {
 }
 
 @media all and (min-width: 832px) {
-    .two-column-middle-border div:first-child {
+    .two-column-middle-border-col:first-child {
         border-right: 2px solid #80bc00;
     }
 }
@@ -355,7 +355,7 @@ body.ribbonFullwidth #epilogue {
 .news .srfrContainer  li.srfrRow {
     display: flex;
 }
-.home-news .srfrImage {
+.news .srfrImage {
     order: 2;
     max-width: 150px;
     padding: 0px;
