@@ -63,9 +63,38 @@ body.hd.full-width #content {
     color: #fff !important;
 }
 
+.dark-green-bg a.btn--white-to-dark-green {
+    color: #1E6B52 !important;
+}
+
 .light-green-bg {
     background-color: #F4F8EE;
 }
+
+
+/*WHITE TO DARK GREEN BUTTON - for dark green backgrounds*/
+.template-01.linear.hd #wrapper .btn--white-to-dark-green {
+    border: 1px solid rgba(30, 107, 82, 0.5);
+    background-color: #fff;
+    font-weight: 500 !important;
+    display: inline-block;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: all 0.3s;
+    position: relative;
+    z-index: 1;
+}
+
+.template-01.linear.hd #wrapper .btn--white-to-dark-green:hover {
+  color: #fff !important;
+  -webkit-transition: all 0.3s;
+  /* Safari */
+  transition: all 0.3s;
+  background-color: #17513e;
+  text-decoration: none;
+  border: 1px solid rgba(30, 107, 82, 0.5); 
+}
+
 
 /*EPILOGUE*/
 body.ribbonFullwidth #epilogue {
