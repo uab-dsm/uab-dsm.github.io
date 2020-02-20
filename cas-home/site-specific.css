@@ -613,6 +613,10 @@ body.ribbonFullwidth #epilogue {
 .about-leadership-content a.btn--md:last-child {
     margin-right: 0px;
 }
+/*Removes tags from directory items*/
+.v2-directory.blog .span12 .tags {
+    display: none;
+}
 
 
 /*GIVING PAGE*/
