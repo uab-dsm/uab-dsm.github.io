@@ -366,6 +366,23 @@ body.ribbonFullwidth #epilogue {
 }
 
 
+/*Decorative line with circle at end*/
+.line {
+    width: 2px;
+    height: 40px;
+    background-color:#1E6B52;
+    margin: 0 auto;
+}
+.circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #80bc00;
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 2px #1E6B52;
+    margin: 0 auto -15px;
+}
+
 /*CONTENT WITH PHOTO BACKGROUND*/
 .photo-bg-section {
     background-color: #808285;
