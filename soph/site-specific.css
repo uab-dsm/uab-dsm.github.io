@@ -1,6 +1,13 @@
+/*#region Smaller Font on Grid Widgets */
+@media all and (min-width: 768px) {
+    .smaller-font-grid .uk-margin-small h2 {
+        font-size: 1.3rem;
+    }    
+    }
+
+/*#endregion Smaller Font on Grid Widgets */
+
 /*#region Faculty Research Spotlight */
-
-
 
 .soph-faulty-research-spotlight__page .item {
     display:flex;
