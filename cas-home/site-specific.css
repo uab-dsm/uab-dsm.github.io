@@ -581,13 +581,13 @@ body.ribbonFullwidth #epilogue {
     display: none;
 }
 @media all and (min-width: 980px) {
-    .home-events > .localist-widget-uab > a:nth-child(2),
-    .home-events > .localist-widget-uab > a:nth-child(4) {
+    .home-events > .localist-widget-uab > a:nth-child(1),
+    .home-events > .localist-widget-uab > a:nth-child(3) {
         margin-right: 20px; 
         margin-bottom: 20px;
     }
-    .home-events > .localist-widget-uab > a:nth-child(3),
-    .home-events > .localist-widget-uab > a:nth-child(5) {
+    .home-events > .localist-widget-uab > a:nth-child(2),
+    .home-events > .localist-widget-uab > a:nth-child(4) {
         margin-bottom: 20px;
     }
 }
@@ -739,7 +739,7 @@ body.ribbonFullwidth #epilogue {
 
 .next-fifty-slides ul.uk-slider,
 .next-fifty-slides .uk-panel {
-    min-height: 515px !important;
+    min-height: 520px !important;
 }
 
 div.next-fifty-category {
@@ -793,6 +793,58 @@ div.next-fifty-content {
 .next-fifty-content p em {
     font-size: 14px;
 }
+/*Enables Font-Awesome for lightbox icons*/
+.uk-icon-search {
+    font-family: FontAwesome !important;
+}
+/*Research Events Calendar Feed*/
+.research-events .localist-widget-uab {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    grid-gap: 0px;
+}
+.research-events > .localist-widget-uab > a {
+    flex: 1 1 45% !important;
+}
+.research-events div {
+    border-right: 0px !important;
+}
+.research-events h4 {
+    text-align: center;
+    color: #fff;
+    padding: 0 0.5em;
+    font-size: 16px !important;
+}
+.research-events .localist-widget-uab li {
+    background-color: #1E6B52;
+}
+.research-events .localist-widget-uab div.titlespace {
+    margin-bottom: 0px !important; 
+    margin-top: 0px !important;
+}
+.research-events .localist-widget-uab .lwd {
+    padding: 0px;
+}
+.research-events .localist-widget-uab .des, 
+.research-events .localist-widget-uab .time,
+.research-events .localist-widget-uab .moredates,
+.research-events .localist-widget-uab .secondblock {
+    display: none;
+}
+@media all and (min-width: 980px) {
+    .research-events > .localist-widget-uab > a:nth-child(1),
+    .research-events > .localist-widget-uab > a:nth-child(3) {
+        margin-right: 20px; 
+        margin-bottom: 20px;
+    }
+    .research-events > .localist-widget-uab > a:nth-child(2),
+    .research-events > .localist-widget-uab > a:nth-child(4) {
+        margin-bottom: 20px;
+    }
+}
+
+
 
 
 
