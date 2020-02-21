@@ -1,7 +1,7 @@
 /*#region Smaller Font on Grid Widgets */
 @media all and (min-width: 768px) {
     .template-01 .smaller-font-grid .uk-margin-small h2 {
-        font-size: 1.2rem;
+        font-size: 1.1rem;
     }    
     }
 
