@@ -435,6 +435,17 @@ body.ribbonFullwidth #epilogue {
     border-bottom-width:0px;
 }
 
+
+/*STATS COUNTERS - HOME, ABOUT*/
+.stats-column p.counter, 
+.stats-column p.counter span {
+    font-size: 36px; 
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
 /*HOME*/
 .home-intro {
     max-width: 1080px;
