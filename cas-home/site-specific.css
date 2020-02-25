@@ -864,8 +864,48 @@ div.next-fifty-content {
 
 
 
-
 /*ALUMNI*/
 .template-01 .alum-chapter {
     margin-top: 0.5em;
+}
+
+
+
+
+/*FACULTY - MEDIA COMMONS*/
+
+.media-commons-grid .uk-panel  {
+    min-height: 220px !important;
+    max-height: 245px !important;
+}
+.media-commons-grid .uk-panel {
+        border: 1px solid #1E6B52;
+}
+
+
+
+/*FACULTY - TOOLKIT*/
+.toolkit-grid h2, .media-commons-grid h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif !important;
+    text-transform: uppercase;
+    color: #1E6B52;
+    letter-spacing: 1px;
+}
+.toolkit-grid p {
+    text-align: center;
+  }
+.toolkit-grid .uk-panel {
+    border: 1px solid #1E6B52;
+    padding: 20px 20px 40px 20px;
+}
+@media all and (min-width: 960px) {
+   .toolkit-grid h2 {
+        min-height: 40px;
+    }
+    .toolkit-grid p {
+        min-height: 100px;
+    }
 }
