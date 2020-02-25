@@ -12,6 +12,7 @@ hr {
     margin: 0 auto 1em;
 }
 
+
 /*SIDEBAR*/
 /*.template-01 #rightsidebar .nav.menu>.parent>.nav-child>li>.nav-header {
 		font-weight: bold !important;
@@ -228,7 +229,7 @@ body.ribbonFullwidth #epilogue {
 .two-column-middle-border-col {
     flex: 1 1 400px;
     box-sizing: border-box;
-    padding: 30px;
+    padding: 20px 30px;
     text-align: center;
 }
 
@@ -878,6 +879,45 @@ div.next-fifty-content {
 /*ALUMNI*/
 .template-01 .alum-chapter {
     margin-top: 0.5em;
+}
+/*Support & Update Your Info Section*/
+.alumni-landing .two-column-two-thirds>div {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.alumni-support {
+    flex: 2 1 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+	padding: 0.5em 3em 3.5em 3em;
+}
+.alumni-support .btn--md, .alumni-update-info .btn--md {
+    margin-top: 0.75em !important;
+}
+.alumni-update-info {
+	flex: 1 1 200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1em 3em 2.5em 3em;
+}
+.alumni-update-info  h2 {
+    text-align: center;
+    color: #1E6B52;
+    font-size: 1.5rem;
+}
+@media all and (min-width: 980px) {
+    .alumni-support {
+        margin-right: 30px;
+    }
+}
+@media all and (max-width: 979px) {
+    .alumni-support {
+        margin-bottom: 30px;
+    }
+    .alumni-landing .two-column-two-thirds {
+        padding: 5%;
+    }
 }
 
 
