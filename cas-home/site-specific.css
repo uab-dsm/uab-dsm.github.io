@@ -6,6 +6,10 @@ h3 {
     color: #333;
 }
 
+.full-width h2 {
+    color:#1E6B52;
+}
+
 hr {
     border-top: 2px solid #80bc00;
     width: 43px;
@@ -296,6 +300,8 @@ body.ribbonFullwidth #epilogue {
     border: 0px;
     color: #fff !important;
     border-radius: 2px;
+    padding: 0.3em 0.8em;
+    line-height: 150%;
 }
 
 .grid-stack .uk-button:hover {
@@ -401,21 +407,17 @@ body.ribbonFullwidth #epilogue {
 }
 .news .srfrContainer li.srfrRow {
     display: flex;
+    align-items: center;
 }
 .news .srfrImage {
     order: 2;
-    max-width: 150px;
+    width: 150px;
     padding: 0px;
 }
 .news .srfrContainer  h3 {
     order: 1;
     text-align: left;
-}
-
-@media all and (min-width: 980px) {
-    .news .srfrContainer h3 {
-        margin-left: 1em;
-    }
+    margin: 0 0 0 1em;
 }
 .news .srfrContainer h3 a {
     text-decoration: none;
@@ -511,6 +513,26 @@ body.ribbonFullwidth #epilogue {
 .home-degrees-dept .uk-tab > li.uk-active > a:hover {
     color: #1E6B52 !important;
 }
+/*Switcher Content*/
+.browse-degrees {
+    display: flex;
+    flex-wrap: wrap;
+}
+.browse-degrees-col {
+    flex: 1 1 300px;
+}
+.browse-centers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.browse-centers p {
+    text-align: center;
+    margin: 10px;
+}
+.browse-centers p a {
+    min-width: 100%;
+}
 /*Student Resources*/
 .DCHomepage .two-column-two-thirds>div {
 	display: flex;
@@ -572,6 +594,14 @@ body.ribbonFullwidth #epilogue {
     }
     .info-for-students {
         margin-bottom: 30px;
+    }
+}
+@media (max-width: 979px) {
+    .DCHomepage .photo-bg-section .student-resources {
+        margin-bottom: 5%;
+    }
+    .DCHomepage .photo-bg-section {
+        padding: 5%;
     }
 }
 /*Events - Four Boxes*/
@@ -913,7 +943,7 @@ div.next-fifty-content {
 }
 @media all and (max-width: 979px) {
     .alumni-support {
-        margin-bottom: 30px;
+        margin-bottom: 5%;
     }
     .alumni-landing .two-column-two-thirds {
         padding: 5%;
