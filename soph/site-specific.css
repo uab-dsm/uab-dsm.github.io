@@ -280,6 +280,10 @@ a.back-to-top {
     margin-left: 5px;
 }
 
+.uk-subnav-line > :nth-child(n+2)::before {
+    border-left: 1px solid #808285;
+}
+
 /*#endregion Switcher background */
 
 /*#region Grid People Directory */
