@@ -6,11 +6,16 @@ h3 {
     color: #333;
 }
 
+.full-width h2 {
+    color:#1E6B52;
+}
+
 hr {
     border-top: 2px solid #80bc00;
     width: 43px;
     margin: 0 auto 1em;
 }
+
 
 /*SIDEBAR*/
 /*.template-01 #rightsidebar .nav.menu>.parent>.nav-child>li>.nav-header {
@@ -228,7 +233,7 @@ body.ribbonFullwidth #epilogue {
 .two-column-middle-border-col {
     flex: 1 1 400px;
     box-sizing: border-box;
-    padding: 30px;
+    padding: 20px 30px;
     text-align: center;
 }
 
@@ -295,6 +300,8 @@ body.ribbonFullwidth #epilogue {
     border: 0px;
     color: #fff !important;
     border-radius: 2px;
+    padding: 0.3em 0.8em;
+    line-height: 150%;
 }
 
 .grid-stack .uk-button:hover {
@@ -400,21 +407,17 @@ body.ribbonFullwidth #epilogue {
 }
 .news .srfrContainer li.srfrRow {
     display: flex;
+    align-items: center;
 }
 .news .srfrImage {
     order: 2;
-    max-width: 150px;
+    width: 150px;
     padding: 0px;
 }
 .news .srfrContainer  h3 {
     order: 1;
     text-align: left;
-}
-
-@media all and (min-width: 980px) {
-    .news .srfrContainer h3 {
-        margin-left: 1em;
-    }
+    margin: 0 0 0 1em;
 }
 .news .srfrContainer h3 a {
     text-decoration: none;
@@ -435,7 +438,36 @@ body.ribbonFullwidth #epilogue {
     border-bottom-width:0px;
 }
 
+
+/*STATS COUNTERS - HOME, ABOUT*/
+.stats-column p.counter, 
+.stats-column p.counter span {
+    font-size: 36px; 
+    font-weight: bold;
+    color: #fff;
+}
+
+
+
 /*HOME*/
+/*Banner*/
+.home-banner {
+    position: relative;
+}
+.home-banner-text {
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    box-sizing: border-box;
+    bottom: 0px;
+}
+.home-banner-text h1 {
+    color:#fff;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 30px rgba(0,0,0,0.6), 0px 0px 80px rgba(0,0,0,0.5);
+}
+/*Intro copy*/
 .home-intro {
     max-width: 1080px;
     margin: 0 auto;
@@ -498,6 +530,26 @@ body.ribbonFullwidth #epilogue {
 }
 .home-degrees-dept .uk-tab > li.uk-active > a:hover {
     color: #1E6B52 !important;
+}
+/*Switcher Content*/
+.browse-degrees {
+    display: flex;
+    flex-wrap: wrap;
+}
+.browse-degrees-col {
+    flex: 1 1 300px;
+}
+.browse-centers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.browse-centers p {
+    text-align: center;
+    margin: 15px;
+}
+.browse-centers p a {
+    min-width: 100%;
 }
 /*Student Resources*/
 .DCHomepage .two-column-two-thirds>div {
@@ -562,6 +614,41 @@ body.ribbonFullwidth #epilogue {
         margin-bottom: 30px;
     }
 }
+@media (max-width: 979px) {
+    .DCHomepage .photo-bg-section .student-resources {
+        margin-bottom: 5%;
+    }
+    .DCHomepage .photo-bg-section {
+        padding: 5%;
+    }
+}
+/*News & Events Section*/
+.home-news-events {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.home-news-events>div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.home-news-col {
+    flex: 1 1 400px;
+    box-sizing: border-box;
+    padding: 10px 40px 0px 0px;
+    text-align: center;
+}
+.home-events-col {
+    flex: 1 1 400px;
+    box-sizing: border-box;
+    padding: 10px 0px 0px 40px;
+    text-align: center;
+}
+@media (min-width: 832px) {
+.home-news-col {
+    border-right: 2px solid #80bc00;
+}
+    }
 /*Events - Four Boxes*/
 .home-events .localist-widget-uab {
     display: flex;
@@ -608,6 +695,7 @@ body.ribbonFullwidth #epilogue {
         margin-bottom: 20px;
     }
 }
+
 
 
 /*ABOUT PAGE*/
@@ -756,7 +844,7 @@ body.ribbonFullwidth #epilogue {
 
 .next-fifty-slides ul.uk-slider,
 .next-fifty-slides .uk-panel {
-    min-height: 520px !important;
+    min-height: 490px !important;
 }
 
 div.next-fifty-category {
@@ -864,8 +952,87 @@ div.next-fifty-content {
 
 
 
-
 /*ALUMNI*/
 .template-01 .alum-chapter {
     margin-top: 0.5em;
+}
+/*Support & Update Your Info Section*/
+.alumni-landing .two-column-two-thirds>div {
+	display: flex;
+	flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.alumni-support {
+    flex: 2 1 400px;
+    background-color: rgba(255, 255, 255, 0.9);
+	padding: 0.5em 3em 3.5em 3em;
+}
+.alumni-support .btn--md, .alumni-update-info .btn--md {
+    margin-top: 0.75em !important;
+}
+.alumni-update-info {
+	flex: 1 1 200px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 1em 3em 2.5em 3em;
+}
+.alumni-update-info  h2 {
+    text-align: center;
+    color: #1E6B52;
+    font-size: 1.5rem;
+}
+@media all and (min-width: 980px) {
+    .alumni-support {
+        margin-right: 30px;
+    }
+}
+@media all and (max-width: 979px) {
+    .alumni-support {
+        margin-bottom: 5%;
+    }
+    .alumni-landing .two-column-two-thirds {
+        padding: 5%;
+    }
+}
+
+
+
+
+/*FACULTY - MEDIA COMMONS*/
+
+.media-commons-grid .uk-panel  {
+    min-height: 220px !important;
+    max-height: 245px !important;
+}
+.media-commons-grid .uk-panel {
+        border: 1px solid #1E6B52;
+}
+
+
+
+/*FACULTY - TOOLKIT*/
+.toolkit-grid h2, .media-commons-grid h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1rem;
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif !important;
+    text-transform: uppercase;
+    color: #1E6B52;
+    letter-spacing: 1px;
+}
+.toolkit-grid p {
+    text-align: center;
+  }
+.toolkit-grid .uk-panel {
+    border: 1px solid #1E6B52;
+    padding: 20px 20px 40px 20px;
+}
+@media all and (min-width: 960px) {
+   .toolkit-grid h2 {
+        min-height: 40px;
+    }
+    .toolkit-grid p {
+        min-height: 100px;
+    }
 }
