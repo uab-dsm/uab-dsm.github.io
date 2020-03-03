@@ -592,30 +592,6 @@ margin-left: 1em!important;
 
 /*#endregion Footer */
 
-/*#region Directory */
-
-.profile-heading__wrapper {
-    background-color: #1e6b52;
-    border-bottom: 3px solid
-    #80bc00;
-    padding: 10px 20px;
-    min-height: 52px;
-    order: 2;
-    padding: 20px;
-    position: relative;
-}
-
-.profile-heading__wrapper .profile-heading__name {
-    font-size: 1.4rem;
-    margin-top: 0;
-}
-
-.profile-heading__credential, .profile-heading__name {
-    color: 
-    #fff;
-}
-
-/*#endregion Directory */
 
 /*#region SOPH News */
 
