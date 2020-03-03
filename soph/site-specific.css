@@ -1,3 +1,62 @@
+/*#region Home Facts Slideset */
+
+.home-facts-slideset {
+    margin-top: 40px;
+}
+
+.home-facts-slideset .uk-panel {
+    padding: 30px 30px;
+    box-sizing: border-box;
+}
+
+.home-facts-slideset .uk-margin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.home-facts-slideset li:nth-child(odd) .uk-panel {
+    background-color: #DEE7BC ;
+    color: #fff;
+}
+
+.home-facts-slideset li:nth-child(odd) .home-facts-slideset__copy-container {
+      border-top: 2px solid #006241;
+    border-bottom: 2px solid #006241;
+}
+
+.home-facts-slideset li:nth-child(even) .uk-panel {
+    background-color: #006241 ;
+    color: #fff;
+}
+
+.home-facts-slideset li:nth-child(even) .home-facts-slideset__copy {
+    color: #fff;
+}
+
+.home-facts-slideset li:nth-child(even) .home-facts-slideset__copy-container {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.home-facts-slideset__copy-container {
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-facts-slideset__copy {
+    padding: 10px 10px;
+    font-size: 1.5em !important;
+}
+
+/*#endregion Home Facts Slideset */
+
 /*#region Back to Top */
 
 a.back-to-top {
