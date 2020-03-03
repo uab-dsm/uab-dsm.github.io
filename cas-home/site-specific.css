@@ -551,6 +551,19 @@ body.ribbonFullwidth #epilogue {
 .browse-centers p a {
     min-width: 100%;
 }
+.browse-depts {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
+}
+.browse-depts div {
+    margin: auto;
+}
+.browse-depts div a {
+    min-width: 325px;
+    text-align: center;
+    box-sizing: border-box;
+}
 /*Student Resources*/
 .DCHomepage .two-column-two-thirds>div {
 	display: flex;
