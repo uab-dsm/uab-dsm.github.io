@@ -1,3 +1,35 @@
+/*#region Homepage Icons */
+
+.hp-icons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hp-icons-item {
+    padding: 20px;
+}
+
+.hp-icons-item > img {
+    min-height: 255px;
+}
+
+.hp-icons-item > img:hover {
+    transform: scale(1.05);
+}
+
+.hp-icons-item h2 {
+    text-align: center;
+    color: #1e6b52;
+    font-family: proxima-nova,sans-serif !important;
+}
+
+.hp-icons-item a:hover {
+    text-decoration: none;
+}
+
+/*#endregion Homepage Icons */
+
 /*#region Home Facts Slideset */
 
 .home-facts-slideset {
