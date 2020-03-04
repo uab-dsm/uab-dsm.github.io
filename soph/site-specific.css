@@ -1,3 +1,44 @@
+/*#region Footer Menu */
+
+#footer .footer-menu a {
+    font-size: 16px !important;
+}
+
+.footer-menu {
+    background-color: #EEEEEE;
+    padding: 10px !important;
+    text-align: center;
+}
+
+.footer-menu ul.nav {
+    margin: 0px auto;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#footer .footer-menu ul.nav li {
+    display: inline-block !important;
+    padding: 0px 20px;
+    border-left: 1px solid #fff;
+}
+
+#footer .footer-menu ul.nav li:first-child {
+    border-left: 0px;
+}
+
+#footer .footer-menu a:link,
+#footer .footer-menu a:visited {
+    color: #444;
+    font-weight: bold;
+}
+
+#footer .footer-menu a:hover,
+#footer .footer-menu a:focus {
+    color: #1E6B52 !important;
+}
+
+/*#endregion Footer Menu */
+
 /*#region Homepage Icons */
 
 .hp-icons-wrapper {
