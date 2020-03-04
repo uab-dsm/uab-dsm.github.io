@@ -10,11 +10,11 @@
     padding: 20px;
 }
 
-.hp-icons-item > img {
+.hp-icons-item > a img {
     min-height: 255px;
 }
 
-.hp-icons-item > img:hover {
+.hp-icons-item > a img:hover {
     transform: scale(1.05);
 }
 
