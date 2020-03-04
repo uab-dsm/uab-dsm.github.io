@@ -513,10 +513,16 @@ a.back-to-top {
     border: 1px solid #1E6B52;
 }
 
+
+
 @media all and (min-width:700px) {
     .soph-events-focus-box {
         float: right;
         margin: 0 0 20px 20px;
+    }
+
+    .soph-events-focus-box--400w {
+        max-width:400px;
     }
 }
 
