@@ -411,6 +411,7 @@ body.ribbonFullwidth #epilogue {
 .news .srfrImage {
     order: 2;
     min-width: 150px;
+    max-width: 150px;
     padding: 0px;
 }
 .news .srfrContainer  h3 {
