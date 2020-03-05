@@ -61,7 +61,7 @@ border-bottom: 3px solid #808285 !important;
 }
 
 .hp-icons-item > a img {
-    min-height: 255px;
+    max-height: 225px;
 }
 
 .hp-icons-item > a img:hover {
