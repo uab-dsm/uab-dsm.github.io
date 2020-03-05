@@ -233,8 +233,7 @@ body.ribbonFullwidth #epilogue {
 .two-column-middle-border-col {
     flex: 1 1 400px;
     box-sizing: border-box;
-    padding: 20px 30px;
-    text-align: center;
+    padding: 20px 30px
 }
 
 @media all and (min-width: 832px) {
@@ -411,7 +410,7 @@ body.ribbonFullwidth #epilogue {
 }
 .news .srfrImage {
     order: 2;
-    width: 150px;
+    min-width: 150px;
     padding: 0px;
 }
 .news .srfrContainer  h3 {
@@ -657,7 +656,6 @@ body.ribbonFullwidth #epilogue {
     flex: 1 1 400px;
     box-sizing: border-box;
     padding: 10px 0px 0px 40px;
-    text-align: center;
 }
 @media (min-width: 832px) {
 .home-news-col {
