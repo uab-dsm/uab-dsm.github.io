@@ -89,6 +89,7 @@ border-bottom: 3px solid #808285 !important;
 .home-facts-slideset .uk-panel {
     padding: 30px 30px;
     box-sizing: border-box;
+    min-height: 375px;
 }
 
 .home-facts-slideset .uk-margin {
