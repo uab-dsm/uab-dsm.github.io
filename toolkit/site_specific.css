@@ -3631,7 +3631,7 @@ Layout Borders - Gray - #d3d3d3
  h5,
  h6 {
     line-height: 120% !important;
-    margin: 1em 0 10px !important;
+    margin: 1em 0 10px;
 }
 
 /*  h1 {
@@ -3645,7 +3645,7 @@ Layout Borders - Gray - #d3d3d3
  h4+p,
  h5+p,
  h6+p {
-    margin-top: 0 !important;
+    margin-top: 0;
 }
 
 /***BEGIN Widgekit Overrides ***/
