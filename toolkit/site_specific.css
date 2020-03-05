@@ -1,4 +1,4 @@
-/* dev */
+
 /*---#region Department Template */
 
 /*! This CSS was moved to site specific so development could continue on the department template without impacting this site.*/
@@ -3509,142 +3509,142 @@ Layout Borders - Gray - #d3d3d3
     }
 }
 
-.ur--toolkit h3,
-.ur--toolkit h3 strong,
-.ur--toolkit h3 span,
-.ur--toolkit h3 em,
-.ur--toolkit h3 a,
-.ur--toolkit h4,
-.ur--toolkit h4 strong,
-.ur--toolkit h4 span,
-.ur--toolkit h4 em,
-.ur--toolkit h4 a,
-.ur--toolkit h5,
-.ur--toolkit h5 strong,
-.ur--toolkit h5 span,
-.ur--toolkit h5 em,
-.ur--toolkit h5 a,
-.ur--toolkit .rsform-input-box,
-.ur--toolkit input,
-.ur--toolkit button,
-.ur--toolkit select,
-.ur--toolkit textarea {
+ h3,
+ h3 strong,
+ h3 span,
+ h3 em,
+ h3 a,
+ h4,
+ h4 strong,
+ h4 span,
+ h4 em,
+ h4 a,
+ h5,
+ h5 strong,
+ h5 span,
+ h5 em,
+ h5 a,
+ .rsform-input-box,
+ input,
+ button,
+ select,
+ textarea {
     font-family: "proxima-nova", sans-serif !important;
 }
 
-.ur--toolkit h1,
-.ur--toolkit h1 strong,
-.ur--toolkit h1 span,
-.ur--toolkit h1 em,
-.ur--toolkit h1 a,
-.ur--toolkit h2,
-.ur--toolkit h2 strong,
-.ur--toolkit h2 span,
-.ur--toolkit h2 em,
-.ur--toolkit h2 a,
-.ur--toolkit h6,
-.ur--toolkit h6 strong,
-.ur--toolkit h6 span,
-.ur--toolkit h6 em,
-.ur--toolkit h6 a {
+ h1,
+ h1 strong,
+ h1 span,
+ h1 em,
+ h1 a,
+ h2,
+ h2 strong,
+ h2 span,
+ h2 em,
+ h2 a,
+ h6,
+ h6 strong,
+ h6 span,
+ h6 em,
+ h6 a {
     font-family: "kulturista-web", serif !important;
 }
 
-.ur--toolkit body,
-.ur--toolkit p,
-.ur--toolkit span,
-.ur--toolkit div,
-.ur--toolkit a,
-.ur--toolkit button,
-.ur--toolkit em {
+ body,
+ p,
+ span,
+ div,
+ a,
+ button,
+ em {
     font-family: "proxima-nova", sans-serif !important;
     line-height: 150%;
     font-weight: 400;
     font-size: 16px;
 }
 
-.ur--toolkit h1,
-.ur--toolkit h1 strong,
-.ur--toolkit h1 span,
-.ur--toolkit h1 em,
-.ur--toolkit h1 a {
+ h1,
+ h1 strong,
+ h1 span,
+ h1 em,
+ h1 a {
     font-size: 2rem;
     line-height: 120% !important;
     font-weight: bold !important;
     margin-top: 0 !important;
 }
 
-.ur--toolkit h2,
-.ur--toolkit h2 strong,
-.ur--toolkit h2 span,
-.ur--toolkit h2 em,
-.ur--toolkit h2 a {
+ h2,
+ h2 strong,
+ h2 span,
+ h2 em,
+ h2 a {
     font-size: 1.8rem;
     line-height: 120% !important;
     font-weight: bold !important;
 }
 
-.ur--toolkit h3,
-.ur--toolkit h3 span,
-.ur--toolkit h3 strong,
-.ur--toolkit h3 em,
-.ur--toolkit h3 a {
+ h3,
+ h3 span,
+ h3 strong,
+ h3 em,
+ h3 a {
     font-size: 1.6rem;
     line-height: 120% !important;
     text-shadow: none;
     font-weight: bold !important;
 }
 
-.ur--toolkit h4,
-.ur--toolkit h4 strong,
-.ur--toolkit h4 span,
-.ur--toolkit h4 em,
-.ur--toolkit h4 a {
+ h4,
+ h4 strong,
+ h4 span,
+ h4 em,
+ h4 a {
     font-size: 1.4rem;
     font-weight: bold !important;
     line-height: 120%;
 }
 
-.ur--toolkit h5,
-.ur--toolkit h5 strong,
-.ur--toolkit h5 span,
-.ur--toolkit h5 em,
-.ur--toolkit h5 a {
+ h5,
+ h5 strong,
+ h5 span,
+ h5 em,
+ h5 a {
     font-size: 1.3rem;
     font-weight: bold !important;
     line-height: 120%;
 }
 
-.ur--toolkit h6,
-.ur--toolkit h6 strong,
-.ur--toolkit h6 span,
-.ur--toolkit h6 em,
-.ur--toolkit h6 a {
+ h6,
+ h6 strong,
+ h6 span,
+ h6 em,
+ h6 a {
     font-size: 1.2rem;
     font-weight: bold !important;
 }
 
 
-.ur--toolkit h2,
-.ur--toolkit h3,
-.ur--toolkit h4,
-.ur--toolkit h5,
-.ur--toolkit h6 {
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
     line-height: 120% !important;
     margin: 1em 0 10px !important;
 }
 
-/* .ur--toolkit h1 {
+/*  h1 {
     line-height: 120% !important;
     margin: 0 0 10px !important;
 } */
 
-.ur--toolkit h1+p,
-.ur--toolkit h2+p,
-.ur--toolkit h3+p,
-.ur--toolkit h4+p,
-.ur--toolkit h5+p,
-.ur--toolkit h6+p {
+ h1+p,
+ h2+p,
+ h3+p,
+ h4+p,
+ h5+p,
+ h6+p {
     margin-top: 0 !important;
 }
 
