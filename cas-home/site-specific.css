@@ -665,7 +665,7 @@ body.ribbonFullwidth #epilogue {
 }
     }
 /*Events - Four Boxes*/
-.home-events .localist-widget-uab {
+/*.home-events .localist-widget-uab {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -673,11 +673,11 @@ body.ribbonFullwidth #epilogue {
 }
 .home-events > .localist-widget-uab > a {
     flex: 1 0 40% !important;
-}
+}*/
 .two-column-middle-border .home-events div {
     border-right: 0px !important;
 }
-.home-events h4 {
+/*.home-events h4 {
     text-align: center;
     color: #fff;
     padding: 0 0.5em;
@@ -709,7 +709,7 @@ body.ribbonFullwidth #epilogue {
     .home-events > .localist-widget-uab > a:nth-child(4) {
         margin-bottom: 20px;
     }
-}
+}*/
 
 
 
@@ -930,7 +930,7 @@ div.next-fifty-content {
 .research-events div {
     border-right: 0px !important;
 }
-.research-events h4 {
+/*.research-events h4 {
     text-align: center;
     color: #fff;
     padding: 0 0.5em;
@@ -962,7 +962,7 @@ div.next-fifty-content {
     .research-events > .localist-widget-uab > a:nth-child(4) {
         margin-bottom: 20px;
     }
-}
+}*/
 
 
 
