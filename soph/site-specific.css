@@ -1,3 +1,12 @@
+/*#region Homepage Announcement */
+
+.announcementText a:hover {
+    color: #808285 !important;
+border-bottom: 3px solid #808285 !important;
+}
+
+/*#endregion Homepage Announcement */
+
 /*#region Footer Menu */
 
 #footer .footer-menu a {
