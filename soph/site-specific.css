@@ -1,3 +1,12 @@
+/*#region Homepage Announcement */
+
+.announcementText a:hover {
+    color: #808285 !important;
+border-bottom: 3px solid #808285 !important;
+}
+
+/*#endregion Homepage Announcement */
+
 /*#region Footer Menu */
 
 #footer .footer-menu a {
@@ -52,7 +61,7 @@
 }
 
 .hp-icons-item > a img {
-    min-height: 255px;
+    max-height: 225px;
 }
 
 .hp-icons-item > a img:hover {
@@ -80,6 +89,7 @@
 .home-facts-slideset .uk-panel {
     padding: 30px 30px;
     box-sizing: border-box;
+    min-height: 375px;
 }
 
 .home-facts-slideset .uk-margin {
