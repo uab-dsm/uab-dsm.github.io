@@ -1,3 +1,135 @@
+/*#region Footer Menu */
+
+#footer .footer-menu a {
+    font-size: 16px !important;
+}
+
+.footer-menu {
+    background-color: #EEEEEE;
+    padding: 10px !important;
+    text-align: center;
+}
+
+.footer-menu ul.nav {
+    margin: 0px auto;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+#footer .footer-menu ul.nav li {
+    display: inline-block !important;
+    padding: 0px 20px;
+    border-left: 1px solid #fff;
+}
+
+#footer .footer-menu ul.nav li:first-child {
+    border-left: 0px;
+}
+
+#footer .footer-menu a:link,
+#footer .footer-menu a:visited {
+    color: #444;
+    font-weight: bold;
+}
+
+#footer .footer-menu a:hover,
+#footer .footer-menu a:focus {
+    color: #1E6B52 !important;
+}
+
+/*#endregion Footer Menu */
+
+/*#region Homepage Icons */
+
+.hp-icons-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hp-icons-item {
+    padding: 20px;
+}
+
+.hp-icons-item > a img {
+    min-height: 255px;
+}
+
+.hp-icons-item > a img:hover {
+    transform: scale(1.05);
+}
+
+.hp-icons-item h2 {
+    text-align: center;
+    color: #1e6b52;
+    font-family: proxima-nova,sans-serif !important;
+}
+
+.hp-icons-item a:hover {
+    text-decoration: none;
+}
+
+/*#endregion Homepage Icons */
+
+/*#region Home Facts Slideset */
+
+.home-facts-slideset {
+    margin-top: 40px;
+}
+
+.home-facts-slideset .uk-panel {
+    padding: 30px 30px;
+    box-sizing: border-box;
+}
+
+.home-facts-slideset .uk-margin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.home-facts-slideset li:nth-child(odd) .uk-panel {
+    background-color: #DEE7BC ;
+    color: #fff;
+}
+
+.home-facts-slideset li:nth-child(odd) .home-facts-slideset__copy-container {
+      border-top: 2px solid #006241;
+    border-bottom: 2px solid #006241;
+}
+
+.home-facts-slideset li:nth-child(even) .uk-panel {
+    background-color: #006241 ;
+    color: #fff;
+}
+
+.home-facts-slideset li:nth-child(even) .home-facts-slideset__copy {
+    color: #fff;
+}
+
+.home-facts-slideset li:nth-child(even) .home-facts-slideset__copy-container {
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+
+.home-facts-slideset__copy-container {
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-facts-slideset__copy {
+    padding: 10px 10px;
+    font-size: 1.5em !important;
+}
+
+/*#endregion Home Facts Slideset */
+
 /*#region Back to Top */
 
 a.back-to-top {
@@ -454,10 +586,16 @@ a.back-to-top {
     border: 1px solid #1E6B52;
 }
 
+
+
 @media all and (min-width:700px) {
     .soph-events-focus-box {
         float: right;
         margin: 0 0 20px 20px;
+    }
+
+    .soph-events-focus-box--400w {
+        max-width:400px;
     }
 }
 
@@ -553,3 +691,211 @@ a.back-to-top {
 }
 
 /*#endregion Graduate Programs Widgekit Grid */
+
+
+/*#region Footer */
+
+.template-01 .unit-footer__container > div {
+    flex-basis: calc(33.3% - 20px);
+}
+
+.unit-footer__container > div:nth-child(2) {
+    border-left: 1px solid #e5e5e5;
+padding: 0 1em 0 1em;
+border-right: 1px solid  #e5e5e5;
+}
+
+.unit-footer__information-container {
+    padding-right: 2em;
+}
+
+.template-01 .unit-footer__information-address, 
+.template-01 .unit-footer__information-contact {
+    padding: 0.1em 0!important;
+}
+
+.ceph-logo {
+   text-align: left!important;
+padding-left: 2em;
+margin-left: 1em!important;
+} 
+
+.addthis_inline_follow_toolbox {
+    display: flex;
+}
+
+.addthis_inline_follow_toolbox div.atclear {
+    display: none;
+}
+
+/*#endregion Footer */
+
+
+/*#region SOPH News */
+
+.soph-news.item-page .page-header h1 {
+    background-color:#1E6B52;
+    color:#1E6B52;
+    padding:10px 20px;
+    text-transform:uppercase;
+    font-size:1.2em;
+    color:#fff;
+}
+
+.soph-news.item-page .page-header {
+    border-bottom:0;
+    padding-bottom:0;
+}
+
+.soph-news.item-page .page-header h2 {
+    margin-top:20px;
+}
+
+.soph-news.item-page [itemprop="articleBody"],
+.soph-news.item-page [itemprop="headline"],
+.soph-news.item-page .article-info.muted { 
+    padding:0 20px;
+}
+
+/*hides news items on the SOPH news category blog page */
+.blog.soph-news .items-row {
+    display:none;
+}
+
+
+/*-BEGIN More News */
+/*hides More News heading on category blog page */
+.blog.soph-news .soph-news__more-news-header {
+    display:none;
+}
+
+
+.blog.soph-news .items-row {
+    display:none;
+}
+
+.soph-news .lowers {
+    padding:0 40px;
+    background-color:#fafafa;
+        box-sizing: border-box;
+    margin-top:2em !important;
+}
+
+/*-END More News */
+
+/*#endregion SOPH News */
+
+/*#region Two Across Grid  */
+
+.o-soph-two-across__container {
+    display: flex;
+}
+
+.o-soph-two-across__item {
+    flex-basis: calc(100% / 2 - 20px);
+    margin: 20px;
+}
+
+.o-soph-two-across__heading {
+    margin-top:0;
+}
+
+@supports (display:grid) {
+    .o-soph-two-across__container {
+        grid-gap: 40px;
+    }
+    @media all and (min-width:700px) {
+        .o-soph-two-across__container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .o-soph-two-across__item {
+            margin: 0;
+        }
+    }
+}
+
+
+.u-green-button {
+    background-color: #1E6B52;
+    padding: 5px 10px;
+    margin: 0 10px;
+    display: inline-block;
+    color: #fff !important;
+    border-radius: 3px;
+
+}
+
+.u-grid__item--style-1 {
+padding:20px;
+box-shadow: 0 0 5px #444;
+border-radius:5px;
+}
+
+.u-grid__item--style-2 {
+    background-color:#fafafa;
+    padding:20px;
+
+}
+
+.u-white-color {
+    color:#fff;
+}
+
+
+.u-no-top-margin {
+    margin-top:0;
+}
+
+.u-no-bottom-margin {
+    margin-bottom:0;
+}
+
+.u-no-left-margin {
+    margin-left:0;
+}
+
+.u-no-right-margin {
+    margin-right:0;
+}
+
+.u-no-left-right-margin {
+    margin-top:0;
+}
+
+
+/*#endregion Two Across Grid  */
+
+
+/*#region Three Across Grid  */
+
+.o-soph-three-across__container {
+    display: flex;
+}
+
+.o-soph-three-across__item {
+    flex-basis: calc(100% / 3 - 20px);
+    margin: 20px;
+}
+
+.o-soph-three-across__heading {
+    margin-top:0;
+}
+
+@supports (display:grid) {
+    .o-soph-three-across__container {
+        grid-gap: 40px;
+    }
+    @media all and (min-width:700px) {
+        .o-soph-three-across__container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+        .o-soph-three-across__item {
+            margin: 0;
+        }
+    }
+}
+
+/*#endregion Three Across Grid  */
+
