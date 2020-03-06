@@ -663,6 +663,7 @@ a.back-to-top {
     display: flex;
     flex-direction: column;
     box-shadow: 0 1px 6px 1px #d3d3d3;
+    min-height: 100px;
 }
 
 
