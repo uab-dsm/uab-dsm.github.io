@@ -677,7 +677,7 @@ a.back-to-top {
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-
+    border-top: 3px solid #80bc00;
 }
 
 /*title for each grid item */
