@@ -1,3 +1,12 @@
+/*#region Homepage Sidebar Announcement */
+
+.sidebar-announcement {
+    border: 3px solid #80bc00;
+    padding: 1.5em;
+ }
+
+ /*#endregion Homepage Sidebar Announcement */
+
 /*#region Homepage Heading */
 
 .soph-home .page-header {
