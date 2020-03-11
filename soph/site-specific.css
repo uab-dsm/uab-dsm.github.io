@@ -1,3 +1,11 @@
+/*#region Homepage Heading */
+
+.soph-home h1 {
+    display: none;
+}
+
+/*#endregion Homepage Heading */
+
 /*#region Homepage Announcement */
 
 .announcementText a:hover {
