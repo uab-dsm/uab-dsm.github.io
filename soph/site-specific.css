@@ -1,3 +1,10 @@
+/*#region Directory */
+
+.item-page .profile-heading__wrapper {
+    display: none;
+}
+/*#endregion Directory */
+
 /*#region Homepage Sidebar Announcement */
 
 .sidebar-announcement {
