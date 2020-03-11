@@ -460,6 +460,10 @@ a.back-to-top {
     background-color: #fff;
 }
 
+.grid-people-directory .profile-heading__wrapper {
+    display: block;
+}
+
 .grid-people-directory .uk-article-meta {
     display: none;
 }
