@@ -393,7 +393,9 @@ body.ribbonFullwidth #epilogue {
 .photo-bg-section {
     background-color: #808285;
     padding: 4em 0;
-    background-size: cover; background-repeat: no-repeat; background-position: center;
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
 }
 
 .photo-bg-section div.subpage-inner {
