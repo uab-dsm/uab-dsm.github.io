@@ -569,6 +569,11 @@ body.ribbonFullwidth #epilogue {
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
+@media all and (max-width: 768px) {
+    .browse-degrees-col, .browse-degrees-col h2 {
+        text-align: center;
+    }
+}
 /*Student Resources*/
 .DCHomepage .two-column-two-thirds>div {
 	display: flex;
@@ -817,7 +822,14 @@ body.ribbonFullwidth #epilogue {
     overflow: scroll;
     max-height: 300px;
 }
-
+/*Ways to Give Grid*/
+.giving-ways img {
+   max-width: 200px !important;
+    width: 90%;
+}
+.giving-ways p {
+    text-align: left;
+}
 /*Ways to Give Focus Box*/
 .template-01 .giving .focus-box--full-width--gray {
     border-left: 0px solid #1e6b52;
