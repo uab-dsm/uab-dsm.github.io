@@ -538,6 +538,10 @@ a.back-to-top {
     border-bottom: none;
 }
 
+.sidebar-heading--first-level {
+    padding: 0.4em 0 !important;
+}
+
 /*#endregion Removes bottom border from parent menu items */
 
 /*#region Widgetkit Read More Buttons */
