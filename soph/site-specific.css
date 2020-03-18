@@ -111,6 +111,12 @@ border-bottom: 3px solid #808285 !important;
     text-decoration: none;
 }
 
+@media all and (max-width: 625px) {
+    .hp-icons-wrapper {
+        flex-direction: column;
+    }
+}
+
 /*#endregion Homepage Icons */
 
 /*#region Home Facts Slideset */
