@@ -126,10 +126,6 @@ border-bottom: 3px solid #808285 !important;
 }
 
 .home-facts-slideset .uk-margin {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     height: 100%;
     box-sizing: border-box;
 }
