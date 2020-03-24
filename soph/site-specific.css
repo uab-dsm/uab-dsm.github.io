@@ -1,3 +1,17 @@
+/*#region Tables */
+
+.soph-table tr:first-child {
+    background-color: #1e6b52;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 35px;
+}
+.soph-table tr > th {
+    padding: 15px;
+}
+
+/*#endregion Tables */
+
 /*#region Middle Menu titles */
 
 .soph-middle-menu {
