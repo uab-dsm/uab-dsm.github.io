@@ -260,7 +260,7 @@ a.back-to-top {
 .blog.soph-faulty-research-spotlight__page .soph-faulty-research-spotlight__details {
     flex-basis:50%;
     order:1;
-    padding:20px;
+    padding:10px;
     box-sizing:border-box;
 }
 
