@@ -309,6 +309,7 @@ a.back-to-top {
     flex-basis:100%;
     order:3;
     margin:0;
+    padding-bottom:0;
 
 }
 
