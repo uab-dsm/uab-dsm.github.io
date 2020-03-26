@@ -244,7 +244,7 @@ a.back-to-top {
 }
 
 .soph-faulty-research-spotlight__page .item-image {
-    flex-basis:50%;
+    flex-basis:calc(50% - 10px);
     order:1;
     margin:0;
 
@@ -258,7 +258,7 @@ a.back-to-top {
 
 
 .blog.soph-faulty-research-spotlight__page .soph-faulty-research-spotlight__details {
-    flex-basis:50%;
+    flex-basis:calc(50% - 10px);
     order:1;
     padding:10px;
     box-sizing:border-box;
