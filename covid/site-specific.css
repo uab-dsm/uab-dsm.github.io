@@ -1,0 +1,199 @@
+/*BEGIN NFull Width Override */
+
+body.hd #maincolumn-wide {
+    max-width:100%;
+}
+
+body.hd.ribbonFullwidth #content {
+ width:100%;
+}
+
+
+body.hd.ribbonFullwidth #whitebox {
+    max-width:100%;
+    margin:0 !important;
+}
+
+/*END Full Width Override */
+
+
+/*BEGIN Content Width */
+
+.u-fight-covid-1280  {
+    max-width:1280px;
+    margin:0 auto;
+}
+
+
+.u-fight-covid-980 {
+    
+}
+
+
+.u-fight-covid-padding-medium {
+    padding:6em 0 !important;
+    box-sizing:border-box;
+}
+
+.u-fight-covid-heading-style-1 {
+    text-align:center;
+    
+}
+
+/*END Content Width */
+
+
+/*BEGIN Horizontal Nav */
+
+body.hd #tray.white #ribbon .nav-pills>.active {
+      background-color:transparent !important;
+    border-bottom: 4px solid #80bc00;
+}
+
+body.hd #tray.white #ribbon .nav-pills>.active>a {
+    color:#444 !important;
+}
+
+.navbar-static-top .navbar-inner {
+    border-bottom:none;
+    
+}
+
+
+#ribbon .nav {
+    margin-top: 1em;
+    max-width: 1280px;
+}
+
+ #ribbon ul.nav.menu li {
+    text-transform: initial;
+    background-color: transparent;
+    outline: none;
+}
+
+ #ribbon ul.nav.menu li a {
+         font-size:1.1em;
+}
+
+.moduletable  {
+    display: flex;
+    justify-content: center;
+
+}
+
+/*END Horizontal Nav */
+
+/*BEGIN COVID Alert */
+.covidAlert  {
+    text-align: center;
+
+    background-color: #eee !important;
+    color:#444 !important;
+
+}
+
+.covidAlert  a {
+  color:#444 !important;   
+}
+
+
+/*END COVID Alert */
+
+
+/*#BEGIN COVID Intro */
+
+
+.fight-covid-intro {
+    display:flex;
+    padding:20px 0px;
+    box-sizing:border-box;
+
+}
+
+.fight-covid-intro__headings-container {
+    flex-basis:30%;
+    
+}
+
+.fight-covid-intro__heading {
+    display:inline-block;
+    background-color:#295135;
+    color:#fff;
+    padding:10px;
+    box-sizing:border-box;
+      font-size:1.3em;
+        font-weight:600;
+}
+
+.fight-covid-intro__sub-heading {
+    display:inline-block;
+     background-color:#80bc00;
+    font-weight:600;
+    padding:10px;
+    box-sizing:border-box;
+      font-size:1.4em;
+    
+}
+
+.fight-covid-intro__copy {
+    flex-basis:70%;
+    padding:0 20px;
+    box-sizing:border-box;
+    margin-top:0;
+    font-size:1.3em;
+}
+
+
+
+
+
+/*#END COVID Intro */
+
+
+	.page-header {
+		display: none;
+	}
+
+
+	/*#BEGIN Covid Grid */
+
+	.fight-covid-grid {
+		display: flex;
+	}
+
+	.fight-covid-grid__item {
+		margin: 10px;
+		flex-basis: calc(33% - 20px);
+
+
+	}
+
+	.fight-covid-grid__heading {
+		margin-top: 0;
+		font-family: proxima-nova, sans-serif !important;
+		font-size: 1.5em;
+	}
+
+	/*#END Covid Grid */
+
+
+
+	/*BEGIN  Covid Intro */
+
+	.fight-covid-intro {}
+
+	fight-covid-intro__headings-container {}
+
+	.fight-covid-intro__heading {}
+
+	.fight-covid-intro__sub-heading {}
+
+	/*#END  Covid Intro */
+
+	/*BEGIN Utility Classes */
+
+	.u-fight-covid--no-margin {
+		margin: 0;
+	}
+
+	/*END Utility Classes */
