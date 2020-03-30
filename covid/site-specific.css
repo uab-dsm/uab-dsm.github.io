@@ -163,7 +163,9 @@ body.hd #tray.white #ribbon .nav-pills>.active>a {
 
 	.fight-covid-grid__item {
 		margin: 10px;
-		flex-basis: calc(33% - 20px);
+        flex-basis: calc(33% - 20px);
+        padding:40px;
+        box-sizing:border-box;
 
 
 	}
@@ -194,6 +196,72 @@ body.hd #tray.white #ribbon .nav-pills>.active>a {
 
 	.u-fight-covid--no-margin {
 		margin: 0;
-	}
+    }
+    
+    .u-fight-covid-color-white {
+        color:#fff;
+    }
 
 	/*END Utility Classes */
+
+
+
+    .fight-covid-grid__img {
+
+ 
+
+
+
+    }
+    
+    .fight-covid-grid__item {
+        background-color:#fff;
+    }
+    
+    
+    .fight-covid-grid__heading {
+    text-align:center;
+        margin-top:20px;
+    }
+    
+    
+    .u-fight-covid-gray-background {
+        background-color:#1E6B52;
+    }
+    
+    .fight-covid-grid__img-container {
+        position:relative;
+    
+    }
+    
+    /* .fight-covid-grid__img-container:after {
+        content:"";
+        height:30px;
+        width:5px;
+        position:absolute;
+        bottom:-20px;
+        background-color:#80bc00;
+        left:50%;
+    } */
+    
+    .fight-covid-grid__link {
+        background-color:#1E6B52;
+        color:#fff !important;
+        padding:10px 20px;
+        display:inline-block;
+        
+    }
+    
+    .fight-covid-grid__interior-container {
+    
+    
+    }
+    
+    
+    .fight-covid-grid__content-container {
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+        padding:0 20px 20px;
+    }
+    
