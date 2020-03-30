@@ -164,7 +164,7 @@ body.hd #tray.white #ribbon .nav-pills>.active>a {
 	.fight-covid-grid__item {
 		margin: 10px;
         flex-basis: calc(33% - 20px);
-        padding:40px;
+   
         box-sizing:border-box;
 
 
