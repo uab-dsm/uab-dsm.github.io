@@ -94,6 +94,19 @@ border-bottom: 3px solid #808285 !important;
     color: #1E6B52 !important;
 }
 
+@media all and (max-width: 575px) {
+
+    .footer-menu .nav.menu.mod-list {
+     display: flex;
+     flex-direction: column;
+   }
+
+   .footer-menu .nav.menu.mod-list div:nth-child(n+1) {
+     border: transparent;
+   }
+   
+   }   
+
 /*#endregion Footer Menu */
 
 /*#region Homepage Icons */
