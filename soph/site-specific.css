@@ -202,6 +202,18 @@ border-bottom: 3px solid #808285 !important;
     font-size: 1.5em !important;
 }
 
+.home-facts-slideset .uk-panel a {
+    border-bottom: none !important;
+  }
+  
+  .home-facts-slideset .uk-margin {
+      margin-top: 0!important;
+  }
+  
+  .home-facts-slideset .uk-panel a:hover {
+    background-color: transparent !important;
+  }
+
 /*#endregion Home Facts Slideset */
 
 /*#region Back to Top */
