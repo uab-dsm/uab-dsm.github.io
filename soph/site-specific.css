@@ -676,7 +676,7 @@ a.back-to-top {
 
 .soph-events-focus-box__button {
     display: inline-block;
-    margin-bottom: 1em;
+    margin: 0 1em 1em;
     background-color: #fff;
     border: 1px solid #d3d3d3;
     padding: 5px 10px;
