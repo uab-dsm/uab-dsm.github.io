@@ -9,6 +9,26 @@
 
 /*#endregion Mobile Images */
 
+
+/*#region Utility Classes */
+
+@media all and (min-width:600px) {
+    .u-soph-img--float-right {
+        float:right;
+        margin:20px;
+    }
+}
+
+
+    .u-soph-img--250-max {
+        max-width:250px;
+    }
+
+
+
+
+/*#endregion Utility Classes */
+
 /*#region Tables */
 
 .soph-table tr:first-child {
