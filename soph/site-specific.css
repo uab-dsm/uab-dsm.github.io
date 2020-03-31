@@ -114,7 +114,6 @@ border-bottom: 3px solid #808285 !important;
 .hp-icons-wrapper {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .hp-icons-item {
