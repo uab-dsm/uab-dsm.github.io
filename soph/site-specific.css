@@ -37,6 +37,11 @@
 .item-page .profile-heading__wrapper {
     display: none;
 }
+
+.uk-margin .profile-heading__wrapper {
+    margin-top: -15px;
+}
+
 /*#endregion Directory */
 
 /*#region Homepage Sidebar Announcement * /
