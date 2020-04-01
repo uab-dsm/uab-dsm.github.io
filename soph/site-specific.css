@@ -14,6 +14,13 @@ body.hd #content {
 
 /*END fixes issue with breadcrumbs on full-width pages*/
 
+/*BEGIN fixes word break in horizontal nav in safari and ios */
+#ribbon .nav.menu a {
+    -webkit-hyphens: none;
+    hyphens: none;
+}
+/*END fixes word break in horizontal nav in safari and ios */
+
 /*#endregion Possible Template Adjustments */
 
 
@@ -501,6 +508,7 @@ a.back-to-top {
     margin-top: 0;
     text-align: center;
     -webkit-hyphens: none;
+    hyphens: none;
 }
 
 .research-grid--3-items div p,
