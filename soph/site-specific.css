@@ -1,3 +1,24 @@
+
+/*#region Possible Template Adjustments */
+
+/*BEGIN fixes issue with breadcrumbs on full-width pages.  Remove this if it causes unwanted issues*/
+
+body.hd #content {
+    width:100%;
+}
+
+#maincolumn-wide {
+    padding:0 20px;
+    box-sizing:border-box;
+}
+
+/*END fixes issue with breadcrumbs on full-width pages*/
+
+/*#endregion Possible Template Adjustments */
+
+
+
+
 /*#region Mobile Images */
 
 @media all and (max-width:500px) {
