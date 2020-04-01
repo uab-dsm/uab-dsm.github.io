@@ -21,6 +21,16 @@ body.hd #content {
 }
 /*END fixes word break in horizontal nav in safari and ios */
 
+/*BEGIN fixes issue with widgekit text buttons breaking in safari and ios */
+
+ .btn--wk-xlg-white .uk-panel a {
+    -webkit-hyphens: none;
+    hyphens: none;
+}
+
+/*END fixes issue with widgekit text buttons breaking in safari and ios */
+
+
 /*#endregion Possible Template Adjustments */
 
 
