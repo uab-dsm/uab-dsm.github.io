@@ -301,6 +301,7 @@ body.hd #content {
 
 .hp-icons-item {
     padding: 20px;
+    text-align:center;
 }
 
 .hp-icons-item>a img {
