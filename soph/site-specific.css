@@ -500,12 +500,17 @@ a.back-to-top {
     font-size: 1.3em;
     margin-top: 0;
     text-align: center;
+    -webkit-hyphens: none;
 }
 
 .research-grid--3-items div p,
 .plan-grid--4-items div p {
     text-align: center;
 }
+
+
+
+
 
 @media screen and (max-width: 650px) {
 
