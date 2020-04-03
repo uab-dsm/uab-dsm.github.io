@@ -993,12 +993,12 @@ div.next-fifty-content {
     max-width: 1080px;
     margin: 0 auto;
 }
-.alumni-support {
+.alumni-board {
     flex: 2 1 400px;
     background-color: rgba(255, 255, 255, 0.96);
 	padding: 0.5em 3em 3.5em 3em;
 }
-.alumni-support .btn--md, .alumni-update-info .btn--md {
+.alumni-board .btn--md, .alumni-update-info .btn--md {
     margin-top: 0.75em !important;
 }
 .alumni-update-info {
@@ -1012,12 +1012,12 @@ div.next-fifty-content {
     font-size: 1.5rem;
 }
 @media all and (min-width: 980px) {
-    .alumni-support {
+    .alumni-board {
         margin-right: 30px;
     }
 }
 @media all and (max-width: 979px) {
-    .alumni-support {
+    .alumni-board {
         margin-bottom: 5%;
     }
     .alumni-landing .two-column-two-thirds {
