@@ -1,3 +1,36 @@
+/*#region Coronavirus tracker alert */
+
+.coronavirus-icon:before {
+    content: "\48";
+    font-family: 'IcoMoon';
+    font-weight: 100 !important;
+    color: #80bc00;
+    font-size: 1.2em;
+    margin-right: 6px;
+}
+
+.tracker-container {
+  background-color: #1e6b52; 
+  padding: 15px 0; 
+  width: 100%; 
+  margin: 0 auto; 
+  box-sizing: border-box;
+}
+
+a.tracker-link {
+  font-size: 16px; 
+  color: #fff; 
+  font-weight: 600; 
+  text-decoration: underline;
+}
+
+a.tracker-link:hover {
+  color: #fff!important;
+}
+
+/*#endregion Coronavirus tracker alert */
+
+
 /*#region Possible Template Adjustments */
 
 /*BEGIN fixes issue with breadcrumbs on full-width pages.  Remove this if it causes unwanted issues*/
