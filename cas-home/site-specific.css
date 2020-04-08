@@ -632,7 +632,7 @@ body.ribbonFullwidth #epilogue {
 .recruiter-info img {
     flex: 1 1 100px;
     width: 180px !important;
-    height: 252px;
+    height: 252px !important;
 }
 .recruiter-info div {
     flex: 2 1 100px;
