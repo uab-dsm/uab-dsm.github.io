@@ -636,28 +636,51 @@ body.ribbonFullwidth #epilogue {
 }
 .recruiter-info div {
     flex: 2 1 100px;
-    padding: 1em;
-    align-self: center;
+    padding: 5%;
 }
 .recruiter-info h3 {
     font-family: "kulturista-web", serif !important;
     color: #1E6B52;
     margin-top: 0px;
 }
-@media all and (min-width: 980px) {
+.recruiter-image {
+    background-image: url('images/images/home/blakeley-mann-recruiter.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: none; 
+    flex: 1 1 100px;
+    max-width: 33%;
+}
+.recruiter-contact {
+    flex: 2 1 200px;
+}
+@media all and (min-width: 960px) {
     .student-resources {
-        margin-right: 30px;
+        margin-right: 2em;
     }
     .info-for-students {
         margin-bottom: 30px;
     }
+       .recruiter-info {
+        min-height: 225px;
+    }
 }
-@media (max-width: 979px) {
+@media (max-width: 959px) {
     .DCHomepage .photo-bg-section .student-resources {
         margin-bottom: 5%;
     }
     .DCHomepage .photo-bg-section {
         padding: 5%;
+    }
+    .student-resources, .info-for-students {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    .recruiter-image {
+        max-width: 20%;
+    }
+    .recruiter-contact {
+        max-width: 80%;
     }
 }
 /*News & Events Section*/
