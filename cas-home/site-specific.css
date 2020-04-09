@@ -215,7 +215,11 @@ body.ribbonFullwidth #epilogue {
     align-self: center;
     -ms-grid-column-align: center;
 }
-
+.photo-column {
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+}
 /*.two-column-two-thirds {
 		display: flex;
 		flex-wrap: wrap;
