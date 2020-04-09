@@ -603,13 +603,11 @@ body.ribbonFullwidth #epilogue {
 	padding: 0.5em 3em 2.5em 3em;
     margin-bottom: 30px;
 }
-
 .info-for-students {
 	flex: 1 1 400px;
     background-color: rgba(255, 255, 255, 0.96);
     padding: 0px !important;
 }
-
 .info-for-students h2 {
     background-color: #1E6B52;
     color: #fff;
@@ -622,18 +620,16 @@ body.ribbonFullwidth #epilogue {
     margin: 0px;
     text-align: center;
 }
-
 .recruiter-info {
     display: flex;
     flex-wrap: wrap;
     padding: 0px !important;
 }
-
-.recruiter-info img {
+/*.recruiter-info img {
     flex: 1 1 100px;
     width: 180px !important;
     height: 252px !important;
-}
+}*/
 .recruiter-info div {
     flex: 2 1 100px;
     padding: 5%;
@@ -644,17 +640,16 @@ body.ribbonFullwidth #epilogue {
     margin-top: 0px;
 }
 .recruiter-image {
-    background-image: url('images/images/home/blakeley-mann-recruiter.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: none; 
     flex: 1 1 100px;
-    max-width: 33%;
+    width: 33%;
 }
 .recruiter-contact {
     flex: 2 1 200px;
 }
-@media all and (min-width: 960px) {
+@media all and (min-width: 980px) {
     .student-resources {
         margin-right: 2em;
     }
