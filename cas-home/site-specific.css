@@ -222,7 +222,7 @@ body.ribbonFullwidth #epilogue {
     flex: 1 1 300px;
     background-size: cover;
     background-position: center;
-    background-repeat: none;
+    background-repeat: no-repeat;
 }
 /*.two-column-two-thirds {
 		display: flex;
@@ -650,7 +650,7 @@ body.ribbonFullwidth #epilogue {
 .recruiter-image {
     background-size: cover;
     background-position: center top;
-    background-repeat: none; 
+    background-repeat: no-repeat; 
     flex: 1 1 100px;
     width: 33%;
 }
