@@ -28,6 +28,11 @@ ul li ul {
     font-size: 28px;
     margin-bottom: 0.5em;
 }
+@media all and (max-width: 1024px) {
+    ul li {
+        margin-left: 0.25em;
+    }
+}
 
 
 
@@ -219,6 +224,7 @@ body.ribbonFullwidth #epilogue {
     background-size: cover;
     background-position: center;
     background-repeat: none;
+    align-self: auto;
 }
 /*.two-column-two-thirds {
 		display: flex;
@@ -664,7 +670,7 @@ body.ribbonFullwidth #epilogue {
         min-height: 225px;
     }
 }
-@media (max-width: 959px) {
+@media all and (max-width: 979px) {
     .DCHomepage .photo-bg-section .student-resources {
         margin-bottom: 5%;
     }
