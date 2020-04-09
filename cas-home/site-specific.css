@@ -661,7 +661,7 @@ body.ribbonFullwidth #epilogue {
     .info-for-students {
         margin-bottom: 30px;
     }
-       .recruiter-info {
+    .recruiter-info {
         min-height: 225px;
     }
 }
@@ -888,7 +888,7 @@ body.ribbonFullwidth #epilogue {
 }
 
 .next-fifty-slides .uk-slider-container {
-    width: 1080px;
+    max-width: 1080px;
     margin: 0 auto;
 }
 
@@ -964,6 +964,18 @@ div.next-fifty-content {
 
 .next-fifty-content p em {
     font-size: 14px;
+}
+@media all and (max-width: 960px) {
+    .next-fifty-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .next-fifty-container>div:first-child {
+        flex: 1 1 300px;
+    }
+    .next-fifty-container .next-fifty-content {
+        flex: 3 1 300px;
+    }
 }
 /*Enables Font-Awesome for lightbox icons*/
 .uk-icon-search {
