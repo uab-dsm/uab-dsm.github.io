@@ -914,9 +914,11 @@ body.ribbonFullwidth #epilogue {
     background-color: rgba(255, 255, 255, 0);
 }
 
+@media all and (min-width: 960px) {
 .next-fifty-slides ul.uk-slider,
 .next-fifty-slides .uk-panel {
     min-height: 490px !important;
+}
 }
 
 div.next-fifty-category {
