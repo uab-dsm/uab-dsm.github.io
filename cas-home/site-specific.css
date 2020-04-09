@@ -213,18 +213,16 @@ body.ribbonFullwidth #epilogue {
 .two-column .inner-column {
     flex: 1 1 300px;
 }
-
-.two-column .photo-column,
 .two-column .subpage-inner {
     flex: 1 1 300px;
     align-self: center;
     -ms-grid-column-align: center;
 }
-.photo-column {
+.two-column .photo-column {
+    flex: 1 1 300px;
     background-size: cover;
     background-position: center;
     background-repeat: none;
-    align-self: auto;
 }
 /*.two-column-two-thirds {
 		display: flex;
@@ -1083,7 +1081,12 @@ div.next-fifty-content {
 }
 
 
-
+/*FACULTY*/
+.faculty-landing .two-column .subpage-inner {
+    flex: 1 1 300px;
+    align-self: auto;
+    -ms-grid-column-align: auto;
+}
 
 /*FACULTY - MEDIA COMMONS*/
 
