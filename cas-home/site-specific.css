@@ -425,6 +425,11 @@ body.ribbonFullwidth #epilogue {
     background-color: rgba(255, 255, 255, 0.95);
     padding: 0.5em 3em 2.5em 3em;
 }
+@media all and (max-width: 979px) {
+    .photo-bg-section {
+        padding: 5%;
+    }
+}
 
 /*NEWS MODULE*/
 .news .clr {
@@ -609,6 +614,7 @@ body.ribbonFullwidth #epilogue {
     flex: 2 1 400px;
     background-color: rgba(255, 255, 255, 0.96);
 	padding: 0.5em 3em 2.5em 3em;
+    margin-bottom: 30px;
 }
 .info-for-students {
 	flex: 1 1 400px;
@@ -671,9 +677,6 @@ body.ribbonFullwidth #epilogue {
     .DCHomepage .photo-bg-section .student-resources {
         margin-bottom: 5%;
     }
-    .DCHomepage .photo-bg-section {
-        padding: 5%;
-    }
     .student-resources, .info-for-students {
         margin-left: 1em;
         margin-right: 1em;
@@ -683,11 +686,6 @@ body.ribbonFullwidth #epilogue {
     }
     .recruiter-contact {
         max-width: 80%;
-    }
-}
-@media all and (max-width: 879px) {
-    .student-resources {
-        margin-bottom: 30px;
     }
 }
 /*News & Events Section*/
@@ -1080,7 +1078,7 @@ div.next-fifty-content {
         padding: 5%;
     }
     .alumni-board {
-        margin-bottom: 0%;
+        margin-bottom: 30px;
     }
 }
 
