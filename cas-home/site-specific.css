@@ -33,7 +33,7 @@ ul li ul {
         margin-left: 0.25em;
     }
 }
-p {
+p,span {
     hyphens: none;
     -webkit-hyphens: none;
 }
