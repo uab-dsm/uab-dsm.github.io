@@ -256,7 +256,7 @@ body.ribbonFullwidth #epilogue {
 .two-column-middle-border-col {
     flex: 1 1 400px;
     box-sizing: border-box;
-    padding: 20px 30px
+    padding: 20px 30px;
 }
 
 @media all and (min-width: 832px) {
@@ -609,7 +609,6 @@ body.ribbonFullwidth #epilogue {
     flex: 2 1 400px;
     background-color: rgba(255, 255, 255, 0.96);
 	padding: 0.5em 3em 2.5em 3em;
-    margin-bottom: 30px;
 }
 .info-for-students {
 	flex: 1 1 400px;
@@ -684,6 +683,11 @@ body.ribbonFullwidth #epilogue {
     }
     .recruiter-contact {
         max-width: 80%;
+    }
+}
+@media all and (max-width: 879px) {
+    .student-resources {
+        margin-bottom: 30px;
     }
 }
 /*News & Events Section*/
@@ -1066,17 +1070,17 @@ div.next-fifty-content {
     color: #1E6B52;
     font-size: 1.5rem;
 }
-@media all and (min-width: 980px) {
+@media all and (min-width: 880px) {
     .alumni-board {
         margin-right: 30px;
     }
 }
-@media all and (max-width: 979px) {
-    .alumni-board {
-        margin-bottom: 5%;
-    }
+@media all and (max-width: 879px) {
     .alumni-landing .two-column-two-thirds {
         padding: 5%;
+    }
+    .alumni-board {
+        margin-bottom: 0%;
     }
 }
 
