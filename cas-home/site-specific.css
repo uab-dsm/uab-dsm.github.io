@@ -73,6 +73,7 @@ body.hd.full-width #maincolumn-wide {
 
 body.hd.full-width #content {
     width: 100%;
+    padding-top: 0px;
 }
 
 @media (max-width: 1024px) {
