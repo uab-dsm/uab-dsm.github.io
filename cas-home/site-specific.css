@@ -371,7 +371,7 @@ body.ribbonFullwidth #epilogue {
     }
 
     .stats-column {
-        flex: 1 1 200px;
+        flex: 1 1 150px;
         font-size: 36px;
         font-weight: bold;
         padding: 0.2em 1em 0.5em;
