@@ -1171,3 +1171,10 @@ div.next-fifty-content {
         min-height: 100px;
     }
 }
+
+/*Digital Sign Request*/
+/*Makes the size confirmation question full-width*/
+.rsform-block-size-confirmation .formControlLabel {
+    width: 100% !important;
+    text-align: left !important;
+}
