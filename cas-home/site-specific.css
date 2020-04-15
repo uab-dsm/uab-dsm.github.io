@@ -74,6 +74,7 @@ body.hd.full-width #maincolumn-wide {
 body.hd.full-width #content {
     width: 100%;
     padding-top: 0px;
+    margin-bottom: 0px auto;
 }
 
 @media (max-width: 1024px) {
