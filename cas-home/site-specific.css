@@ -588,7 +588,7 @@ body.ribbonFullwidth #epilogue {
 .browse-centers p a {
     min-width: 100%;
 }
-.browse-depts {
+/*.browse-depts {
     display: grid;
     display: -ms-grid;
     grid-gap: 10px;
@@ -602,6 +602,18 @@ body.ribbonFullwidth #epilogue {
     text-align: center;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
+}*/
+.browse-depts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.browse-depts p {
+    text-align: center;
+    margin: 15px;
+}
+.browse-depts p a {
+    min-width: 100%;
 }
 @media all and (max-width: 768px) {
     .browse-degrees-col, .browse-degrees-col h2 {
