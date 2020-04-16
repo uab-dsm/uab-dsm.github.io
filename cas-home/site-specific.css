@@ -580,13 +580,17 @@ body.ribbonFullwidth #epilogue {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    box-sizing: border-box;
 }
 .browse-centers p {
     text-align: center;
     margin: 15px;
+    box-sizing: border-box;
+    padding-bottom: 0px;
 }
 .browse-centers p a {
     min-width: 100%;
+    box-sizing: border-box;
 }
 /*.browse-depts {
     display: grid;
@@ -608,12 +612,19 @@ body.ribbonFullwidth #epilogue {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+.browse-depts-col {
+    box-sizing: border-box;
+    flex: 1 1 400px;
+}
 .browse-depts p {
     text-align: center;
     margin: 15px;
+    box-sizing: border-box;
+    padding-bottom: 0px;
 }
 .browse-depts p a {
     min-width: 100%;
+    box-sizing: border-box;
 }
 @media all and (max-width: 768px) {
     .browse-degrees-col, .browse-degrees-col h2 {
