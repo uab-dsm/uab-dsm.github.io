@@ -582,6 +582,10 @@ body.ribbonFullwidth #epilogue {
     justify-content: space-around;
     box-sizing: border-box;
 }
+.browse-centers-col{
+    box-sizing: border-box;
+    flex: 1 1 400px;
+}
 .browse-centers p {
     text-align: center;
     margin: 15px;
