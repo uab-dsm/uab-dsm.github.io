@@ -564,6 +564,7 @@ body.ribbonFullwidth #epilogue {
 .home-degrees-dept .uk-tab-center .uk-tab>li,
 .home-degrees-dept .uk-switcher li {
     margin-bottom: 0px !important;
+    min-width: 290px;
 }
 .home-degrees-dept .uk-tab > li > a {
     border-width: 0px;
@@ -899,6 +900,7 @@ body.ribbonFullwidth #epilogue {
 .giving-switcher .uk-tab-center .uk-tab>li,
 .giving-switcher .uk-switcher li {
     margin-bottom: 0px !important;
+    min-width: 220px;
 }
 .giving-switcher .uk-tab-center {
     border-bottom-width: 0px;
@@ -980,6 +982,7 @@ body.ribbonFullwidth #epilogue {
 /*The Next Fifty Slideshow*/
 .research-next-fifty {
     max-width: 1250px;
+    padding-bottom: 44px;
 }
 
 .next-fifty-slides .uk-slider-container {
