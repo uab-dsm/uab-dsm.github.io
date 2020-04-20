@@ -384,6 +384,15 @@ body.ribbonFullwidth #epilogue {
         border-right: 0px;
     }
 }
+@media all and (max-width: 722px) {
+.stats-column p.counter {
+    padding-bottom: 0px;
+}
+.stats-column {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+    }
 
 
 /*WHITE BUTTON - Styled for full-width, dark green focus box and divs with a green bg*/
