@@ -385,14 +385,17 @@ body.ribbonFullwidth #epilogue {
     }
 }
 @media all and (max-width: 722px) {
-.stats-column p.counter {
-    padding-bottom: 0px;
-}
-.stats-column {
-    padding-bottom: 20px;
-    margin-bottom: 10px;
-}
+    .stats-column p.counter {
+        padding-bottom: 0px;
     }
+    .stats-column {
+        padding-bottom: 20px;
+        margin-bottom: 15px;
+    }
+    .more-than {
+        padding-bottom: 0px;
+    }
+ }
 
 
 /*WHITE BUTTON - Styled for full-width, dark green focus box and divs with a green bg*/
@@ -891,6 +894,32 @@ body.ribbonFullwidth #epilogue {
     border-bottom-color: #1E6B52;
     margin-bottom: 20px;
     padding-bottom: 30px;
+}
+/*Giving Switcher*/
+.giving-switcher .uk-tab-center .uk-tab>li,
+.giving-switcher .uk-switcher li {
+    margin-bottom: 0px !important;
+}
+.giving-switcher .uk-tab-center {
+    border-bottom-width: 0px;
+}
+.giving-switcher .uk-tab > li > a {
+    border-width: 0px;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 1px 1px 0px;
+}
+.giving-switcher .uk-tab > li > a:hover {
+    border-color: #f5f5f5;
+    border-width: 1px 1px 0px;
+    border-style: solid;
+}
+.giving-switcher .uk-tab > li.uk-active > a {
+    border-width: 1px 1px 0px;
+    border-style: solid;
+}
+.giving-switcher .uk-switcher {
+    border-top: 1px solid #f5f5f5;
 }
 
 /*Give to a Department dropdown*/
