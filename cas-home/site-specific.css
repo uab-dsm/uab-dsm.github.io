@@ -59,7 +59,11 @@ p,span {
     margin-top: 25px !important;
     border-bottom: 1px solid #1E6B52;
 }
-
+@media all and (max-width: 1024px) {
+    .template-01 #rightsidebar .nav.menu li.divider {
+        border-width: 0px !important;
+    }
+}
 
 /*MAKES PAGES FULL-WIDTH*/
 body.hd.full-width #whitebox {
