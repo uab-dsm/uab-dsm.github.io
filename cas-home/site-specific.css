@@ -220,7 +220,25 @@ body.ribbonFullwidth #epilogue {
     color: #1E6B52;
     margin-bottom: 1em;
 }
-
+.subpage-intro-buttons {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center;
+}
+.subpage-intro-buttons a {
+    margin: 10px;
+    box-sizing: border-box;
+}
+@media all and (max-width: 768px) {
+    .subpage-intro-buttons {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .subpage-intro-buttons a {
+        width: 100%;
+    }
+}
 .two-column {
     display: flex;
     flex-wrap: wrap;
