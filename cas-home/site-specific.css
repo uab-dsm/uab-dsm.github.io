@@ -227,7 +227,6 @@ body.ribbonFullwidth #epilogue {
 }
 .subpage-intro-buttons a {
     margin: 10px;
-    box-sizing: border-box;
 }
 @media all and (max-width: 768px) {
     .subpage-intro-buttons {
