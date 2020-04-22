@@ -1090,10 +1090,35 @@ div.next-fifty-content {
 .next-fifty-content p em {
     font-size: 14px;
 }
+
+.next-fifty-slides .uk-slidenav {
+    display: block;
+    background-color: #80bc00;
+    color: #1E6B52 !important;
+    font-size: 32px;
+    width: 32px;
+    height:32px;
+    line-height: 32px;
+}
+
+.next-fifty-slides .uk-position-bottom-right {
+    position: static;
+}
+.next-fifty-slides .uk-position-bottom-right .uk-grid {
+    justify-content: center;
+    margin-left: 0px;
+    margin-bottom: 10px !important;
+}
+.next-fifty-slides .uk-position-bottom-right .uk-grid div:first-child {
+    padding-left: 0px;
+}
+.next-fifty-slides .uk-position-bottom-right .uk-grid div:last-child {
+    padding-left: 15px;
+}
 @media all and (min-width: 960px) {
     .next-fifty-slides ul.uk-slider,
     .next-fifty-slides .uk-panel {
-        min-height: 490px !important;
+        min-height: 570px !important;
     }
 }
 @media all and (max-width: 960px) {
@@ -1102,15 +1127,15 @@ div.next-fifty-content {
         flex-wrap: wrap;
     }
     .next-fifty-container>div:first-child {
-        flex: 1 1 300px;
+        flex: 1 1 200px;
     }
     .next-fifty-container .next-fifty-content {
-        flex: 3 1 300px;
+        flex: 3 1 200px;
     }
 }
 @media all and (max-width: 959px) and (min-width: 768px) {
     .next-fifty-slides ul.uk-slider, .next-fifty-slides .uk-panel {
-        min-height: 600px !important;
+        min-height: 680px !important;
     }
 }
 @media all and (max-width: 767px) and (min-width: 668px) {
@@ -1127,10 +1152,10 @@ div.next-fifty-content {
 }
 @media all and (max-width: 667px) {
     .next-fifty-slides ul.uk-slider, .next-fifty-slides .uk-panel {
-        min-height: 560px !important;
+        min-height: 640px !important;
     }
     .next-fifty-slides .uk-panel {
-        height: 560px !important;
+        height: 640px !important;
     }
     .next-fifty-slides {
         padding-left: 10%;
