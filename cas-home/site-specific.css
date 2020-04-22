@@ -1102,7 +1102,7 @@ div.next-fifty-content {
 }
 
 .next-fifty-slides .uk-position-bottom-right {
-    position: static;
+    position: static !important;
 }
 .next-fifty-slides .uk-position-bottom-right .uk-grid {
     justify-content: center;
