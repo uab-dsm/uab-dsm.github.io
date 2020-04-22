@@ -1118,7 +1118,7 @@ div.next-fifty-content {
 @media all and (min-width: 960px) {
     .next-fifty-slides ul.uk-slider,
     .next-fifty-slides .uk-panel {
-        min-height: 570px !important;
+        min-height: 500px !important;
     }
 }
 @media all and (max-width: 960px) {
