@@ -2,14 +2,13 @@
 
 /*Fix IE hover card image stretch*/
 @supports (object-fit: cover) {
-   .all-cas-events  .localist-card__img {
+   .all-cas-events  .localist-hover-card__img {
         height: auto;
     }
 }
-.all-cas-events .localist-card__img {
+.all-cas-events .localist-hover-card__img {
         height: initial;
-    }
-
+}
 
 /*TYPOGRAPHY*/
 h3 {
