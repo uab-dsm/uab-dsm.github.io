@@ -60,9 +60,10 @@ ul li ul {
         margin-left: 0.25em;
     }
 }
-p,span {
+p,span, label {
     hyphens: none;
     -webkit-hyphens: none;
+    -ms-hyphens: none;
 }
 
 
