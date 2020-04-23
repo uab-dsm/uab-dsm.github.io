@@ -5,11 +5,11 @@
    .all-cas-events  .localist-hover-card__img {
         min-height: 100%;
     }
-    @media all and (min-width: 900px) {
+    /*@media all and (min-width: 900px) {
         .all-cas-events .localist-hover-card__img {
             margin: 0;
         }
-    }
+    }*/
     .all-cas-events .localist-hover-card__img-container {
         min-height: auto;
         overflow: visible;
@@ -22,11 +22,11 @@
         min-height: auto;
         overflow: hidden;
     }
-@media all and (min-width: 900px) {
+/*@media all and (min-width: 900px) {
     .all-cas-events .localist-hover-card__img {
         margin: 0 0 -105px 0;
     }
-}
+}*/
 
 /*TYPOGRAPHY*/
 h3 {
