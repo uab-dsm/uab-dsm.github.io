@@ -699,7 +699,8 @@ body.ribbonFullwidth #epilogue {
 }
 .browse-depts-col {
     box-sizing: border-box;
-    flex: 1 1 300px;
+    flex-grow: 1;
+    flex-basis: 33%;
 }
 .browse-depts p {
     text-align: center;
