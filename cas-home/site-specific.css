@@ -321,14 +321,15 @@ body.ribbonFullwidth #epilogue {
     padding: 20px 30px;
 }
 
-@media all and (min-width: 832px) {
+@media all and (min-width: 952px) {
     .two-column-middle-border-col:first-child {
         border-right: 2px solid #80bc00;
     }
 }
-@media all and (max-width: 831px) {
+@media all and (max-width: 951px) {
     .two-column-middle-border-col:first-child {
         border-bottom: 2px solid #80bc00;
+        border-right: 0px;
     }
 }
 
