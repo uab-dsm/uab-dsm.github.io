@@ -3,11 +3,11 @@
 /*Fix IE hover card image stretch*/
 @supports (object-fit: cover) {
    .all-cas-events  .localist-hover-card__img {
-        height: auto;
+        min-height: 100%;
     }
 }
 .all-cas-events .localist-hover-card__img {
-        height: initial;
+        min-height: auto;
 }
 
 /*TYPOGRAPHY*/
