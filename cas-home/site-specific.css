@@ -707,10 +707,16 @@ body.ribbonFullwidth #epilogue {
     margin: 15px;
     box-sizing: border-box;
     padding-bottom: 0px;
+    min-width: 200px;
 }
 .browse-depts p a {
     min-width: 100%;
     box-sizing: border-box;
+}
+@media all and (max-width:679px) {
+    .browse-depts {
+        display: block;
+    }
 }
 @media all and (max-width: 768px) {
     .browse-degrees-col, .browse-degrees-col h2 {
