@@ -1169,12 +1169,12 @@ div.next-fifty-content {
         flex: 1 1 400px;
     }
 }
-@media all and (max-width: 959px) and (min-width: 768px) {
+@media all and (max-width: 959px) and (min-width: 668px) {
     .next-fifty-slides ul.uk-slider, .next-fifty-slides .uk-panel {
         min-height: 680px !important;
     }
 }
-@media all and (max-width: 767px) and (min-width: 668px) {
+/*@media all and (max-width: 767px) and (min-width: 668px) {
     .next-fifty-slides ul.uk-slider, .next-fifty-slides .uk-panel {
         min-height: 290px !important;
     }
@@ -1185,7 +1185,7 @@ div.next-fifty-content {
         padding-left: 10%;
         padding-right: 10%;
     }
-}
+}*/
 @media all and (max-width: 667px) {
     .next-fifty-slides ul.uk-slider, .next-fifty-slides .uk-panel {
         min-height: 640px !important;
