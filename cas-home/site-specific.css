@@ -1163,10 +1163,10 @@ div.next-fifty-content {
         flex-wrap: wrap;
     }
     .next-fifty-container>div:first-child {
-        flex: 1 1 200px;
+        flex: 1 1 400px;
     }
     .next-fifty-container .next-fifty-content {
-        flex: 3 1 200px;
+        flex: 1 1 400px;
     }
 }
 @media all and (max-width: 959px) and (min-width: 768px) {
