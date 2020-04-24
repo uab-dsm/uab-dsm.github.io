@@ -1115,8 +1115,6 @@ div.next-fifty-content {
     font-weight: bold !important;
 }
 
-.next-fifty-content a:hover {}
-
 .next-fifty-content p {
     color: #333 !important;
     margin-top: 0px;
@@ -1157,7 +1155,7 @@ div.next-fifty-content {
         min-height: 500px !important;
     }
 }
-@media all and (max-width: 960px) {
+/*@media all and (max-width: 960px) {
     .next-fifty-container {
         display: flex;
         flex-wrap: wrap;
@@ -1168,7 +1166,7 @@ div.next-fifty-content {
     .next-fifty-container .next-fifty-content {
         flex: 1 1 400px;
     }
-}
+}*/
 @media all and (max-width: 959px) and (min-width: 768px) {
     .next-fifty-slides ul.uk-slider, .next-fifty-slides .uk-panel {
         min-height: 680px !important;
