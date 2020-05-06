@@ -1343,6 +1343,12 @@ div.next-fifty-content {
     border: 1px solid #1E6B52;
     padding: 20px 20px 40px 20px;
 }
+.toolkit-grid .uk-panel:hover {
+    background-color: #f4f8ee;
+}
+.toolkit-grid a:hover {
+    text-decoration: none;
+}
 @media all and (min-width: 960px) {
    .toolkit-grid h2 {
         min-height: 40px;
