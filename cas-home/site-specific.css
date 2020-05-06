@@ -1340,11 +1340,13 @@ div.next-fifty-content {
     text-align: center;
   }
 .toolkit-grid .uk-panel {
-    border: 1px solid #1E6B52;
+    border: 2px solid #1E6B52;
     padding: 20px 20px 40px 20px;
 }
 .toolkit-grid .uk-panel:hover {
-    background-color: #f4f8ee;
+    box-shadow: 0 1px 8px 1px #d3d3d3;
+    transition: all .2s ease-in;
+    border: 2px solid #80bc00;
 }
 .toolkit-grid a:hover {
     text-decoration: none;
