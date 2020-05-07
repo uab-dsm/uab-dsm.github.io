@@ -1366,3 +1366,29 @@ div.next-fifty-content {
     width: 100% !important;
     text-align: left !important;
 }
+
+
+
+/*UNDERGRADUATE AND GRADUATE DEGREES FEEDS*/
+.degrees-feeds .o-news-feed--3-across {
+    grid-gap: 35px;
+}
+.degrees-feeds .uk-tab  {
+    padding: 1em !important;
+    display: flex;
+    justify-content: center;
+    border-bottom: 0px;
+}
+.degrees-feeds .uk-tab li {
+    float: none;
+}
+#content .degrees-feeds  .uk-tab li {
+    margin-bottom: 0px;
+}
+.degrees-feeds .uk-tab li a:link {
+    background-color: #fff;
+    border-radius: 2px;
+}
+.degrees-feeds .uk-tab li a:hover {
+    border-bottom-color: #eee;
+}
