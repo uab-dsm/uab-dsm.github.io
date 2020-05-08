@@ -1091,7 +1091,7 @@ div.next-fifty-category {
 
 .next-fifty-category p a {
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: bold !important;
     letter-spacing: 2px;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -1101,10 +1101,10 @@ div.next-fifty-category {
     color: #fff;
     text-align: center !important;
     line-height: 1.3em;
-    text-decoration: none;
+    text-decoration: none !important;
 }
 .next-fifty-category p a:hover {
-    color: #1E6B52;
+    color: #1E6B52 !important;
 }
 div.next-fifty-content {
     background-color: #fff;
