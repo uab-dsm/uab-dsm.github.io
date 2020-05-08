@@ -1088,7 +1088,9 @@ div.next-fifty-category {
     /*min-height: 35px;*/
     text-align: center;
 }
-
+.next-fifty-category p {
+    line-height: 1.3em;
+}
 .next-fifty-category p a {
     text-transform: uppercase;
     font-weight: bold !important;
