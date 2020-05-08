@@ -1395,3 +1395,6 @@ div.next-fifty-content {
 .degrees-feeds .uk-tab li a:hover {
     border-bottom-color: #eee;
 }
+.degrees-feeds .c-news-feed-01__item:hover {
+    background-color: #f4f8ee;
+}
