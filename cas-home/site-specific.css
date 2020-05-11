@@ -1266,6 +1266,47 @@ div.next-fifty-content {
 
 
 
+/*AREAS OF EXPERTISE*/
+.expertise-area {
+  text-align: center;
+    z-index: 1;
+    position: relative;  
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1rem !important;
+    margin: 3em auto 1.5em;
+}
+.expertise-area  span {
+    background-color: #fff;
+    padding: 0 15px;
+    font-size: 1rem !important;
+    color:#1E6B52;
+}
+.expertise-area :before {
+  content: "";
+  position: absolute;
+  border-top: 1px solid #80bc00;
+  width: 100%;
+    right: 0;
+    left: 0;
+    top: 50%;
+    bottom: 0;
+      z-index: -1;
+}
+.area-of-expertise .uk-button {
+    background-color:#1E6B52;
+    color:#fff !important;
+    border: 1px solid #1E6B52;
+    font-weight: bold !important;
+        border-radius: 2px;
+    padding: 0.3em 0.8em;
+        line-height: 150%;
+}
+.area-of-expertise .uk-button:hover {
+    background-color: #fff !important;
+    border: 1px solid #1E6B52 !important;
+}
+
 
 /*ALUMNI*/
 .template-01 .alum-chapter {
