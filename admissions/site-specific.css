@@ -1,4 +1,4 @@
-/*--BEGIN Full Width Page ***/
+/*#region Full Width Page ***/
 
 body.hd.s-full-width-page #whitebox,
 body.hd.s-full-width-page #maincolumn-wide,
@@ -14,4 +14,13 @@ body.hd #content {
     width: 100%;
 }
 
-/*--END Full Width Page ***/
+/*#endRegion Full Width Page ***/
+
+/*#region Page Max Width ***/
+
+.admissions-page-max-width {
+    max-width: 1280px;
+    margin: 0 auto !important;
+}
+
+/*#endregion Page Max Width ***/
