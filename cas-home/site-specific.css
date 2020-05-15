@@ -1387,7 +1387,9 @@ div.next-fifty-content {
     text-align: center;
   }
 .toolkit-grid .uk-panel {
-    border: 1px solid #1E6B52;
+    box-shadow: 0 1px 6px 1px #d3d3d3;
+    border-radius: 4px;
+    border: 1px solid #fff;
     padding: 20px 20px 40px 20px;
 }
 .toolkit-grid .uk-panel:hover {
@@ -1395,6 +1397,7 @@ div.next-fifty-content {
     transition: all .2s ease-in;
      background-color: #f4f8ee;
     border: 1px solid #444;
+    box-shadow: none;
 }
 .toolkit-grid a:hover {
     text-decoration: none;
