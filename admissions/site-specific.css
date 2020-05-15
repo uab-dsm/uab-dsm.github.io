@@ -1,0 +1,26 @@
+/*#region Full Width Page ***/
+
+body.hd.s-full-width-page #whitebox,
+body.hd.s-full-width-page #maincolumn-wide,
+body.hd.s-full-width-page #content {
+    max-width: 100%;
+    width: 100%;
+}
+
+body.hd #whitebox,
+body.hd #maincolumn-wide,
+body.hd #content {
+    max-width: 100%;
+    width: 100%;
+}
+
+/*#endRegion Full Width Page ***/
+
+/*#region Page Max Width ***/
+
+.admissions-page-max-width {
+    max-width: 1280px;
+    margin: 0 auto !important;
+}
+
+/*#endregion Page Max Width ***/
