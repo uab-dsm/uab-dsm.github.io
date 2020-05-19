@@ -2007,7 +2007,7 @@ select.uab-form-width-xsmall {
 .uab-button-secondary {
   background-color: #295135;
   color: #fff;
-  border: 1px solid #80bc00;
+  border: 1px solid transparent;
 }
 /* Hover + Focus */
 .uab-button-secondary:hover,
@@ -4494,6 +4494,7 @@ ul.uab-nav-sub {
   /* 2 */
   padding: 0;
   list-style: none;
+  margin-bottom: 0;
 }
 /*
  * Space is allocated solely based on content dimensions: 0 0 auto
