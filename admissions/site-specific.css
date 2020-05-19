@@ -92,14 +92,14 @@ body.hd #content {
 }
 
 
-body.hd #tray.white #ribbon .accent-menu *,
-body.hd #tray.white #ribbon .accent-menu a:link {
+.accent-menu *,
+ .accent-menu a:link {
     color: #fff !important;
 }
 
-body.hd #tray.white #ribbon .accent-menu span,
-body.hd #tray.white #ribbon .accent-menu a:link,
-body.hd #tray.white #ribbon .accent-menu a:visited {
+ .accent-menu span,
+ .accent-menu a:link,
+ .accent-menu a:visited {
     color: #fff !important;
 }
 
@@ -133,8 +133,8 @@ body.hd #tray.white #ribbon .accent-menu a:visited {
     font-weight: 500;
 }
 
-#ribbon .uab-nav-header,
-#ribbon .nav-header {
+ .uab-nav-header,
+.nav-header {
     font-weight: 600 !important;
     font-size: 1.05rem !important;
     border-bottom: 1px solid #80bc00 !important;
@@ -171,8 +171,8 @@ body.hd #tray.white #ribbon .accent-menu a:visited {
     background-color: #1E6B52;
 }
 
-body.hd #tray.white #ribbon .uab-navbar-dropdown-grid>div:nth-child(3) a,
-body.hd #tray.white #ribbon .uab-navbar-dropdown-grid>div:nth-child(3) .uab-nav-header {
+.uab-navbar-dropdown-grid>div:nth-child(3) a,
+ .uab-navbar-dropdown-grid>div:nth-child(3) .uab-nav-header {
     color: #fff !important;
 
 }
