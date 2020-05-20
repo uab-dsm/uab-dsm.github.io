@@ -33,6 +33,23 @@
 
 /*#endregion Apply Landing Page ***/
 
+/*#region Enrollment Checklists ***/
+
+.checklist-items h2 {
+    padding-top: 1em;
+}
+
+.checklist-items h2 > span {
+    font-size: 1em;
+    font-family: kulturista;
+font-weight: 800;
+color: #1e6b52;
+border: 2px solid #80bc00;
+padding: 5px 15px;
+}
+
+/*#endregion Enrollment Checklists ***/
+
 /*#region Full Width Page ***/
 
 body.hd.s-full-width-page #whitebox,
