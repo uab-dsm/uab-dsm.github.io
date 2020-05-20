@@ -8,6 +8,12 @@
 
 /*#region Apply Landing Page ***/
 
+.apply-other-ways {
+    display: flex; 
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
 .apply-secondary-container {
     display: flex;
     flex-direction: column;
@@ -44,6 +50,23 @@
     .apply-secondary-item:nth-child(n+2) {
         border-left: 2px solid #80bc00;
         border-top: none;
+    }
+}
+
+.accepted-heading {
+    position: relative;
+    top: 0%;
+    left: -15%;
+    background: #fff;
+    padding: 10px 20px;
+    border-bottom: 2px solid #80bc00;
+}
+
+@media all and (max-width: 1000px) {
+    .accepted-container {
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 0 20px
     }
 }
 
