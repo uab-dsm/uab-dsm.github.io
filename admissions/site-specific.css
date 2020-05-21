@@ -221,4 +221,48 @@ body.hd #content {
     background-color: #fafafa;
 }
 
+
+.menu-three-across {
+    flex-basis: calc(100% / 3 - 40px);
+    padding: 10px 20px;
+}
+
+.menu-four-across {
+    flex-basis: calc(25% - 20px);
+    margin: 0 10px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.menu-four-across:last-child {
+    flex-basis: calc(25% - 10px);
+    margin-right: 0;
+    margin-left: 0;
+    flex-grow: 1;
+    background-color: #1E6B52;
+
+
+}
+
+ .menu-four-across:last-child * {
+    color: #fff !important;
+}
+
+.uab-nav li {
+    margin-top: 10px;
+}
+
+.parent ul a {
+    font-weight: 500;
+    font-size: 1.15em !important;
+}
+
+.check-application-status {
+    padding: 5px 10px;
+    background-color: #1E6B52;
+    color: #fff;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
 /*#endregion Horizontal Navigation */
