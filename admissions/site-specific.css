@@ -264,7 +264,23 @@ body.hd #content {
 }
 
 /*#endregion Horizontal Navigation */
+
+
 #main_header {
     background-image: url(/students/admissions/images/test/white-with-R-core-horizontal.svg);
 }
 
+
+
+.uab-active:not(.uab-parent)>a:after {
+
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid #80bc00;
+    right: 0;
+
+}
