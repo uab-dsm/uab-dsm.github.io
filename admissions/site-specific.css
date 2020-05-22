@@ -35,17 +35,18 @@
 
 /*#region Enrollment Checklists ***/
 
-.checklist-items h2 {
-    padding-top: 1em;
+.checklist-container {
+    display: flex;
 }
 
-.checklist-items h2 > span {
-    font-size: 1em;
+.checklist-number {
+    font-size: 2rem;
     font-family: kulturista;
-font-weight: 800;
-color: #1e6b52;
-border: 2px solid #80bc00;
-padding: 5px 15px;
+    font-weight: 800;
+    color: #1e6b52;
+    border: 2px solid #80bc00;
+    padding: 5px 15px;
+    margin-right: 20px;
 }
 
 /*#endregion Enrollment Checklists ***/
