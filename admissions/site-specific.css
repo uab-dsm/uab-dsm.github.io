@@ -21,6 +21,7 @@
     padding: 30px 0;
 }
 
+
 @media all and (min-width: 798px) {
     .admissions-apple-container {
         display: flex;
@@ -35,7 +36,8 @@
         border-left: 2px solid #80bc00;
         border-top: none;
     }
-}
+} 
+
 
 /*#endregion Apple Green Divider Flex Container ***/
 
