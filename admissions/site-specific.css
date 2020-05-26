@@ -217,7 +217,7 @@ body.hd #content {
 .nav-header {
     font-weight: 600 !important;
     font-size: 1.05rem !important;
-    border-bottom: 1px solid #80bc00 !important;
+    /* border-bottom: 1px solid #80bc00 !important; */
     text-transform: initial;
     padding: 5px 0;
 }
