@@ -378,3 +378,9 @@ ul.uab-nav-sub {
 }
 
 /* end breadcrumb overrides */
+/*Color adjustment to action box */
+
+#action_box {
+    background-color: #1E6B52;
+    padding: 10px;
+    
