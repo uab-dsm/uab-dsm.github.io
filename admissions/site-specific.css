@@ -270,6 +270,7 @@ body.hd #content {
 .uab-navbar-nav {
     justify-content: space-between;
     width: 100%;
+    background-color:#eee;
 }
 
 .uab-navbar-center:only-child {
