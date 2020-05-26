@@ -8,20 +8,34 @@
 
 /*#region Homepage ***/
 
-.events-heading {
+.events-heading-left,
+.events-heading-right {
     position: relative;
     top: 0%;
-    left: -20%;
     background: #fff;
     padding: 10px 20px;
     border-bottom: 2px solid #80bc00;
     margin-top: 0;
 }
 
-.events-title {
+.events-heading-left {
+    left: -20%;
+}
+
+.events-heading-right {
+    right: -20%;
+   text-align: right;
+}
+
+.events-title-left,
+.events-title-right {
     color: #1e6b52;
 font-weight: bold;
 font-size: 1.25em;
+}
+
+.events-title-right {
+    text-align: right;
 }
 
 /*#endregion Homepage ***/
