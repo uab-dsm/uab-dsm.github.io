@@ -384,3 +384,10 @@ ul.uab-nav-sub {
     background-color: #1E6B52;
     padding: 10px;
     
+
+/*Search Override */
+
+.search.mod_search98 .button {
+    max-width:15px;
+    background-color:#1E6B52;
+}
