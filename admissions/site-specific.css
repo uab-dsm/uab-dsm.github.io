@@ -351,3 +351,8 @@ body.corona .siteNameTop {
     color: #fff;
 }
 
+/*removes padding on subnav */
+
+ul.uab-nav-sub {
+    padding: 0;
+}
