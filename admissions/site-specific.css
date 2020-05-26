@@ -387,13 +387,13 @@ ul.uab-nav-sub {
 
 /* Search Override  */
 
-.search.mod_search98 .button {
+.uab-offcanvas-bar .search.mod_search98 .button {
     max-width:15px;
     background-color:#1E6B52;
     padding:5px;
 }
 
-.form-inline {
+.uab-offcanvas-bar .form-inline {
     display:flex;
     margin:10px 0
 }
