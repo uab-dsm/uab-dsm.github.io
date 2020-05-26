@@ -330,21 +330,23 @@ body.hd #content {
 /*#endregion Horizontal Navigation */
 
 
+/*#region Temporary CSS */
+
+
+/*changes the main uab logo to an svg */
 #main_header {
     background-image: url(https://dev.uab.edu/students/admissions/images/test/white-with-R-core-horizontal.svg);
 }
 
-
-
-.uab-active:not(.uab-parent)>a:after {
-
-    position: absolute;
-    content: '';
-    width: 0;
-    height: 0;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-    border-right: 10px solid #80bc00;
-    right: 0;
-
+/*adjustments to the site box and site name */
+#sitename_box {
+    background-color: #1E6B52;
+    padding: 1em;
+    display: flex;
+    align-items: center;
 }
+
+body.corona .siteNameTop {
+    color: #fff;
+}
+
