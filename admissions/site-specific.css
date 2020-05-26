@@ -80,7 +80,11 @@
     color: #1e6b52;
     border: 2px solid #80bc00;
     padding: 5px 15px;
-    margin-right: 20px;
+    margin-right: 45px;
+}
+
+.icon-checkmark {
+    margin-right: .3em!important;
 }
 
 /*#endregion Enrollment Checklists ***/
