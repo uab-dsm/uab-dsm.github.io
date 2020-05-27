@@ -40,6 +40,71 @@ font-size: 1.25em;
 
 /*#endregion Homepage ***/
 
+/*#region Widgekit Accordion */
+
+.uk-accordion-title:after {
+    content: "\e007";
+    position: absolute;
+    right: 10px;
+    font-family: 'IcoMoon';
+    color: #1E6B52;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.uk-accordion-title {
+    position: relative;
+}
+
+.uk-accordion {
+    margin-bottom: 10px;
+}
+
+
+.uk-accordion-title.uk-active:after {
+    content: "\e005";
+    color: #fff;
+}
+
+.uk-accordion-title {
+    margin-bottom: 0;
+    padding: 10px 40px 10px 5px;
+    box-sizing: border-box;
+    font-weight: 500 !important;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.uk-accordion-title.uk-active {
+
+    background-color: #1E6B52;
+    color: #fff;
+
+}
+
+.uk-accordion-content.uk-active {
+    border-bottom: 1px solid #eee;
+}
+
+.uk-accordion-content {
+    padding: 10px 20px 20px;
+}
+
+
+.uk-accordion-title span {
+    font-size: 1.1em;
+    font-weight: 600 !important;
+    display: block;
+}
+
+.uk-accordion-title.uk-active span {
+    color: #fff;
+}
+
+
+/*#endregion Widgekit Accordion */
+
 /*#region Apple Green Divider Flex Container ***/
 
 .admissions-apple-container {
