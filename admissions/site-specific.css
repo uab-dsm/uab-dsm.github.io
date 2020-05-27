@@ -426,6 +426,7 @@ body.hd #content {
 
 /*#region Temporary CSS */
 
+/*The css below is being used temporarily for testing and will eventually be incorporated into the main css or site especific css file.
 
 /*changes the main uab logo to an svg */
 #main_header {
@@ -490,3 +491,21 @@ ul.uab-nav-sub {
     display:flex;
     margin:10px 0
 }
+
+/*Content Sizes */
+
+.grid_full #main.fullWidth {
+    grid-column: 1 / 13;
+}
+
+
+.grid_full #main.largeWidth {
+    grid-column: 3 / 11;
+}
+
+.grid_full #main.narrowWidth {
+    grid-column: 4 / 10;
+}
+
+
+/*#endregion Temporary CSS */
