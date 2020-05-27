@@ -40,6 +40,14 @@ font-size: 1.25em;
 
 /*#endregion Homepage ***/
 
+/*#region Table with Apple Green Divider */
+
+.table-apple-divider tr:last-of-type {
+    border-top: 1px solid #80bc00!important;
+}
+
+/*#endregion Table with Apple Green Divider */
+
 /*#region Widgekit Accordion */
 
 .uk-accordion-title:after {
