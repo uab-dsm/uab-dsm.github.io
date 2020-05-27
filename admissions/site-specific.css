@@ -105,6 +105,26 @@ font-size: 1.25em;
 
 /*#endregion Widgekit Accordion */
 
+/*#region Switcher Panels ***/
+
+.uk-subnav .uk-active a {
+    background-color: #1E6B52;
+    transition: none;
+}
+
+.uk-subnav .uk-active a:hover {
+    color: #fff !important;
+}
+
+.switcher-heading {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+
+/*#endregion Switcher Panels ***/
+
 /*#region Apple Green Divider Flex Container ***/
 
 .admissions-apple-container {
