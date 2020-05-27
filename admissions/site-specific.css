@@ -40,13 +40,18 @@ font-size: 1.25em;
 
 /*#endregion Homepage ***/
 
-/*#region Table with Apple Green Divider */
+/*#region Tables */
 
 .table-apple-divider tr:last-of-type {
     border-top: 1px solid #80bc00!important;
 }
 
-/*#endregion Table with Apple Green Divider */
+.uab-table th {
+    font-size: 1em;
+    text-transform: uppercase;
+}
+
+/*#endregion Tables */
 
 /*#region Widgekit Accordion */
 
