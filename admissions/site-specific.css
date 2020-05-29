@@ -40,6 +40,52 @@ font-size: 1.25em;
 
 /*#endregion Homepage ***/
 
+/*#region Orientation Leaders Directory ***/
+
+.orientation-leaders-directory .uk-panel {
+    box-shadow: 0 1px 6px 1px #d3d3d3;
+}
+
+.orientation-leaders-directory .profile-heading__wrapper {
+    margin-top: -25px;
+}
+
+.orientation-leaders-directory .profile-intro-text {
+    padding: 20px;
+}
+
+
+.profile-heading__wrapper {
+ border-top:3px solid #80bc00;
+ padding:10px 20px 5px;
+ order:2;
+ position:relative;
+ background-color:#eee;
+ margin-bottom:10px
+}
+
+.profile-heading__wrapper .profile-heading__name {
+ font-size:1.5em;
+    font-family: kulturista;
+ font-weight:600!important;
+ margin:0
+}
+
+.profile-heading__name,
+.profile-heading__credential {
+ color:#1e6b52;
+}
+
+.profile-heading__credential {
+ color:#444;
+}
+
+.profile-title {
+ display:block
+}
+
+/*#endregion Orientation Leaders Directory ***/
+
 /*#region Tables */
 
 .table-apple-divider tr:last-of-type {
