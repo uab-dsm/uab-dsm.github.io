@@ -554,4 +554,10 @@ ul.uab-nav-sub {
 }
 
 
+/*Reduces size of action buttons */
+
+#action_box a {
+    font-size: .9rem;
+}
+
 /*#endregion Temporary CSS */
