@@ -459,11 +459,6 @@ body.hd #content {
     margin-top: 10px;
 }
 
-.parent ul a {
-    font-weight: 500;
-    font-size: 1.15em !important;
-}
-
 .check-application-status {
     padding: 5px 10px;
     background-color: #1E6B52;
