@@ -551,24 +551,16 @@ ul.uab-nav-sub {
 }
 
 /* breadcrumb overrides */
-.uab-breadcrumb> :nth-child(n+2):not(.uab-first-column)::before {
-    font-family: 'IcoMoon';
-    content: "\e010";
-    color: #80bc00;
-    margin: 0 5px;
-    font-size: 15px;
 
-}
 
 .uab-breadcrumb {
     margin: 20px 0;
 }
 
-.uab-breadcrumb li {
+/* .uab-breadcrumb li {
     display: flex;
-
     align-items: center;
-}
+} */
 
 /* end breadcrumb overrides */
 /*Color adjustment to action box */
