@@ -161,6 +161,7 @@ font-size: 1.25em;
 	justify-content: center;
     align-items: center;
     background-color: #f4f8ee;
+    margin: 40px 0;
 }
 
 .counter-item {
@@ -188,6 +189,12 @@ font-size: 1.25em;
 	font-weight: 600;
 	text-align: center;
 	font-family: "kulturista-web", serif !important;
+}
+
+@media all and (max-width: 600px) {
+    .wrapper-counter { 
+    flex-direction: column!important;
+    }
 }
 
 /*#endregion Statistics Counter */
