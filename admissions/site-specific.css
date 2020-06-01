@@ -159,7 +159,8 @@ font-size: 1.25em;
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-	align-items: center;
+    align-items: center;
+    background-color: #f4f8ee;
 }
 
 .counter-item {
