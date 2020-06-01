@@ -86,6 +86,26 @@ font-size: 1.25em;
 
 /*#endregion Orientation Leaders Directory ***/
 
+/*#region Trailblazers Directory ***/
+
+.item-page .profile-heading__wrapper {
+    display: none;
+}
+
+.blog .uab-card-title {
+    display: none;
+}
+
+.trailblazers-blog .uab-card-body {
+    margin: -20px;
+}
+
+.trailblazers-blog .profile-intro-text {
+    padding: 20px;
+}
+
+/*#endregion Trailblazers Directory ***/
+
 /*#region Tables */
 
 .table-apple-divider tr:last-of-type {
