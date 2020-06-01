@@ -99,6 +99,14 @@ font-size: 1.25em;
 
 /*#endregion Tables */
 
+/*#region Icons */
+
+.admissions-icons:hover {
+    transform: scale(1.05);
+}
+
+/*#endregion Icons */
+
 /*#region Widgekit Accordion */
 
 .uk-accordion-title:after {
