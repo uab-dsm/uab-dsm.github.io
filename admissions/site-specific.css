@@ -61,7 +61,7 @@ font-size: 1.25em;
  order:2;
  position:relative;
  background-color:#eee;
- margin-bottom:10px
+ margin-bottom:10px;
 }
 
 .profile-heading__wrapper .profile-heading__name {
@@ -88,9 +88,25 @@ font-size: 1.25em;
 
 /*#region Trailblazers Directory ***/
 
-.item-page .profile-heading__wrapper {
+.item-page .profile-heading-trailblazers__wrapper {
     display: none;
 }
+
+.profile-heading-trailblazers__wrapper {
+    border-top:3px solid #80bc00;
+    padding:10px 20px 5px;
+    order:2;
+    position:relative;
+    background-color:#eee;
+    margin-bottom:10px;
+}
+
+.profile-heading-trailblazers__wrapper .profile-heading__name {
+    font-size:1.5em;
+       font-family: kulturista;
+    font-weight:600!important;
+    margin:0
+   }
 
 .blog .uab-card-title {
     display: none;
