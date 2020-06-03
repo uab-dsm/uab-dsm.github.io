@@ -629,7 +629,22 @@ ul.uab-nav-sub {
 
 /*Content Sizes */
 
-@media all and (min-width:800px) {
+.grid_full #main.fullWidth {
+    grid-column: 1 / 7;
+}
+
+
+.grid_full #main.largeWidth {
+    grid-column: 2 / 6;
+}
+
+.grid_full #main.narrowWidth {
+    grid-column: 2 / 6;
+}
+
+
+
+@media all and (min-width:960px) {
 
     .grid_full #main.fullWidth {
         grid-column: 1 / 13;
