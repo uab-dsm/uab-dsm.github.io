@@ -1,9 +1,8 @@
-
 /*#region Tachyons */
 
-	/* @import url('https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css'); */
+/* @import url('https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css'); */
 
-	
+
 /*#endregion Tachyons */
 
 /*#region Homepage ***/
@@ -24,14 +23,14 @@
 
 .events-heading-right {
     right: -20%;
-   text-align: right;
+    text-align: right;
 }
 
 .events-title-left,
 .events-title-right {
     color: #1e6b52;
-font-weight: bold;
-font-size: 1.25em;
+    font-weight: bold;
+    font-size: 1.25em;
 }
 
 .events-title-right {
@@ -56,32 +55,32 @@ font-size: 1.25em;
 
 
 .profile-heading__wrapper {
- border-top:3px solid #80bc00;
- padding:10px 20px 5px;
- order:2;
- position:relative;
- background-color:#eee;
- margin-bottom:10px;
+    border-top: 3px solid #80bc00;
+    padding: 10px 20px 5px;
+    order: 2;
+    position: relative;
+    background-color: #eee;
+    margin-bottom: 10px;
 }
 
 .profile-heading__wrapper .profile-heading__name {
- font-size:1.5em;
+    font-size: 1.5em;
     font-family: kulturista;
- font-weight:600!important;
- margin:0
+    font-weight: 600 !important;
+    margin: 0
 }
 
 .profile-heading__name,
 .profile-heading__credential {
- color:#1e6b52;
+    color: #1e6b52;
 }
 
 .profile-heading__credential {
- color:#444;
+    color: #444;
 }
 
 .profile-title {
- display:block
+    display: block
 }
 
 /*#endregion Orientation Leaders Directory ***/
@@ -93,20 +92,20 @@ font-size: 1.25em;
 }
 
 .profile-heading-trailblazers__wrapper {
-    border-top:3px solid #80bc00;
-    padding:10px 20px 5px;
-    order:2;
-    position:relative;
-    background-color:#eee;
-    margin-bottom:10px;
+    border-top: 3px solid #80bc00;
+    padding: 10px 20px 5px;
+    order: 2;
+    position: relative;
+    background-color: #eee;
+    margin-bottom: 10px;
 }
 
 .profile-heading-trailblazers__wrapper .profile-heading__name {
-    font-size:1.5em;
-       font-family: kulturista;
-    font-weight:600!important;
-    margin:0
-   }
+    font-size: 1.5em;
+    font-family: kulturista;
+    font-weight: 600 !important;
+    margin: 0
+}
 
 .blog .uab-card-title {
     display: none;
@@ -125,7 +124,7 @@ font-size: 1.25em;
 /*#region Tables */
 
 .table-apple-divider tr:last-of-type {
-    border-top: 1px solid #80bc00!important;
+    border-top: 1px solid #80bc00 !important;
 }
 
 
@@ -140,34 +139,34 @@ font-size: 1.25em;
 
 .admissions-icons__heading {
     border-bottom: 2px solid #80bc00;
-    padding-bottom: 10px;    
-    }
-    
+    padding-bottom: 10px;
+}
+
 .admissions-icons__copy {
-        text-align: center;
-    }
+    text-align: center;
+}
 
 /*#endregion Icons */
 
 /*#region Statistics Counter */
 
 .wrapper-counter {
-	width: 100%;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
     align-items: center;
     background-color: #f4f8ee;
     margin: 40px 0;
 }
 
 .counter-item {
-	flex-basis: 33%;
+    flex-basis: 33%;
 }
 
 .counter-h3 {
-	margin-bottom: 0;
-	text-align: center;
+    margin-bottom: 0;
+    text-align: center;
 }
 
 .count-copy {
@@ -176,21 +175,21 @@ font-size: 1.25em;
 }
 
 .count {
-	text-align: center;
-	color: #078459;
-	font-size: 4em !important;
+    text-align: center;
+    color: #078459;
+    font-size: 4em !important;
 }
 
 .count-number {
-	margin-top: 0.5em;
-	font-weight: 600;
-	text-align: center;
-	font-family: "kulturista-web", serif !important;
+    margin-top: 0.5em;
+    font-weight: 600;
+    text-align: center;
+    font-family: "kulturista-web", serif !important;
 }
 
 @media all and (max-width: 600px) {
-    .wrapper-counter { 
-    flex-direction: column!important;
+    .wrapper-counter {
+        flex-direction: column !important;
     }
 }
 
@@ -310,7 +309,7 @@ font-size: 1.25em;
         border-left: 2px solid #80bc00;
         border-top: none;
     }
-} 
+}
 
 
 /*#endregion Apple Green Divider Flex Container ***/
@@ -318,7 +317,7 @@ font-size: 1.25em;
 /*#region Apply Landing Page ***/
 
 .apply-other-ways {
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     padding: 0 20px;
 }
@@ -350,7 +349,7 @@ font-size: 1.25em;
 }
 
 .icon-checkmark {
-    margin-right: .3em!important;
+    margin-right: .3em !important;
 }
 
 /*#endregion Enrollment Checklists ***/
@@ -382,6 +381,96 @@ body.hd #content {
 
 /*#endregion Page Max Width ***/
 
+/*#region V2 Middle Nav */
+
+ul.v2-middle-menu {
+    max-width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.v2-middle-menu>li {
+    margin-bottom: 1em;
+}
+
+.v2-middle-menu>li>span {
+    flex-basis: 50%;
+    color: #1e6b52;
+    text-shadow: none;
+    text-align: right;
+    font-family: "kulturista-web", serif !important;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+    box-sizing: border-box;
+    background-color: #eee;
+    padding: 0.7em 1em;
+}
+
+.v2-middle-menu>li>ul {
+    flex-basis: 50%;
+    list-style-type: disc;
+    list-style-position: inside;
+    padding: 0.5em 1em;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 0;
+}
+
+.v2-middle-menu ul li {
+    position: relative;
+    margin-top: 5px;
+}
+
+.v2-middle-menu ul ul.nav-child {
+    margin: 0;
+    padding-left: 1em;
+    box-sizing: border-box;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.v2-middle-menu ul .nav-header {
+    padding: 0;
+    display: block;
+    color: #1e6b52;
+    font-weight: 600;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 3px;
+}
+
+@media all and (min-width: 600px) {
+    .v2-middle-menu>li>ul {
+        text-align: left;
+    }
+
+    .v2-middle-menu>li {
+        display: flex;
+    }
+
+    .v2-middle-menu>li>span {
+        justify-content: flex-end;
+        border-right: 3px solid #1e6b52;
+        text-align: right;
+        border-radius: 4px 0 0 4px;
+    }
+}
+
+@media all and (min-width: 900px) {
+    .v2-middle-menu>li>span {
+        padding: 0.7em 1em 0.7em 200px;
+    }
+}
+
+/*#endregion V2 Middle Nav */
+
+/*#region Video Wrapper */
+
 .video-wrapper {
     position: relative;
     padding-bottom: 56.25%;
@@ -395,7 +484,7 @@ body.hd #content {
     height: 100%;
 }
 
-
+/*#endregion Video Wrapper */
 
 /*#region Horizontal Navigation */
 
@@ -526,7 +615,7 @@ body.hd #content {
 .uab-navbar-nav {
     justify-content: space-between;
     width: 100%;
-    background-color:#eee;
+    background-color: #eee;
 }
 
 .uab-navbar-center:only-child {
@@ -563,7 +652,7 @@ body.hd #content {
     background-color: #1E6B52;
 }
 
- .menu-four-across:last-child * {
+.menu-four-across:last-child * {
     color: #fff !important;
 }
 
@@ -632,14 +721,14 @@ ul.uab-nav-sub {
 /* Search Override  */
 
 .uab-offcanvas-bar .search.mod_search98 .button {
-    max-width:15px;
-    background-color:#1E6B52;
-    padding:5px;
+    max-width: 15px;
+    background-color: #1E6B52;
+    padding: 5px;
 }
 
 .uab-offcanvas-bar .form-inline {
-    display:flex;
-    margin:10px 0
+    display: flex;
+    margin: 10px 0
 }
 
 /*Content Sizes */
@@ -664,12 +753,12 @@ ul.uab-nav-sub {
     .grid_full #main.fullWidth {
         grid-column: 1 / 13;
     }
-    
-    
+
+
     .grid_full #main.largeWidth {
         grid-column: 3 / 11;
     }
-    
+
     .grid_full #main.narrowWidth {
         grid-column: 4 / 10;
     }
