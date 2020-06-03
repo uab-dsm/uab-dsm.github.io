@@ -41,6 +41,20 @@
     text-align: right;
 }
 
+@media all and (max-width: 768px) {
+    .events-heading-left{
+        left: 0%;
+            text-align: center;
+    }
+    .events-heading-right {
+        right: 0%;
+        text-align: center;
+    }
+    .events-title-left, .events-title-right {
+        text-align: center;
+    }
+}
+
 /*#endregion Homepage ***/
 
 /*#region Orientation Leaders Directory ***/
