@@ -382,6 +382,13 @@ body.hd #content {
 
 /*#endregion Page Max Width ***/
 
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+}
+
+
+
 /*#region Horizontal Navigation */
 
 .uab-navbar-nav>li>a,
