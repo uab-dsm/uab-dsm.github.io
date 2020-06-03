@@ -17,20 +17,24 @@
     margin-top: 0;
 }
 
-.events-heading-left {
-    left: -20%;
-}
-
-.events-heading-right {
-    right: -20%;
-    text-align: right;
-}
-
 .events-title-left,
 .events-title-right {
     color: #1e6b52;
     font-weight: bold;
     font-size: 1.25em;
+    text-align: center;
+}
+
+@media all and (min-width:960px) {
+    .events-heading-left {
+        left: -20%;
+        text-align:left;
+    }
+
+    .events-heading-right {
+        right: -20%;
+        text-align: right;
+    }
 }
 
 .events-title-right {
