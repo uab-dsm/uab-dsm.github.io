@@ -46,6 +46,9 @@
         right: 0%;
         text-align: center;
     }
+    .events-title-left, .events-title-right {
+        text-align: center;
+    }
 }
 
 /*#endregion Homepage ***/
