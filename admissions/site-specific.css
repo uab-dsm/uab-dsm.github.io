@@ -21,6 +21,10 @@
     text-align: center;
 }
 
+.events-title-right {
+    text-align:right;
+}
+
 @media all and (min-width:960px) {
     .events-heading-left {
         left: -20%;
