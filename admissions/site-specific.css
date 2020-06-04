@@ -44,6 +44,12 @@
     }
 }
 
+/*aligns right everything in even items in the wk*/
+.events-wk > div:nth-child(even) * {
+    text-align:right;
+    
+}
+
 
 
 /*#endregion Homepage ***/
