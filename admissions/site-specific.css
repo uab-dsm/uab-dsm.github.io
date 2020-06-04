@@ -22,13 +22,13 @@
 }
 
 .events-title-right {
-    text-align:right;
+    text-align: right;
 }
 
 @media all and (min-width:960px) {
     .events-heading-left {
         left: -20%;
-        text-align:left;
+        text-align: left;
     }
 
     .events-heading-right {
@@ -47,47 +47,47 @@
 
 /*List style */
 .c-list-of-links {
-    list-style-type:none;
-    padding:0;
+    list-style-type: none;
+    padding: 0;
 }
 
 /*Item style */
-.c-list-of-links__item { 
-    border-top:1px solid #eee; 
+.c-list-of-links__item {
+    border-top: 1px solid #eee;
 }
 
 .c-list-of-links__item:last-of-type {
-    border-bottom:1px solid #eee;
+    border-bottom: 1px solid #eee;
 }
 
 /*Link style*/
 .c-list-of-links__link {
-    font-size:1.3rem;
-    position:relative;
-    display:block;
-      padding:.5rem;
+    font-size: 1.3rem;
+    position: relative;
+    display: block;
+    padding: .5rem;
     transition: .1s all ease-in;
 }
 
 .c-list-of-links__link:after {
-    position:absolute;
-    right:1rem;
+    position: absolute;
+    right: 1rem;
     content: "\f105";
-    font-weight:600;
+    font-weight: 600;
     font-family: "Font Awesome 5 Free";
     transition: .1s all ease-in;
 }
 
 /*Hover style*/
 
-.c-list-of-links__link:hover { 
-    text-decoration:none;
-    background-color:#eee;
+.c-list-of-links__link:hover {
+    text-decoration: none;
+    background-color: #eee;
 }
 
-.c-list-of-links__link:hover:after { 
-    right:.5em;
-    color:#1E6B52;   
+.c-list-of-links__link:hover:after {
+    right: .5em;
+    color: #1E6B52;
 }
 
 /*#endregion List of Links */
@@ -97,21 +97,21 @@
 /*#region Utility */
 
 .u-color--campus-green {
-   color:#80bc00;
+    color: #80bc00;
 }
 
 .u-color--uab-green {
-    color:#1E6B52;
- }
+    color: #1E6B52;
+}
 
- .u-color--dragon-green {
-    color:#295135;
- }
+.u-color--dragon-green {
+    color: #295135;
+}
 
- .u-list--no-bullets {
- list-style-type: none;
- padding: 0;
- margin: 0; 
+.u-list--no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 /*#endregion Utility */
