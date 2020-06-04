@@ -176,6 +176,12 @@
     transition-property: color, background-color, border-color;
 }
 
+/*Max Widths */
+
+.u-max-width--1280 {
+    max-width:1280px;
+}
+
 
 /*#endregion Utility */
 
