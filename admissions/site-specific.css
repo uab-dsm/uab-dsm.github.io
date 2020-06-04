@@ -153,6 +153,29 @@
     }
 }
 
+/*Button */
+
+.u-button--campus-green {
+    margin: 0;
+    border: 1px solid #80bc00;
+    overflow: visible;
+    font: inherit;
+    color: inherit;
+    text-transform: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 30px;
+    vertical-align: middle;
+    font-size: 1.1rem;
+    line-height: 38px;
+    text-align: center;
+    text-decoration: none;
+    transition: 0.1s ease-in-out;
+    transition-property: color, background-color, border-color;
+}
+
 
 /*#endregion Utility */
 
