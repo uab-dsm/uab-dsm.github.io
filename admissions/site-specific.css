@@ -25,6 +25,13 @@
     text-align: right;
 }
 
+
+.events-title-right,
+.events-title-left {
+    font-weight: 600;
+    color: #1e6b52;
+}
+
 @media all and (min-width:960px) {
     .events-heading-left {
         left: -20%;
