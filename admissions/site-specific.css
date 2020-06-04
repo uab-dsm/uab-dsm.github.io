@@ -90,7 +90,32 @@
     color:#1E6B52;   
 }
 
-/*#endregion List of LInks */
+/*#endregion List of Links */
+
+
+/*#region Focus Box 1 */
+
+/*Container style */
+.c-focus-box-1 {
+    border:1px solid #1E6B52;
+}
+
+/*Heading style */
+.c-focus-box-1__heading {
+    border-bottom:2px solid #80bc00;
+    background-color:#1E6B52;
+    color:#fff;
+    padding:.2rem 1rem;
+    font-size:1.4rem;
+}
+
+/*Copy style */
+.c-focus-box-1__copy {
+    padding:0 1rem;
+}
+
+
+/*#endregion Focus Box 1 */
 
 
 /*#endregion List of Links */
