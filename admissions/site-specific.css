@@ -52,11 +52,11 @@
 }
 
 /*Item style */
-.c-list-of-links_item { 
+.c-list-of-links__item { 
     border-top:1px solid #eee; 
 }
 
-.c-list-of-links_item:last-of-type {
+.c-list-of-links__item:last-of-type {
     border-bottom:1px solid #eee;
 }
 
