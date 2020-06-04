@@ -41,6 +41,60 @@
 
 /*#endregion Homepage ***/
 
+/*#region List of Links */
+
+/*#region List of Links */
+
+/*List style */
+.c-list-of-links {
+    list-style-type:none;
+    padding:0;
+}
+
+/*Item style */
+.c-list-of-links_item { 
+    border-top:1px solid #eee; 
+}
+
+.c-list-of-links_item:last-of-type {
+    border-bottom:1px solid #eee;
+}
+
+/*Link style*/
+.c-list-of-links__link {
+    font-size:1.3rem;
+    position:relative;
+    display:block;
+      padding:.5rem;
+    transition: .1s all ease-in;
+}
+
+.c-list-of-links__link:after {
+    position:absolute;
+    right:1rem;
+    content: "\f105";
+    font-weight:600;
+    font-family: "Font Awesome 5 Free";
+    transition: .1s all ease-in;
+}
+
+/*Hover style*/
+
+.c-list-of-links__link:hover { 
+    text-decoration:none;
+    background-color:#eee;
+}
+
+.c-list-of-links__link:hover:after { 
+    right:.5em;
+    color:#1E6B52;   
+}
+
+/*#endregion List of LInks */
+
+
+/*#endregion List of Links */
+
 /*#region Orientation Leaders Directory ***/
 
 .orientation-leaders-directory .uk-panel {
