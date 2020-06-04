@@ -96,10 +96,17 @@
 
 /*#region Utility */
 
-.u-heading-1 {
-    border-bottom:2px solid #80bc00;
-    margin-bottom:.5rem;
+.u-color--campus-green {
+   color:#80bc00;
 }
+
+.u-color--uab-green {
+    color:#1E6B52;
+ }
+
+ .u-color--dragon-green {
+    color:#295135;
+ }
 
 
 /*#endregion Utility */
