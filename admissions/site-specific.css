@@ -296,7 +296,11 @@
 
 /*#region Icons */
 
-.admissions-icons:hover {
+/* .admissions-icons {
+    position:relative;
+}
+
+.admissions-icons__icon:hover {
     transform: scale(1.05);
 }
 
@@ -307,7 +311,7 @@
 
 .admissions-icons__copy {
     text-align: center;
-}
+} */
 
 /*#endregion Icons */
 
