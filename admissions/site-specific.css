@@ -134,6 +134,26 @@
     margin: 0;
 }
 
+
+/*Banner Heading Large */
+
+.u-banner-heading--large {
+    font-size: 2rem;
+}
+
+@media all and (min-width:600px) {
+    .u-banner-heading--large {
+        font-size: 3rem;
+    }
+}
+
+@media all and (min-width:960px) {
+    .u-banner-heading--large {
+        font-size: 4rem;
+    }
+}
+
+
 /*#endregion Utility */
 
 
