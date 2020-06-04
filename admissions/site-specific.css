@@ -93,6 +93,26 @@
 /*#endregion List of Links */
 
 
+/*#region Link with Icon */
+
+.c-link-with-icon {
+    transition: 1s all ease-in;
+}
+
+.c-link-with-icon:hover {
+    text-decoration: none;
+}
+
+.c-link-with-icon__icon {
+    transition: .3s all ease;
+}
+
+.c-link-with-icon:hover .c-link-with-icon__icon {
+    color: #80bc00;
+}
+
+/*#endregion Link with Icon */
+
 
 /*#region Utility */
 
