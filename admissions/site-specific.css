@@ -224,6 +224,7 @@
 
 .uab-grid-banner__green .uk-panel-box {
     border: 1px solid #1e6b52;
+    padding: 0;
 }
 
 .uab-grid-banner__green .uk-panel-title {
@@ -232,7 +233,14 @@
     font-size: 1.3em;
     font-family: kulturista;
     padding: 10px 20px;
-    margin: -20px -20px 20px;
+}
+
+.uab-grid-banner__green img {
+    margin-top: -20px;
+}
+
+.uab-grid-banner__green p {
+    padding: 0 20px;
 }
 
 /*#endregion Green Banner Grid ***/
