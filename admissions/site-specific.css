@@ -681,6 +681,7 @@ ul.v2-middle-menu {
     margin: 0 auto;
     box-sizing: border-box;
     padding-left:0;
+    list-style-type: none;
 }
 
 .v2-middle-menu>li {
