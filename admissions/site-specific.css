@@ -206,18 +206,35 @@
 
 /*#region Green Border Grid ***/
 
-.uab-grid__green .uk-panel-title {
+.uab-grid-border__green .uk-panel-title {
     font-family: kulturista;
     text-align: center;
     font-size: 1.2em;
     text-transform: uppercase;
     color: #295135;
     }
-    .uab-grid__green .uk-panel-box {
+    .uab-grid-border__green .uk-panel-box {
     border: 1px solid #295135;
     }
 
 /*#endregion Green Border Grid ***/
+
+/*#region Green Banner Grid ***/
+
+.uab-grid-banner__green .uk-panel-box {
+    border: 1px solid #1e6b52;
+    }
+
+.uab-grid-banner__green .uk-panel-title {
+    background-color: #1e6b52;
+    color: #fff;
+    font-size: 1.3em;
+    font-family: kulturista;
+    padding: 10px 20px;
+    margin: -20px -20px 20px;
+    }
+
+/*#endregion Green Banner Grid ***/
 
 /*#region Orientation Leaders Directory ***/
 
