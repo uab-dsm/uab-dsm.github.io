@@ -614,7 +614,7 @@
     font-family: "Font Awesome 5 Free";
     content: "\f00c";
     font-size: 1.3rem;
-  
+
 }
 
 .icon-checkmark {
@@ -1044,14 +1044,15 @@ ul.uab-nav-sub {
 
 #action_box a {
     font-size: .9rem;
-    line-height:1.1rem;
+    line-height: 1.1rem;
 }
 
 /*Sidebar menu */
-
-.uab-nav  .uab-active > a {
-    border-bottom:2px solid #80bc00;
-    display:inline-block;
+@media all and (min-width:900px) {
+    .uab-nav .uab-active>a {
+        border-bottom: 2px solid #80bc00;
+        display: inline-block;
+    }
 }
 
 /*#endregion Temporary CSS */
