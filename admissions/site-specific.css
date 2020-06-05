@@ -1047,4 +1047,11 @@ ul.uab-nav-sub {
     line-height:1.1rem;
 }
 
+/*Sidebar menu */
+
+.uab-nav  .uab-active {
+    border-bottom:2px solid #80bc00;
+    display:inline-block;
+}
+
 /*#endregion Temporary CSS */
