@@ -680,6 +680,7 @@ ul.v2-middle-menu {
     max-width: 1280px;
     margin: 0 auto;
     box-sizing: border-box;
+    padding-left:0;
 }
 
 .v2-middle-menu>li {
