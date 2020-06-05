@@ -261,6 +261,26 @@ color: #80bc00;
 
 /*#endregion Green Banner Grid ***/
 
+/*#region Gray Banner Focus Box ***/
+
+.banner-box-container {
+    border: 1px solid #1e6b52;
+    margin: 20px 0;
+}
+
+.banner-box-heading {
+    background-color: #eee;
+    padding: 10px 20px;
+    font-size: 1.3em;
+    font-family: kulturista;
+}
+
+.banner-box-content {
+    padding: 0 20px;
+}
+
+/*#endregion Gray Banner Focus Box ***/
+
 /*#region Orientation Leaders Directory ***/
 
 .orientation-leaders-directory .uk-panel {
