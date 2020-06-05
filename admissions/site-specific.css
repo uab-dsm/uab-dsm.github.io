@@ -993,7 +993,7 @@ ul.v2-middle-menu {
 /*adjustments to the site box and site name */
 #sitename_box {
     background-color: #1E6B52;
-    padding: 1em;
+    padding: 1em 0;
     display: flex;
     align-items: center;
 }
