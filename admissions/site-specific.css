@@ -45,9 +45,9 @@
 }
 
 /*aligns right everything in even items in the wk*/
-.events-wk > div:nth-child(even) * {
-    text-align:right;
-    
+.events-wk>div:nth-child(even) * {
+    text-align: right;
+
 }
 
 
@@ -107,6 +107,8 @@
 
 
 /*#region Link with Icon */
+
+
 
 .c-link-with-icon {
     transition: 1s all ease-in;
@@ -192,8 +194,8 @@
 /*Max Widths */
 
 .u-max-width--1280 {
-    max-width:1280px;
-    margin:0 auto;
+    max-width: 1280px;
+    margin: 0 auto;
 }
 
 
@@ -296,22 +298,76 @@
 
 /*#region Icons */
 
-/* .admissions-icons {
-    position:relative;
+/*BEGIN HTML Exmaple
+
+	<div uab-grid class="c-icon-card uab-grid uab-child-width-1-3@s uab-flex-center">
+		<!--BEGIN Item -->
+		<div class="c-icon-card__item">
+			<div><img class="c-icon-card__icon" src="INSERT IMAGE" alt="INSERT ALT TEST" />
+					<h3 class="c-icon-card__heading">INSERT HEADING</h3>
+				<p class="c-icon-card__copy">INSERT COPY</p>
+				<a href="/students/admissions/visit/find-your-visit/preview-days" class="c-icon-card__link" aria-label="INSERT ARIA LABEL FOR LINK"> > </a>
+			</div>
+		</div>
+        <!--END Item -->
+        <!--BEGIN Item -->
+            Add additional item
+         <!--END Item -->
+    </div>
+*END HTML/
+
+
+/*Container*/
+.c-icon-card {
+    max-width: 980px;
+    margin: 0 auto;
 }
 
-.admissions-icons__icon:hover {
+/*Item*/
+.c-icon-card__item {
+    position: relative;
+    transition: 1s all ease;
+    text-align: center;
+}
+
+/*Icon*/
+.c-icon-card__icon {
+    max-width: 175px;
+    transition: transform .2s ease-in;
+}
+
+/*Heading*/
+.c-icon-card__heading {
+    border-bottom: 2px solid #80bc00;
+    display: inline-block;
+    margin-bottom: .5rem;
+    transition: border .2s ease-in;
+}
+
+/*Copy*/
+.c-icon-card__copy {
+    margin-top: 0;
+}
+
+/*Link*/
+.c-icon-card__link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+/*Hover styles*/
+/*Increases size of icon on item hover */
+.c-icon-card__item:hover .c-icon-card__icon {
     transform: scale(1.05);
 }
 
-.admissions-icons__heading {
-    border-bottom: 2px solid #80bc00;
-    padding-bottom: 10px;
+/*Changes border below heading on item hover */
+.c-icon-card__item:hover .c-icon-card__heading {
+    border-bottom: 2px solid #1E6B52;
 }
-
-.admissions-icons__copy {
-    text-align: center;
-} */
 
 /*#endregion Icons */
 
