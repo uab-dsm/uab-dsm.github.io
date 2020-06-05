@@ -204,6 +204,21 @@
 
 /*#endregion List of Links */
 
+/*#region Green Border Grid ***/
+
+.uab-grid__green .uk-panel-title {
+    font-family: kulturista;
+    text-align: center;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #295135;
+    }
+    .uab-grid__green .uk-panel-box {
+    border: 1px solid #295135;
+    }
+
+/*#endregion Green Border Grid ***/
+
 /*#region Orientation Leaders Directory ***/
 
 .orientation-leaders-directory .uk-panel {
