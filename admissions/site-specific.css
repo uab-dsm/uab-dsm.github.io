@@ -303,7 +303,7 @@
 	<div uab-grid class="c-icon-card uab-grid uab-child-width-1-3@s uab-flex-center">
 		<!--BEGIN Item -->
 		<div class="c-icon-card__item">
-			<div><img class="c-icon-card__icon" src="INSERT IMAGE" alt="INSERT ALT TEST" />
+			<div><img class="c-icon-card__icon" src="INSERT IMAGE" alt="INSERT ALT TEXT" />
 					<h3 class="c-icon-card__heading">INSERT HEADING</h3>
 				<p class="c-icon-card__copy">INSERT COPY</p>
 				<a href="/students/admissions/visit/find-your-visit/preview-days" class="c-icon-card__link" aria-label="INSERT ARIA LABEL FOR LINK"> > </a>
@@ -334,6 +334,8 @@
 .c-icon-card__icon {
     max-width: 175px;
     transition: transform .2s ease-in;
+    display: block;
+    margin: 0 auto;
 }
 
 /*Heading*/
