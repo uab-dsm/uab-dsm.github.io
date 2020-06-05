@@ -1051,7 +1051,7 @@ ul.uab-nav-sub {
 @media all and (min-width:900px) {
     .uab-nav .uab-active>a {
         border-bottom: 2px solid #80bc00;
-        display: inline-block;
+        display: inline;
     }
 }
 
