@@ -613,8 +613,8 @@
 .checklist-checkmark:after {
     font-family: "Font Awesome 5 Free";
     content: "\f00c";
-    font-size: 1.6rem;
-    margin-left: -3px;
+    font-size: 1.3rem;
+  
 }
 
 .icon-checkmark {
