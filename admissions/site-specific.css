@@ -198,6 +198,22 @@
     margin: 0 auto;
 }
 
+/*Icons */
+
+.u-icon--arrow-down:after {
+    content: "\f0d7";
+    font-family: "Font Awesome 5 Free";
+    font-weight:600;
+    color: #1E6B52;
+    margin-left:5px;
+   
+}
+
+/*Changes icon color to campus green when used in ui kit navbar */
+.uab-open.u-icon--arrow-down:after {
+color: ##80bc00;
+}
+
 
 /*#endregion Utility */
 
