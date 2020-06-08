@@ -563,7 +563,15 @@ color: #80bc00;
 
 /*#endregion Widgekit Accordion */
 
-/*#region Switcher Panels ***/
+/*#region Widgetkit Switcher ***/
+.uk-tab > li.uk-active > a {
+    background-color: #1e6b52;
+    color: #fff;
+}
+
+/*#endregion Widgetkit Switcher ***/
+
+/*#region Widgetkit Switcher Panel ***/
 
 .uk-subnav .uk-active a {
     background-color: #1E6B52;
@@ -581,7 +589,7 @@ color: #80bc00;
     font-size: 1.4em;
 }
 
-/*#endregion Switcher Panels ***/
+/*#endregion Widgetkit Switcher Panel ***/
 
 /*#region Apple Green Divider Flex Container ***/
 
