@@ -583,6 +583,10 @@ color: #80bc00;
     border-bottom: none;
 }
 
+.uk-tab .uk-nav-dropdown > li.uk-active > a {
+    color: #1e6b52;
+}
+
 /*#endregion Widgetkit Switcher ***/
 
 /*#region Widgetkit Switcher Panel ***/
