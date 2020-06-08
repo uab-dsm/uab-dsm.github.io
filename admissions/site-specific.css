@@ -564,9 +564,23 @@ color: #80bc00;
 /*#endregion Widgekit Accordion */
 
 /*#region Widgetkit Switcher ***/
+
 .uk-tab > li.uk-active > a {
     background-color: #1e6b52;
     color: #fff;
+}
+
+.uk-switcher .uk-panel {
+    border: 1px solid #e5e5e5;
+    padding: 20px;
+}
+
+.uk-switcher {
+    margin-top: 0!important;
+}
+
+.uk-tab {
+    border-bottom: none;
 }
 
 /*#endregion Widgetkit Switcher ***/
