@@ -1120,7 +1120,7 @@ ul.uab-nav-sub {
 
 /*Sidebar menu */
 @media all and (min-width:900px) {
-    .uab-nav li .uab-active>a {
+    .uab-nav .uab-nav--current > a {
         border-bottom: 2px solid #80bc00;
         display: inline;
     }
