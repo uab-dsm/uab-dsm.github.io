@@ -1118,6 +1118,12 @@ ul.uab-nav-sub {
     padding:0 10px;
 }
 
+/*temporarily add bottom padding to main content area */
+.l-main-grid__component {
+    padding-bottom:2em;
+}
+
+
 /*Sidebar menu */
 @media all and (min-width:960px) {
     .uab-nav .uab-nav--current > a {
