@@ -1036,6 +1036,17 @@ ul.uab-nav-sub {
     margin: 20px 0;
 }
 
+/*adds margin when there is no breadcrumb */
+#component {
+    margin-top:20px;
+}
+
+/*removes margin when there is no breadcrumb */
+#breadcrumbs ~ #component {
+    margin-top:0
+}
+
+
 /* .uab-breadcrumb li {
     display: flex;
     align-items: center;
