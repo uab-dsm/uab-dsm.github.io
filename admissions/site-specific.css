@@ -908,7 +908,8 @@ ul.v2-middle-menu {
     padding: 5px 0;
 }
 
-.uab-nav>li>a {
+.l-main-grid__left-1 .uab-nav>li>a {
+    font-weight: 500;
     padding: 0;
 }
 
