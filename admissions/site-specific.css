@@ -1134,6 +1134,12 @@ ul.uab-nav-sub {
         padding: 20px;
         box-sizing: border-box;
     }
+
+    /*removes top margin on menu */
+
+    .uab-nav > li {
+        margin-top:0;
+    }
 }
 
 /*#endregion Temporary CSS */
