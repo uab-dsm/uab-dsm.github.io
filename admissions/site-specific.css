@@ -198,6 +198,11 @@
     margin: 0 auto;
 }
 
+.u-max-width--1140 {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 /*Icons */
 
 .u-icon--arrow-down:after {
