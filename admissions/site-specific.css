@@ -912,6 +912,10 @@ ul.v2-middle-menu {
     margin-top: 3rem;
 }
 
+.c-stream__item:first-of-type {
+    margin-top:2rem;
+}
+
 /*heading styles */
 
 .c-stream__item-heading {
