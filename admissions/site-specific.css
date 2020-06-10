@@ -832,6 +832,67 @@ ul.v2-middle-menu {
 
 /*#endregion Video Wrapper */
 
+
+
+/*#region Left Sidebar */
+
+
+/*Desktop Styling BEGIN */
+
+@media all and (min-width:960px) {
+    .c-left-nav {
+        border-right: 1px solid #eee;
+        margin: 1em;
+    }
+
+    .c-left-nav li>a {
+        font-size: .9rem;
+        padding-right: .5rem;
+    }
+
+    .c-left-nav>li>a {
+        border-bottom: 1px solid #1E6B52;
+        padding: .5rem .5rem .5rem 0 !important;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    .c-left-nav--is-active a {
+        position: relative;
+    }
+
+    .c-left-nav--is-active a:after {
+        position: absolute;
+        right: 0;
+        top: 0;
+        content: "\f0d9";
+        font-family: "Font Awesome 5 Free";
+        font-weight: bold;
+        font-size: 1.3rem;
+        color: #80bc00;
+    }
+
+
+    .c-left-nav a:hover {
+        position: relative;
+    }
+
+    .c-left-nav a:hover:after {
+        position: absolute;
+        right: 0;
+        top: 0;
+        content: "\f0d9";
+        font-family: "Font Awesome 5 Free";
+        font-weight: bold;
+        font-size: 1.3rem;
+    }
+}
+
+/*Desktop Styling END */
+
+/*#endregion Left Sidebar */
+
+
 /*#region Horizontal Navigation */
 
 .uab-navbar-nav>li>a,
@@ -1040,12 +1101,12 @@ ul.uab-nav-sub {
 
 /*adds margin when there is no breadcrumb */
 #component {
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 /*removes margin when there is no breadcrumb */
-#breadcrumbs ~ #component {
-    margin-top:0
+#breadcrumbs~#component {
+    margin-top: 0
 }
 
 
@@ -1123,19 +1184,16 @@ ul.uab-nav-sub {
     height: 100%;
     display: flex;
     align-items: center;
-    padding:0 10px;
+    padding: 0 10px;
 }
 
 /*temporarily add bottom padding to main content area */
 .l-main-grid__component {
-    padding-bottom:2em;
+    padding-bottom: 2em;
 }
 
 
 /*Sidebar menu */
-@media all and (min-width:960px) {
-    
-   
-}
+@media all and (min-width:960px) {}
 
 /*#endregion Temporary CSS */
