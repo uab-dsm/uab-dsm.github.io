@@ -1137,20 +1137,8 @@ ul.uab-nav-sub {
 
 /*Sidebar menu */
 @media all and (min-width:960px) {
-    .uab-nav .uab-nav--current > a {
-        border-bottom: 2px solid #80bc00;
-        display: inline;
-    }
-    .l-main-grid__left-1 .uab-nav {
-        padding: 20px;
-        box-sizing: border-box;
-    }
-
-    /*removes top margin on menu */
-
-    .l-main-grid__left-1 .uab-nav > li {
-        margin-top:0;
-    }
+    
+   
 }
 
 /*#endregion Temporary CSS */
