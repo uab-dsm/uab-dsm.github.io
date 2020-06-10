@@ -857,11 +857,11 @@ ul.v2-middle-menu {
         font-weight: 500;
     }
 
-    .c-left-nav--is-active > a {
+    .c-left-nav--is-active.c-left-nav--is-current > a {
         position: relative;
     }
 
-    .c-left-nav--is-active > a:after {
+    .c-left-nav--is-active.c-left-nav--is-current > a:after {
         position: absolute;
         right: 0;
         top: 50%;
@@ -881,7 +881,8 @@ ul.v2-middle-menu {
     .c-left-nav a:hover:after {
         position: absolute;
         right: 0;
-        top: 0;
+        top: 50%;
+        transform: translateY(-50%);
         content: "\f0d9";
         font-family: "Font Awesome 5 Free";
         font-weight: bold;
