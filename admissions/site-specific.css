@@ -208,15 +208,15 @@
 .u-icon--arrow-down:after {
     content: "\f0d7";
     font-family: "Font Awesome 5 Free";
-    font-weight:600;
+    font-weight: 600;
     color: #1E6B52;
-    margin-left:5px;
-   
+    margin-left: 5px;
+
 }
 
 /*Changes icon color to campus green when used in ui kit navbar */
 .uab-open.u-icon--arrow-down:after {
-color: #80bc00;
+    color: #80bc00;
 }
 
 
@@ -570,7 +570,7 @@ color: #80bc00;
 
 /*#region Widgetkit Switcher ***/
 
-.uk-tab > li.uk-active > a {
+.uk-tab>li.uk-active>a {
     background-color: #1e6b52;
     color: #fff;
 }
@@ -581,14 +581,14 @@ color: #80bc00;
 }
 
 .uk-switcher {
-    margin-top: 0!important;
+    margin-top: 0 !important;
 }
 
 .uk-tab {
     border-bottom: none;
 }
 
-.uk-tab .uk-nav-dropdown > li.uk-active > a {
+.uk-tab .uk-nav-dropdown>li.uk-active>a {
     color: #1e6b52;
 }
 
@@ -731,7 +731,7 @@ ul.v2-middle-menu {
     max-width: 1280px;
     margin: 0 auto;
     box-sizing: border-box;
-    padding-left:0;
+    padding-left: 0;
     list-style-type: none;
 }
 
