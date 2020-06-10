@@ -168,6 +168,11 @@
     }
 }
 
+
+.u-text-transform--inherit {
+    text-transform: inherit;
+}
+
 /*Button */
 
 .u-button--campus-green {
@@ -218,6 +223,37 @@
 .uab-open.u-icon--arrow-down:after {
     color: #80bc00;
 }
+
+/*Heading Line */
+
+/*Green*/
+
+.u-heading-line--green {
+    overflow: hidden;
+  }
+  
+  .u-heading-line--green > * {
+    display: inline-block;
+    position: relative;
+  }
+  
+  .u-heading-line--green > ::before,
+  .u-heading-line--green > ::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - ((0.2px + 0.05em) / 2));
+    width: 2000px;
+    border-bottom: calc(0.2px + 0.05em) solid #1E6B52;
+  }
+  
+  .u-heading-line--green > ::before {
+    right: 100%;
+    margin-right: calc(5px + 0.3em);
+  }
+  .u-heading-line--green > ::after {
+    left: 100%;
+    margin-left: calc(5px + 0.3em);
+  }
 
 
 /*#endregion Utility */
@@ -901,22 +937,7 @@ ul.v2-middle-menu {
 /*#region Stream */
 
 
-/*heading  */
-.c-stream__main-heading {
-    padding-left: 40px;
 
-}
-
-.c-stream__main-heading> ::before,
-.c-stream__main-heading> ::after {
-    content: "";
-    position: absolute;
-    top: calc(50% - ((0.2px + 0.05em) / 2));
-    width: 2000px;
-    border-bottom: calc(0.2px + 0.05em) solid #1E6B52;
-}
-
-/*heading  */
 
 .c-stream__item {
     display: flex;
