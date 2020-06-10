@@ -1007,6 +1007,25 @@ ul.v2-middle-menu {
     text-align: right;
 }
 
+/*list*/
+
+.c-stream__item:nth-child(even) ul {
+    text-align:right ;
+    list-style-type:none;
+}
+
+.c-stream__item:nth-child(even) li {
+    position:relative;
+    margin-top:10px;
+}
+
+.c-stream__item:nth-child(even) ul li:after {
+    content:'•';
+        position:absolute;
+    right:-10px;
+    top:0;   
+}
+
 
 /*read more */
 .c-stream__read-more {
