@@ -936,8 +936,13 @@ ul.v2-middle-menu {
 
 /*#region Stream */
 
+/*main heading  */
+.c-stream__main-heading {
+    padding-left:40px;
+}
 
 
+/*item  */
 
 .c-stream__item {
     display: flex;
