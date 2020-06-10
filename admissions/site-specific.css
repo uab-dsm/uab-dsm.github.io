@@ -1016,7 +1016,7 @@ ul.v2-middle-menu {
 
 .c-stream__item:nth-child(even) li {
     position:relative;
-    margin-top:10px;
+   
 }
 
 .c-stream__item:nth-child(even) ul li:after {
