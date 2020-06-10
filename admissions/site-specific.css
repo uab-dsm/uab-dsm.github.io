@@ -850,11 +850,13 @@ ul.v2-middle-menu {
         padding-right: .5rem;
     }
 
-    .c-left-nav>li>a {
+    .c-left-nav>li>a,
+    .c-left-nav>li>span {
         border-bottom: 1px solid #1E6B52;
-        padding: .5rem .5rem .5rem 0 !important;
+        padding: .5rem .5rem .5rem 0;
         font-size: 1rem;
         font-weight: 500;
+        display:block;
     }
 
     .c-left-nav--is-active.c-left-nav--is-current > a {
