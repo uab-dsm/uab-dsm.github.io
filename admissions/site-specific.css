@@ -952,11 +952,11 @@ ul.v2-middle-menu {
 
 .c-stream__item {
     display: flex;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 .c-stream__item:first-of-type {
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 /*heading  */
