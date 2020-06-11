@@ -5,6 +5,31 @@
 
 /*#endregion Tachyons */
 
+
+/*#region General */
+
+/*Open in New Window BEGIN */
+
+a[target=_blank]:after {
+    font-family: "Font Awesome 5 Free";
+     content: "\f35d";
+     font-weight:600;
+     font-size:.7em;
+     margin-left:4px; 
+     opacity:0;
+     transition:opacity .4s ease;
+ }
+ 
+ a[target=_blank]:hover:after {
+ opacity:1;
+ }
+
+/*Open in New Window END*/
+
+
+/*#endregion General */
+
+
 /*#region Homepage ***/
 
 .events-heading-left,
