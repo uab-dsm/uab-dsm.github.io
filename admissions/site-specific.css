@@ -196,6 +196,12 @@
     transition-property: color, background-color, border-color;
 }
 
+/*Background colors */
+
+.u-background--light-gray {
+    background-color:#eee;
+}
+
 /*Max Widths */
 
 .u-max-width--1280 {
