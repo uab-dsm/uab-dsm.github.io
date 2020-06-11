@@ -950,7 +950,7 @@ ul.v2-middle-menu {
         position: relative;
     }
 
-    .c-left-nav--is-active.c-left-nav--is-current>a:after {
+    .c-left-nav--is-active.c-left-nav--is-current>a:before {
         position: absolute;
         right: 0;
         top: 50%;
@@ -967,7 +967,7 @@ ul.v2-middle-menu {
         position: relative;
     }
 
-    .c-left-nav a:hover:after {
+    .c-left-nav a:hover:before {
         position: absolute;
         right: 0;
         top: 50%;
