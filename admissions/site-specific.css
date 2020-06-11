@@ -214,6 +214,26 @@
     margin: 0 auto;
 }
 
+
+/*List */
+
+
+.u-list--checkmarks {
+    list-style-type:none;
+    
+}
+
+.u-list--checkmarks li:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f14a"; 
+    content: "\f00c";
+    font-weight:600;
+    color:#80bc00;
+    margin-right:8px;
+}
+
+
+
 /*Icons */
 
 .u-icon--arrow-down:after {
