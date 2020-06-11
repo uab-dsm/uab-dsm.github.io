@@ -1040,6 +1040,87 @@ ul.v2-middle-menu {
 /*#endregion Stream */
 
 
+
+
+/*#region Offset Vertical Card */
+
+
+.c-offset-vert-card__wrapper {
+    display:flex;
+    flex-wrap:wrap;
+  
+}
+.c-offset-vert-card {
+    display:flex;
+    flex-direction:column;
+    flex-basis:calc(50% - 2rem);
+    margin:1rem;
+      position:relative;
+    outline:1px solid #d3d3d3;   
+    margin-top:3rem;
+
+    
+}
+
+.c-offset-vert-card__img-wrapper {
+ position:relative;
+    overflow:hidden;
+    order:1;
+}
+
+.c-offset-vert-card__img-wrapper:before {
+    content: '';
+    position: absolute;
+    left: 50%;            
+    bottom: -20px;
+    width: 20px;
+    height: 20px;
+    transform: translatey(-50%) rotate(45deg);
+    background: #eee;
+      background-color:#fff;
+  
+  }
+
+.c-offset-vert-card__heading {
+    line-height:1em;
+    font-size:1.3rem;
+    position:relative;
+    top:-4rem;
+    z-index: 2;
+    background-color:#1E6B52;
+    color:#fff;
+    padding:1rem 1.5rem;
+    margin:1rem;
+
+    order:2;
+    position:absolute;
+}
+
+.c-offset-vert-card__img {
+    
+}
+
+
+
+
+.c-offset-vert-card__copy {
+ order:3;
+    margin:1rem;
+
+    padding:1rem;
+    box-sizing:border-box;
+    background-color:#fff;
+}
+
+
+
+
+
+
+
+/*#endregion Offset Vertical Card */
+
+
 /*#region Horizontal Navigation */
 
 .uab-navbar-nav>li>a,
