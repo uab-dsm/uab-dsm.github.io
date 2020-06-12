@@ -273,6 +273,25 @@ a[target=_blank]:after {
     margin-right:8px;
 }
 
+/*Dividers */
+
+/*use as a class on a hr */
+.u-divider--dragon-green {
+    margin-top: 30px;
+    margin-bottom: 30px;
+        border-top:0;
+        text-align:center;
+    }
+
+.u-divider--dragon-green::after {
+    content: "";
+    display: inline-block;
+    width: 200px;
+    max-width: 100%;
+    border-top: 1px solid #295135;
+    vertical-align: top;
+}
+
 
 
 /*Icons */
