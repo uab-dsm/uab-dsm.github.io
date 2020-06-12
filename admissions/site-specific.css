@@ -976,17 +976,17 @@ ul.v2-middle-menu {
 
 /*#region Bham Highlights */
 
-.bham-highlight {
+.c-bham-highlight {
     padding: 1rem;
 }
 
-.bham-highlight__heading {
+.c-bham-highlight__heading {
     font-size: 1.6rem;
     position: relative;
 }
 
 
-.bham-highlight__heading:after {
+.c-bham-highlight__heading:after {
     width: 40px;
     height: 2px;
     background-color: #80bc00;
@@ -997,7 +997,7 @@ ul.v2-middle-menu {
     transform: translatex(-50%);
 }
 
-.bham-highlight__ul {
+.c-bham-highlight__ul {
     list-style-type: none;
     display: flex;
     flex-wrap: wrap;
@@ -1005,7 +1005,7 @@ ul.v2-middle-menu {
     justify-content: center;
 }
 
-.bham-highlight__item {
+.c-bham-highlight__item {
     flex-basis: calc(33% - 20px);
     margin: 10px;
     padding: 10px;
@@ -1016,17 +1016,17 @@ ul.v2-middle-menu {
     background-color: #fff;
 }
 
-.bham-highlight__award {
+.c-bham-highlight__award {
     display: inline-block;
 }
 
-.bham-highlight__source {
+.c-bham-highlight__source {
     display: block;
     font-size: .9rem;
     margin-top: auto;
 }
 
-.bham-highlight__award-emphasis {
+.c-c-bham-highlight__award-emphasis {
     display: block;
     font-size: 1.2rem;
     line-height: 1;
