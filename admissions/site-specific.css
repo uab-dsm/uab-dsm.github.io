@@ -184,6 +184,12 @@ a[target=_blank]:after {
     font-weight: 600;
 }
 
+/*Line Height */
+
+.u-line-height--small {
+    line-height: 1.2;
+}
+
 
 /*Banner Heading Large */
 
