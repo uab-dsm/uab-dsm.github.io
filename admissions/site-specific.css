@@ -327,10 +327,19 @@ a[target=_blank]:hover:after {
     color: #80bc00;
 }
 
+/*Changes icon color to white on hover when used in ui kit navbar */
+.u-icon--arrow-down:hover:after {
+    color:#fff;
+}
+
 /*Changes icon color to campus green when used in ui kit navbar */
 .uab-open.u-icon--arrow-down:after {
     color: #80bc00;
 }
+
+
+
+
 
 /*Heading Line */
 
