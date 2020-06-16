@@ -305,6 +305,10 @@ a[target=_blank]:hover:after {
 
 }
 
+.honors-icon::before {
+    color: #80bc00;
+}
+
 /*Changes icon color to campus green when used in ui kit navbar */
 .uab-open.u-icon--arrow-down:after {
     color: #80bc00;
