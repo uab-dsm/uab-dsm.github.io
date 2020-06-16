@@ -365,6 +365,12 @@ a[target=_blank]:hover:after {
     margin-left: calc(5px + 0.3em);
 }
 
+/*Border */
+
+.u-no-border--bottom {
+    border-bottom:none !important;
+}
+
 
 /*#endregion Utility */
 
