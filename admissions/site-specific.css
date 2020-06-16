@@ -320,6 +320,7 @@ a[target=_blank]:hover:after {
 
 .u-heading-line--green {
     overflow: hidden;
+    padding-left:40px;
 }
 
 .u-heading-line--green>* {
@@ -1047,7 +1048,7 @@ ul.v2-middle-menu {
 
 /*main heading  */
 .c-stream__main-heading {
-    padding-left: 40px;
+   
 }
 
 
