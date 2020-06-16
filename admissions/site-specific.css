@@ -310,8 +310,6 @@ a[target=_blank]:hover:after {
     vertical-align: top;
 }
 
-
-
 /*Icons */
 
 .u-icon--arrow-down:after {
@@ -1271,10 +1269,6 @@ ul.v2-middle-menu {
     font-size: 1.05rem;
 }
 
-.uab-navbar-dropdown {
-    box-shadow: 0 1px 3px 0px #d3d3d3 !important;
-}
-
 .menu-two-across {
     flex-basis: calc(100% / 2 - 40px);
     margin: 10px 20px;
@@ -1314,10 +1308,6 @@ ul.v2-middle-menu {
     margin-bottom: 0;
 }
 
-.uab-navbar-dropdown {
-    background-color: #fafafa;
-    box-shadow: none;
-}
 
 [class*=uab-navbar-dropdown-bottom] {
     margin-top: 0;
