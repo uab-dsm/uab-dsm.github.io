@@ -1180,8 +1180,16 @@ ul.v2-middle-menu {
 
 /*#endregion Stream */
 
+/*#region Marketing Page Subhead */
 
+.admissions-marketing-subhead {
+    font-size: 1.3rem; 
+       font-weight: 600; 
+       text-transform: uppercase; 
+       color: #1E6B52;
+   }
 
+/*#endregion Marketing Page Subhead */
 
 /*#region Offset Vertical Card */
 
