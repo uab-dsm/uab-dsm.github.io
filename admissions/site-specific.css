@@ -500,7 +500,6 @@ a[target=_blank]:hover:after {
 .profile-heading-trailblazers__wrapper {
     border-top: 3px solid #80bc00;
     padding: 10px 20px 5px;
-    order: 2;
     position: relative;
     background-color: #eee;
     margin-bottom: 10px;
