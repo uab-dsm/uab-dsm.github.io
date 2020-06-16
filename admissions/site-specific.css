@@ -156,6 +156,8 @@ a[target=_blank]:hover:after {
 
 /*#region Utility */
 
+/*Color */
+
 .u-color--campus-green {
     color: #80bc00;
 }
@@ -168,11 +170,7 @@ a[target=_blank]:hover:after {
     color: #295135;
 }
 
-.u-list--no-bullets {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-}
+
 
 /*Font Weights */
 
@@ -255,9 +253,29 @@ a[target=_blank]:hover:after {
     margin: 0 auto;
 }
 
+/*Heading Decoration */
+
+.u-heading-deco--apple-green {
+    position:relative;
+}
+.u-heading-deco--apple-green:after {
+        width: 40px;
+		height: 2px;
+		background-color: #80bc00;
+		content: '';
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translatex(-50%);
+}
 
 /*List */
 
+.u-list--no-bullets {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
 
 .u-list--checkmarks {
     list-style-type: none;
