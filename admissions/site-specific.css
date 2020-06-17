@@ -512,7 +512,7 @@ a[target=_blank]:hover:after {
     margin: 0
 }
 
-.blog .uab-card-title {
+.blog.trailblazers-blog .uab-card-title {
     display: none;
 }
 
@@ -521,6 +521,37 @@ a[target=_blank]:hover:after {
 .trailblazers-blog .profile-intro-text {
     padding: 10px 20px;
 }
+
+
+/*Changes card to a flex item so that the footer can be pushed to the bottom of the card using margin-top auto */
+.blog.trailblazers-blog .uab-card {
+    display:flex;
+    flex-direction:column;
+}
+
+/*removes ui kit default padding and border and pushes item to bottom of card*/
+.blog.trailblazers-blog .uab-card-footer {
+    margin-top:auto;
+    /*look at removing default padding in footer from uikit */
+   padding:0;
+   /*look at removing default border in footer from uikit */
+   border-top:0 !important;
+}
+
+/*adds curved edge to button, changes size of button, and extends the button the full-width of the card */
+.blog.trailblazers-blog .uab-button-primary {
+    font-size:.9rem;
+    width:100%;
+    border-radius:0px 0px 10px 10px;
+}
+
+
+/*adds curved edge to image */
+
+.blog.trailblazers-blog img {
+    border-radius:10px 10px 0 0;
+}
+
 
 /*#endregion Trailblazers Directory ***/
 
