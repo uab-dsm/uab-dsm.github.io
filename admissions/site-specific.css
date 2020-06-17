@@ -527,6 +527,7 @@ a[target=_blank]:hover:after {
 .blog.trailblazers-blog .uab-card {
     display:flex;
     flex-direction:column;
+    border-radius:10px 10px 10px 10px;
 }
 
 /*removes ui kit default padding and border and pushes item to bottom of card*/
