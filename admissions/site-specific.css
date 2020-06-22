@@ -1482,7 +1482,12 @@ ul.v2-middle-menu {
 
 body.corona .siteNameTop {
     color: #fff;
-    text-decoration:none;
+   
+}
+
+/*Removes text decoration from site name */
+#sitename_box a {
+    text-decoration: none;
 }
 
 /*removes padding on subnav */
