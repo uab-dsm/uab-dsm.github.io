@@ -986,8 +986,11 @@ ul.v2-middle-menu {
         margin: 1em 2em 1em 0;
     }
 
+    .c-left-nav li {
+        margin-top:10px;
+    }
+
     .c-left-nav li>a {
-        font-size: .9rem;
         padding-right: 1rem;
     }
 
