@@ -1482,6 +1482,7 @@ ul.v2-middle-menu {
 
 body.corona .siteNameTop {
     color: #fff;
+    text-decoration:none;
 }
 
 /*removes padding on subnav */
