@@ -1506,9 +1506,9 @@ ul.uab-nav-sub {
 }
 
 /*adds margin when there is no breadcrumb */
-#component {
+/* #component {
     margin-top: 20px;
-}
+} */
 
 /*removes margin when there is no breadcrumb */
 #breadcrumbs~#component {
@@ -1594,9 +1594,9 @@ ul.uab-nav-sub {
 }
 
 /*temporarily add bottom padding to main content area */
-.l-main-grid__component {
+/* .l-main-grid__component {
     padding-bottom: 2em;
-}
+} */
 
 
 /*Sidebar menu */
