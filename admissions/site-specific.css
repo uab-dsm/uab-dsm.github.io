@@ -1602,4 +1602,31 @@ ul.uab-nav-sub {
 /*Sidebar menu */
 @media all and (min-width:960px) {}
 
+
+	/*sidebar styling */
+
+	#left_1 .uab-nav-header:after {
+		content: "\e011";
+		font-family: 'IcoMoon';
+		color: #1E6B52;
+		margin-top: 3px;
+	}
+
+
+	#left_1 .uab-open .uab-nav-header:after {
+		color: #80bc00;
+	}
+
+	#left_1 {
+		background-color: #eee;
+		padding: 0 10px;
+		position: sticky;
+		top: 0;
+		z-index: 1;
+	}
+
+	.uab-nav li.uab-parent {
+		margin: 10px 0;
+	}
+
 /*#endregion Temporary CSS */
