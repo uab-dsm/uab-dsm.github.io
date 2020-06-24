@@ -516,12 +516,30 @@
     display: none;
 }
 
-
-
 .trailblazers-blog .profile-intro-text {
     padding: 10px 20px;
 }
 
+.blog.trailblazers-blog .profile-hometown {
+    display: none;
+}
+
+.blog.trailblazers-blog .profile-class {
+    display: none;
+}
+
+.profile-heading__status {
+    margin: 0;
+}
+
+.profile-heading__status span:first-child:after {
+    height:10px;
+    width:1px;
+    background-color:#1E6B52;
+    content:'';
+    display:inline-block;
+    margin-left:5px;
+}
 
 /*Changes card to a flex item so that the footer can be pushed to the bottom of the card using margin-top auto */
 .blog.trailblazers-blog .uab-card {
