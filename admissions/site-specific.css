@@ -1617,13 +1617,13 @@ ul.uab-nav-sub {
 		color: #80bc00;
 	}
 
-	#left_1 {
+	/* #left_1 {
 		background-color: #eee;
 		padding: 0 10px;
 		position: sticky;
 		top: 0;
 		z-index: 1;
-	}
+	} */
 
 	.uab-nav li.uab-parent {
 		margin: 10px 0;
