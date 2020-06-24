@@ -617,6 +617,16 @@
     transition: border .2s ease-in;
 }
 
+/*Small preheading*/
+.c-icon-card__heading span {
+    display:inline-block;
+     font-size:.9rem;
+     text-transform:uppercase;
+     background-color:#eee;
+     padding:5px;
+     margin-bottom:5px;
+ }
+
 /*Copy*/
 .c-icon-card__copy {
     margin-top: 0;
