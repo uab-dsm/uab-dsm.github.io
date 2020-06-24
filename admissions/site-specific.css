@@ -1323,7 +1323,7 @@ ul.v2-middle-menu {
     margin-right: 0;
     margin-left: 0;
     flex-grow: 1;
-    background-color: #eee;
+    background-color: #d3d3d3;
     margin: 0;
     padding: 10px;
 }
@@ -1448,7 +1448,7 @@ ul.v2-middle-menu {
     margin-right: 0;
     margin-left: 0;
     flex-grow: 1;
-    background-color: #eee;
+    background-color: #d3d3d3;
 }
 
 /* .menu-four-across:last-child * {
