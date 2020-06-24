@@ -1600,7 +1600,7 @@ ul.uab-nav-sub {
 
 
 /*Sidebar menu */
-@media all and (max-width:960px) {}
+@media all and (max-width:960px) {
 
 
 	/*sidebar styling */
@@ -1627,6 +1627,7 @@ ul.uab-nav-sub {
 
 	.uab-nav li.uab-parent {
 		margin: 10px 0;
-	}
+    }
+}
 
 /*#endregion Temporary CSS */
