@@ -1285,9 +1285,7 @@ ul.v2-middle-menu {
     text-decoration: none;
 }
 
-.c-stream .c-stream__item * {
-    text-align: center;
-}
+
 
 @media all and (max-width:960px) {
     .c-stream__item .c-stream__item-heading:before {
@@ -1297,6 +1295,10 @@ ul.v2-middle-menu {
 
     .c-stream__img-wrapper {
         order: -1;
+    }
+
+    .c-stream .c-stream__item * {
+        text-align: center;
     }
 }
 
