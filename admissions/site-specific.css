@@ -55,18 +55,28 @@
 .events-title-left {
     font-weight: 600;
     color: #1e6b52;
+    text-align:center;
 }
 
 @media all and (min-width:960px) {
+    .events-heading-left,
+    .events-title-left {
+        text-align: left;
+    }
+
+    .events-heading-right,
+    .events-title-right {
+        text-align: right;
+    }
+
     .events-heading-left {
         left: -20%;
-        text-align: left;
     }
 
     .events-heading-right {
         right: -20%;
-        text-align: right;
     }
+
 }
 
 /*aligns right everything in even items in the wk*/
