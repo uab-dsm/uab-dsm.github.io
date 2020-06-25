@@ -46,11 +46,6 @@
     text-align: center;
 }
 
-.events-title-right {
-    text-align: right;
-}
-
-
 .events-title-right,
 .events-title-left {
     font-weight: 600;
@@ -58,16 +53,12 @@
     text-align:center;
 }
 
-@media all and (min-width:960px) {
-    .events-heading-left,
-    .events-title-left {
-        text-align: left;
-    }
+.events-wk>div * {
+    text-align:center;
+}
 
-    .events-heading-right,
-    .events-title-right {
-        text-align: right;
-    }
+@media all and (min-width:960px) {
+    
 
     .events-heading-left {
         left: -20%;
@@ -88,9 +79,6 @@
     }
 
 }
-
-/*aligns right everything in even items in the wk*/
-
 
 
 
