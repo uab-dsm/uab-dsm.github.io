@@ -77,13 +77,20 @@
         right: -20%;
     }
 
+    .events-wk>div:nth-child(even) * {
+        text-align: right;
+    
+    }
+    
+    .events-wk>div:nth-child(odd) * {
+        text-align: left;
+    
+    }
+
 }
 
 /*aligns right everything in even items in the wk*/
-.events-wk>div:nth-child(even) * {
-    text-align: right;
 
-}
 
 
 
