@@ -1292,7 +1292,7 @@ ul.v2-middle-menu {
 }
 
 @media all and (max-width:960px) {
-    .c-stream__item:nth-child(odd) .c-stream__item-heading:before {
+    .c-stream__item .c-stream__item-heading:before {
         left: 50%;
         transform: translatex(-50%);
     }
