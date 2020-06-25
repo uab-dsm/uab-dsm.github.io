@@ -50,15 +50,22 @@
 .events-title-left {
     font-weight: 600;
     color: #1e6b52;
-    text-align:center;
+    text-align: center;
+    margin: 0
 }
 
 .events-wk>div * {
-    text-align:center;
+    text-align: center;
 }
 
+
+
 @media all and (min-width:960px) {
-    
+
+    .events-title-right,
+    .events-title-left {
+        margin: 10px 0 20px;
+    }
 
     .events-heading-left {
         left: -20%;
@@ -70,12 +77,12 @@
 
     .events-wk>div:nth-child(even) * {
         text-align: right;
-    
+
     }
-    
+
     .events-wk>div:nth-child(odd) * {
         text-align: left;
-    
+
     }
 
 }
@@ -110,7 +117,7 @@
     display: block;
     padding: .5rem;
     transition: .1s all ease-in;
-    text-decoration:inherit;
+    text-decoration: inherit;
 }
 
 .c-list-of-links__link:after {
@@ -262,17 +269,18 @@
 /*Heading Decoration */
 
 .u-heading-deco--apple-green {
-    position:relative;
+    position: relative;
 }
+
 .u-heading-deco--apple-green:after {
-        width: 40px;
-		height: 2px;
-		background-color: #80bc00;
-		content: '';
-		position: absolute;
-		bottom: 0;
-		left: 50%;
-		transform: translatex(-50%);
+    width: 40px;
+    height: 2px;
+    background-color: #80bc00;
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translatex(-50%);
 }
 
 /*List */
@@ -333,7 +341,7 @@
 
 /*Changes icon color to white on hover when used in ui kit navbar */
 .u-icon--arrow-down:hover:after {
-    color:#fff;
+    color: #fff;
 }
 
 /*Changes icon color to campus green when used in ui kit navbar */
@@ -351,7 +359,7 @@
 
 .u-heading-line--green {
     overflow: hidden;
-    padding-left:40px;
+    padding-left: 40px;
 }
 
 .u-heading-line--green>* {
@@ -381,7 +389,7 @@
 /*Border */
 
 .u-no-border--bottom {
-    border-bottom:none !important;
+    border-bottom: none !important;
 }
 
 
@@ -539,42 +547,42 @@
 }
 
 .profile-heading__status span:first-child:after {
-    height:10px;
-    width:1px;
-    background-color:#1E6B52;
-    content:'';
-    display:inline-block;
-    margin-left:5px;
+    height: 10px;
+    width: 1px;
+    background-color: #1E6B52;
+    content: '';
+    display: inline-block;
+    margin-left: 5px;
 }
 
 /*Changes card to a flex item so that the footer can be pushed to the bottom of the card using margin-top auto */
 .blog.trailblazers-blog .uab-card {
-    display:flex;
-    flex-direction:column;
-    border-radius:10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px 10px 10px 10px;
 }
 
 /*removes ui kit default padding and border and pushes item to bottom of card*/
 .blog.trailblazers-blog .uab-card-footer {
-    margin-top:auto;
+    margin-top: auto;
     /*look at removing default padding in footer from uikit */
-   padding:0;
-   /*look at removing default border in footer from uikit */
-   border-top:0 !important;
+    padding: 0;
+    /*look at removing default border in footer from uikit */
+    border-top: 0 !important;
 }
 
 /*adds curved edge to button, changes size of button, and extends the button the full-width of the card */
 .blog.trailblazers-blog .uab-button-primary {
-    font-size:.9rem;
-    width:100%;
-    border-radius:0px 0px 10px 10px;
+    font-size: .9rem;
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
 }
 
 
 /*adds curved edge to image */
 
 .blog.trailblazers-blog img {
-    border-radius:10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
 }
 
 
@@ -643,13 +651,13 @@
 
 /*Small preheading*/
 .c-icon-card__heading span {
-    display:inline-block;
-     font-size:.9rem;
-     text-transform:uppercase;
-     background-color:#eee;
-     padding:5px;
-     margin-bottom:5px;
- }
+    display: inline-block;
+    font-size: .9rem;
+    text-transform: uppercase;
+    background-color: #eee;
+    padding: 5px;
+    margin-bottom: 5px;
+}
 
 /*Copy*/
 .c-icon-card__copy {
@@ -1021,7 +1029,7 @@ ul.v2-middle-menu {
     }
 
     .c-left-nav li {
-        margin-top:10px;
+        margin-top: 10px;
     }
 
     .c-left-nav li>a {
@@ -1144,9 +1152,7 @@ ul.v2-middle-menu {
 /*#region Stream */
 
 /*main heading  */
-.c-stream__main-heading {
-   
-}
+.c-stream__main-heading {}
 
 
 /*item  */
@@ -1249,11 +1255,11 @@ ul.v2-middle-menu {
 /*#region Marketing Page Subhead */
 
 .admissions-marketing-subhead {
-    font-size: 1.3rem; 
-       font-weight: 600; 
-       text-transform: uppercase; 
-       color: #1E6B52;
-   }
+    font-size: 1.3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #1E6B52;
+}
 
 /*#endregion Marketing Page Subhead */
 
@@ -1518,7 +1524,7 @@ ul.v2-middle-menu {
 
 body.corona .siteNameTop {
     color: #fff;
-   
+
 }
 
 /*Removes text decoration from site name */
@@ -1637,30 +1643,30 @@ ul.uab-nav-sub {
 @media all and (max-width:960px) {
 
 
-	/*sidebar styling */
+    /*sidebar styling */
 
-	#left_1 .uab-nav-header:after {
-		content: "\e011";
-		font-family: 'IcoMoon';
-		color: #1E6B52;
-		margin-top: 3px;
-	}
+    #left_1 .uab-nav-header:after {
+        content: "\e011";
+        font-family: 'IcoMoon';
+        color: #1E6B52;
+        margin-top: 3px;
+    }
 
 
-	#left_1 .uab-open .uab-nav-header:after {
-		color: #80bc00;
-	}
+    #left_1 .uab-open .uab-nav-header:after {
+        color: #80bc00;
+    }
 
-	#left_1 {
-		background-color: #eee;
-		padding: 0 10px;
-		position: sticky;
-		top: 0;
-		z-index: 1;
-	}
+    #left_1 {
+        background-color: #eee;
+        padding: 0 10px;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
 
-	.uab-nav li.uab-parent {
-		margin: 10px 0;
+    .uab-nav li.uab-parent {
+        margin: 10px 0;
     }
 }
 
