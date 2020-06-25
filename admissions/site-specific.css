@@ -105,6 +105,7 @@
     display: block;
     padding: .5rem;
     transition: .1s all ease-in;
+    text-decoration:inherit;
 }
 
 .c-list-of-links__link:after {
