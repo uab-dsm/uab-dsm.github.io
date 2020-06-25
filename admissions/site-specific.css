@@ -1167,9 +1167,7 @@ ul.v2-middle-menu {
     margin-top: 1rem;
 }
 
-.c-stream__img-wrapper {
-    order: -1;
-}
+
 
 /*heading  */
 
@@ -1295,6 +1293,10 @@ ul.v2-middle-menu {
     .c-stream__item .c-stream__item-heading:before {
         left: 50%;
         transform: translatex(-50%);
+    }
+
+    .c-stream__img-wrapper {
+        order: -1;
     }
 }
 
