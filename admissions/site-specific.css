@@ -1397,19 +1397,14 @@ ul.v2-middle-menu {
 
 /*#region Horizontal Navigation */
 
-/* .uab-navbar-nav>li>a,
-.uab-nav>li>a {
-    font-size: 1.05rem;
-} */
+
 
 .menu-two-across {
     flex-basis: calc(100% / 2 - 40px);
     margin: 10px 20px;
 }
 
-/* .uab-navbar-nav>li>a {
-    padding: 0;
-} */
+
 
 .accent-menu {
     flex-basis: calc(25% - 10px);
@@ -1421,46 +1416,6 @@ ul.v2-middle-menu {
     padding: 10px;
 }
 
-
-/* .accent-menu *,
-.accent-menu a:link {
-    color: #fff !important;
-} */
-
-/* .accent-menu span,
-.accent-menu a:link,
-.accent-menu a:visited {
-    color: #fff !important;
-} */
-
-/* .uab-navbar-nav>li>a {
-    min-height: 50px;
-} */
-
-/* .uab-navbar-nav li {
-    margin-bottom: 0;
-} */
-
-
-/* [class*=uab-navbar-dropdown-bottom] {
-    margin-top: 0;
-} */
-
-/* .uab-navbar-nav>li>a,
-.uab-nav-header {
-    text-transform: initial;
-} */
-
-
-
-
-/* .uab-nav-header,
-.nav-header {
-    font-weight: 600 !important;
-    font-size: 1.05rem !important;
-    text-transform: initial;
-    padding: 5px 0;
-} */
 
 
 
@@ -1598,24 +1553,10 @@ ul.uab-nav-sub {
     margin: 20px 0;
 }
 
-/*adds margin when there is no breadcrumb */
-/* #component {
-    margin-top: 20px;
-} */
-
 /*removes margin when there is no breadcrumb */
 #breadcrumbs~#component {
     margin-top: 0
 }
-
-
-/* .uab-breadcrumb li {
-    display: flex;
-    align-items: center;
-} */
-
-/* end breadcrumb overrides */
-/*Color adjustment to action box */
 
 #action_box {
     background-color: #1E6B52;
