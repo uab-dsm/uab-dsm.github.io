@@ -1639,6 +1639,14 @@ ul.uab-nav-sub {
 
     /*sidebar styling */
 
+    #left_1 .uab-nav-header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 1.1em;
+    }
+
+
     #left_1 .uab-nav-header:after {
         content: "\f0d7";
         font-family: "Font Awesome 5 Free";
