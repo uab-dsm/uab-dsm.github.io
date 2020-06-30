@@ -1723,3 +1723,146 @@ ul.uab-nav-sub {
 }
 
 /*#endregion Trailblazers Mosaic */
+
+
+
+/* #region cta and footer */
+
+#epilogue {
+	grid-column: 1/13;
+}
+
+.l-locked-footer > div:first-of-type,
+.l-locked-footer a.uab-icon-button {
+	display: none;
+}
+
+.uab-grid-divider.uab-grid.uab-grid-stack {
+	padding: 15px 0;
+}
+
+.uab-footer__cta .uab-grid-divider.uab-grid-stack > .uab-grid-margin::before {
+	left: 0;
+}
+
+.uab-footer__cta .uab-grid-divider.uab-grid-stack > * {
+	padding-left: 0;
+}
+
+.uab-footer__cta {
+	background-color: #144b39;
+	letter-spacing: 0.125em;
+	text-transform: uppercase;
+}
+
+.uab-footer__cta > div {
+	max-width: 80%;
+}
+
+.uab-footer__cta a {
+	color:#fff;
+	transition: all 0.3s ease;
+	text-decoration:underline;
+	background-color:#144b39;
+	text-transform: uppercase;
+}
+
+.uab-footer__cta a,
+.uab-footer__cta .uab-grid-divider > ::before {
+	/* color: #b6eab9; */
+	transition: all 0.3s ease;
+
+	text-decoration-color: rgba(182, 234, 185, 0.5);
+	text-underline-offset: 0.5em;
+}
+
+.uab-footer__cta a:hover {
+	transition: all 0.3s ease;
+
+	text-decoration-color: rgba(182, 234, 185, 1);
+	text-underline-offset: 0.2em;
+}
+
+.uab-footer__container {
+	background-color: #1e6b52;
+}
+
+.uab-footer {
+	max-width: 1140px;
+}
+
+.uab-footer__contact,
+.uab-footer__social,
+.uab-footer__logo,
+.uab-footer__universal,
+.uab-footer__resources-heading,
+.uab-footer__info-for-list,
+.uab-footer__resources-list,
+.uab-footer__info-for-link,
+.uab-footer__resources-link,
+.uab-footer__info-for-link,
+.uab-footer__resources-link,
+.uab-footer a,
+.footerGreen ul li a {
+	color: #fff;
+	transition: all 0.3s ease;
+
+	text-decoration-color: rgba(182, 234, 185, 0.5);
+	text-decoration-style: solid;
+	text-underline-offset: 0.6em;
+}
+
+.uab-footer__contact-link,
+.uab-footer__map-link,
+.uab-footer__info-for-link,
+.uab-footer__resources-link {
+	font-size: 0.9rem;
+}
+
+a.uab-footer__contact-link:before,
+a.uab-footer__map-link:before {
+	font-family: "Font Awesome 5 Free";
+	font-weight: 900;
+	transition: all 0.3s ease;
+}
+
+.uab-footer__contact-link:before {
+	content: "\f879";
+}
+
+.uab-footer__map-link:before {
+	content: "\f3c5";
+}
+
+.uab-footer__logo {
+	height: 2rem;
+}
+
+.uab-footer__social-icon {
+	font-size: 1.8rem;
+}
+
+.uab-footer__contact-item:hover,
+.uab-footer__contact-icon,
+.uab-footer__contact-link:hover:before,
+.uab-footer__map-link:hover:before,
+.uab-footer__social-icon:hover {
+	color: #80bc00;
+}
+
+.uab-footer__resources-heading {
+	font-size: 1.1rem;
+	letter-spacing: 0.13rem;
+	text-transform: uppercase;
+}
+
+.uab-footer__contact-link:hover,
+.uab-footer__map-link:hover,
+.uab-footer__info-for-link:hover,
+.uab-footer__resources-link:hover,
+.footerGreen ul li a:hover {
+	text-decoration-color: rgba(182, 234, 185, 1);
+	text-underline-offset: 0.3em;
+}
+
+/* #endregion  cta and footer */
