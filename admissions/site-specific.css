@@ -1020,18 +1020,20 @@ ul.v2-middle-menu {
 /*#region Left Sidebar */
 
 
+@media all and (max-width:960px) {
+    .l-left-1 .c-left-nav__container {
+        background-color: #eee;
+        padding: 0 1em;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        margin: 0;
+    }
+    }
+
 /*Desktop Styling BEGIN */
 
-@media all and (max-width:960px) {
-.left-1 .c-left-nav__container {
-    background-color: #eee;
-    padding: 0 1em;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    margin: 0;
-}
-}
+
 
 
 @media all and (min-width:960px) {
