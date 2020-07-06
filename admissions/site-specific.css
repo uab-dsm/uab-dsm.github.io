@@ -1034,9 +1034,14 @@ ul.v2-middle-menu {
 
 
 @media all and (min-width:960px) {
+
+
+    .c-left-nav__container {
+        margin: 1em 2em 1em 0;
+    }
+
     .c-left-nav {
         border-right: 1px solid #eee;
-        margin: 1em 2em 1em 0;
     }
 
     .c-left-nav li {
