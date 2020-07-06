@@ -1680,6 +1680,22 @@ ul.uab-nav-sub {
     margin: 10px 0;
 }
 
+
+
+.l-left-1 > div,
+.l-left-1 > div{
+    margin: 0 1em;
+}
+
+@media (min-width: 960px) {
+
+.l-left-1 > div,
+.l-left-1 > div{
+    margin:0 2em 1em 0;
+    }
+}
+
+
 /*#endregion Temporary CSS */
 
 
