@@ -1022,6 +1022,17 @@ ul.v2-middle-menu {
 
 /*Desktop Styling BEGIN */
 
+@media all and (max-width:960px) {
+.c-left-nav__container {
+    background-color: #eee;
+    padding: 0 1em;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+}
+
+
 @media all and (min-width:960px) {
     .c-left-nav {
         border-right: 1px solid #eee;
@@ -1654,13 +1665,7 @@ ul.uab-nav-sub {
         color: #80bc00;
     }
 
-    #left_1 {
-        background-color: #eee;
-        padding: 0 1em;
-        position: sticky;
-        top: 0;
-        z-index: 1;
-    }
+   
 
    
 }
