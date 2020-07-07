@@ -176,7 +176,258 @@
 }
 
 
+
+/* trailblazer blog and article - these styles were added by Dusty */
+
+
+.blog.trailblazers-blog .tb-connect,
+.blog.trailblazers-blog div.fields-container {
+	display: none;
+}
+
+.item-page.trailblazers-blog h1[itemprop="headline"] {
+	letter-spacing: normal;
+	text-transform: capitalize;
+}
+
+.item-page.trailblazers-blog h1[itemprop="headline"]::after {
+	border-bottom: 1px solid #e5e5e5;
+	content: "";
+	display: block;
+	margin: 0.7em 0 0.5em;
+	width: 100%;
+}
+
+.item-page.trailblazers-blog .profile-intro-text {
+	font-weight: 600;
+}
+
+/*trailblazer blog and article  */
+
+
 /*#endregion Trailblazers Directory ***/
+
+
+
+/* #region Trailblazers Extra Fields Photogrid and Interests */
+
+.dir-interest {
+	background: #eee;
+	border-bottom: 2px solid #80bc00;
+	color: #1e6b52;
+	font-weight: 600;
+	margin-top: 0;
+	padding: 20px 20px 15px;
+	position: relative;
+	text-align: center;
+	top: 0;
+}
+
+.dir-interest-entry {
+	border-top: 2px solid #ccc;
+	margin: 15px auto;
+	padding: 15px 0 0;
+}
+
+.field-entry,
+.field-entry hr {
+	margin: 0 0 5% 0;
+}
+
+.field-entry.dir-photogrid {
+	box-sizing: border-box;
+	float: right;
+	margin: 10px auto;
+	width: 560px;
+	transition: all linear 0.3s;
+}
+
+.field-figure.dir-photogrid {
+	display: -ms-grid;
+	display:     grid;
+	height: 220px;
+	margin: 0;
+	transition: all linear 0.3s;
+
+	-ms-grid-columns: 1fr 10px 1fr 10px 1fr 10px 1fr 10px 1fr;
+	grid-gap: 10px;
+	-ms-grid-rows: 1fr 10px 1fr;
+	grid-template-columns: repeat(5, 1fr);
+	grid-template-rows: auto;
+	margin-block: 0;
+	margin-inline: 0;
+}
+
+.dir-photo {
+	display: block;
+	height: 100%;
+	width: 100%;
+	transition: all linear 0.3s;
+
+	-o-object-fit: cover;
+	   object-fit: cover;
+}
+
+img.dir-photo:nth-of-type(1) {
+	-ms-grid-column: 1;
+	    grid-column: 1 / 3;
+	-ms-grid-column-span: 2;
+	-ms-grid-row: 1;
+	    grid-row: 1 / 3;
+	-ms-grid-row-span: 2;
+}
+
+.dir-photo:nth-of-type(2n),
+.dir-photo:nth-of-type(2n+1) {
+	grid-column: auto;
+	grid-row: auto;
+}
+
+.dir-photo:nth-of-type(8),
+.dir-photo:nth-of-type(9),
+.dir-photo:nth-of-type(10) {
+	display: none;
+}
+
+
+.field-figure.dir-photogrid > :nth-child(1) {
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 3;
+	-ms-grid-row: 1;
+	-ms-grid-row-span: 3;
+}
+
+.field-figure.dir-photogrid > :nth-child(2) {
+	-ms-grid-column: 5;
+	-ms-grid-column-span: 1;
+	-ms-grid-row: 1;
+	-ms-grid-row-span: 1;
+}
+
+.field-figure.dir-photogrid > :nth-child(3) {
+	-ms-grid-column: 7;
+	-ms-grid-column-span: 1;
+	-ms-grid-row: 1;
+	-ms-grid-row-span: 1;
+}
+
+.field-figure.dir-photogrid > :nth-child(4) {
+	-ms-grid-column: 9;
+	-ms-grid-column-span: 1;
+	-ms-grid-row: 1;
+	-ms-grid-row-span: 1;
+}
+
+.field-figure.dir-photogrid > :nth-child(5) {
+	-ms-grid-column: 5;
+	-ms-grid-column-span: 1;
+	-ms-grid-row: 3;
+	-ms-grid-row-span: 1;
+}
+
+.field-figure.dir-photogrid > :nth-child(6) {
+	-ms-grid-column: 7;
+	-ms-grid-column-span: 1;
+	-ms-grid-row: 3;
+	-ms-grid-row-span: 1;
+}
+
+.field-figure.dir-photogrid > :nth-child(7) {
+	-ms-grid-column: 9;
+	-ms-grid-column-span: 1;
+	-ms-grid-row: 3;
+	-ms-grid-row-span: 1;
+}
+
+@media (max-width: 960px) {
+	.field-entry.dir-photogrid {
+		float: none;
+		height: auto;
+		width: 100%;
+	}
+
+	.field-figure.dir-photogrid {
+		height: auto;
+		margin: 0 auto;
+		max-width: 560px;
+
+		-ms-grid-columns: 1fr 10px 1fr;
+		-ms-grid-rows: 1fr 10px 0.5fr 6px 0.5fr 6px 0.5fr;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.dir-photo {
+		height: auto;
+		max-height: 275px;
+		width: auto;
+	}
+
+	.dir-photogrid .dir-photo:nth-of-type(1) {
+		grid-column: 1 / 4;
+	}
+
+	.field-figure.dir-photogrid > :nth-child(1) {
+		max-height: none;
+
+		-ms-grid-column: 1;
+		-ms-grid-column-span: 3;
+		-ms-grid-row: 1;
+		-ms-grid-row-span: 1;
+	}
+
+	.field-figure.dir-photogrid > :nth-child(2) {
+		-ms-grid-column: 1;
+		-ms-grid-column-span: 1;
+		-ms-grid-row: 3;
+		-ms-grid-row-span: 1;
+	}
+
+	.field-figure.dir-photogrid > :nth-child(2) {
+		-ms-grid-column: 1;
+		-ms-grid-column-span: 1;
+		-ms-grid-row: 3;
+		-ms-grid-row-span: 1;
+	}
+
+	.field-figure.dir-photogrid > :nth-child(3) {
+		-ms-grid-column: 3;
+		-ms-grid-column-span: 1;
+		-ms-grid-row: 3;
+		-ms-grid-row-span: 1;
+	}
+
+	.field-figure.dir-photogrid > :nth-child(4) {
+		-ms-grid-column: 1;
+		-ms-grid-column-span: 1;
+		-ms-grid-row: 5;
+		-ms-grid-row-span: 1;
+	}
+
+	.field-figure.dir-photogrid > :nth-child(5) {
+		-ms-grid-column: 3;
+		-ms-grid-column-span: 1;
+		-ms-grid-row: 5;
+		-ms-grid-row-span: 1;
+	}
+
+	.field-figure.dir-photogrid > :nth-child(6) {
+		-ms-grid-column: 1;
+		-ms-grid-column-span: 1;
+		-ms-grid-row: 7;
+		-ms-grid-row-span: 1;
+	}
+
+	.field-figure.dir-photogrid > :nth-child(7) {
+		-ms-grid-column: 3;
+		-ms-grid-column-span: 1;
+		-ms-grid-row: 7;
+		-ms-grid-row-span: 1;
+	}
+}
+
+/* #endregion Trailblazers Extra Fields Photogrid and Interests */
+
+
 
 /*#region Bham Highlights */
 
