@@ -582,7 +582,7 @@ img.dir-photo:nth-of-type(1) {
 		font-family: "Font Awesome 5 Free";
 		font-weight: 600;
 		position: absolute;
-		bottom: -5px;
+		bottom: 3px;
 		left: 50%;
 		transform: translatex(-50%);
 	}
