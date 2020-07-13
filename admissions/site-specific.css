@@ -538,16 +538,17 @@ img.dir-photo:nth-of-type(1) {
 	.admissions-counselors-filter {
 		list-style-type: none;
 		padding: 0;
-		display: flex;
-		text-align: center;
+		
+		/* text-align: center;
 		flex-wrap: wrap;
-		justify-content: center;
+		display: flex;
+		justify-content: center; */
 	}
 
-	.admissions-counselors-filter li {
+	/* .admissions-counselors-filter li {
 		margin: 10px;
 		flex-basis: calc(33% - 20px);
-	}
+	} */
 
 
 
