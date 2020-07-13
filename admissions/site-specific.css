@@ -560,6 +560,7 @@ img.dir-photo:nth-of-type(1) {
 		position: relative;
 		line-height: 1.2;
 		padding: 20px;
+		font-weight:500;
 	}
 
 	.admissions-counselors-filter li:nth-child(1) a,
