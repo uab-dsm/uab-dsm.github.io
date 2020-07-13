@@ -559,6 +559,8 @@ img.dir-photo:nth-of-type(1) {
 		text-decoration: none;
 		display: block;
 		position: relative;
+		line-height: 1;
+		padding: 20px;
 	}
 
 	.admissions-counselors-filter li:nth-child(1) a,
@@ -573,8 +575,7 @@ img.dir-photo:nth-of-type(1) {
 	.admissions-counselors-filter li.uab-active a {
 		background-color: #1E6B52;
 		color: #fff;
-		line-height: 1;
-		padding: 20px;
+	
 	}
 
 	.admissions-counselors-filter li.uab-active a:after {
