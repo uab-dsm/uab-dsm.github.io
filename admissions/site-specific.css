@@ -589,3 +589,8 @@ img.dir-photo:nth-of-type(1) {
 	}
 
 /*#endregion Admission Counselors */
+
+
+.admissions-banner-button:hover {
+	background-color:#1E6B52;
+}
