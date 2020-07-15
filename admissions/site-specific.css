@@ -593,4 +593,14 @@ img.dir-photo:nth-of-type(1) {
 
 .admissions-banner-button:hover {
 	background-color:#1E6B52;
+}/*#region Subheading  */
+
+.admissions-subheading--style-1 {
+    background-color:#295135; 
+    color:#fff; 
+    padding:0 5px;
+    font-size: 1.3rem;
+    line-height: 1;
 }
+
+/*#endregion Subheading*/
