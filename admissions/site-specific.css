@@ -608,3 +608,38 @@ img.dir-photo:nth-of-type(1) {
 }
 
 /*#endregion Subheading*/
+
+
+
+/*#region Icon Styles */
+
+
+	.o-admissions-rounded-icon,
+	.o-admissions-rounded-icon--has-hover {
+		font-size: 2.5rem;
+		background-color: #eee;
+		padding: 40px;
+		border-radius: 50%;
+		color: #1E6B52;
+		transition: background-color .2s ease-in;
+	}
+
+	.o-admissions-rounded-icon--has-hover:hover {
+		color: #eee;
+		background-color: #1E6B52;
+	}
+
+	.o-admissions-accent-icon {
+		top: -1em;
+	
+		border-radius: 50%;
+		width: 50px;
+		height: 50px;
+		font-size: 1.3rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		border: 4px solid #fff;
+	}
+
+	/*#endregion Icon Styles */
