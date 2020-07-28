@@ -1,1 +1,15 @@
 
+
+/*#region Overrides */
+
+/*hides mobile search icon - it was causing a spacing issue on desktop.  This needs to be removed if site search is being used.*/
+#trigger {
+    display:none !important;
+}
+
+/*adds extra padding to site name area*/
+#whitebar {
+    padding: 10px 0;
+}
+
+/*#endregion Overrides */
