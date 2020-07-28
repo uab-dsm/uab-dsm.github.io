@@ -150,15 +150,37 @@ body.ribbonFullwidth #whitebar {
 
 
 
-/*Change background of site name to uab green*/
-#wrapper {
+
+/*Adds green background before and after the site name and quicklinks */
+#whitebar {
+    position:relative;
+}
+#whitebar:before {
+    content:'';
     background-color: #1E6B52;
+    width:4000px;
+    height:100%;
+    display:block;
+    position:absolute;
+    left:-4000px;
+    top:0;
+    bottom:0
 }
 
-/*Change background color of main content area to white */
-#whitebox {
-background-color:#fff;
+#whitebar:after {
+    content:'';
+    background-color: #1E6B52;
+    width:4000px;
+    height:100%;
+    display:block;
+    position:absolute;
+    right:-4000px;
+    top:0;
+    bottom:0
 }
+
+
+
 
 /*Add max-width on site name and quicklinks and verticaly center */
 #whitebar {
@@ -232,3 +254,5 @@ body.linear.hd div.searchpanel {
 
 
 /*--------#endregion Page Header--------*/
+
+
