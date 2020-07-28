@@ -179,6 +179,9 @@ body.ribbonFullwidth #whitebar {
     bottom:0
 }
 
+#wrapper {
+    overflow:hidden;
+}
 
 
 
