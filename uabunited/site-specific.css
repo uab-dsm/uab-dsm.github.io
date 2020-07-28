@@ -283,3 +283,74 @@ body.linear.hd div.searchpanel {
 }
 
 /*endregion UAB United Focus Box */
+
+
+
+/*#region Utility Classes */
+/*Heading Line */
+
+/*Green*/
+
+.u-heading-line--green {
+    overflow: hidden;
+    padding-left: 40px;
+}
+
+.u-heading-line--green>* {
+    display: inline-block;
+    position: relative;
+}
+
+.u-heading-line--green> ::before,
+.u-heading-line--green> ::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - ((0.2px + 0.05em) / 2));
+    width: 2000px;
+    border-bottom: calc(0.2px + 0.05em) solid #1E6B52;
+}
+
+.u-heading-line--green> ::before {
+    right: 100%;
+    margin-right: calc(5px + 0.3em);
+}
+
+.u-heading-line--green> ::after {
+    left: 100%;
+    margin-left: calc(5px + 0.3em);
+}
+
+
+/*White*/
+
+.u-heading-line--white {
+    overflow: hidden;
+    padding-left: 40px;
+}
+
+.u-heading-line--white>* {
+    display: inline-block;
+    position: relative;
+}
+
+.u-heading-line--white> ::before,
+.u-heading-line--white> ::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - ((0.2px + 0.05em) / 2));
+    width: 2000px;
+    border-bottom: calc(0.2px + 0.05em) solid #fff;
+}
+
+.u-heading-line--white> ::before {
+    right: 100%;
+    margin-right: calc(5px + 0.3em);
+}
+
+.u-heading-line--white> ::after {
+    left: 100%;
+    margin-left: calc(5px + 0.3em);
+}
+
+
+/*#endregion Utility Classes */
