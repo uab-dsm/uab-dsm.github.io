@@ -205,5 +205,30 @@ background-image:none;
 border-left:0;
 }
 
+/*Change out uab logo for an svg */
+body.linear.hd div.topLinearLogo {
+    background-image: url(extreme-horizontal-white.svg) ;
+   height: 17px ;
+}
+
+/*Remove quicklinks on mobile */
+@media all and (max-width:1024px) {
+    #quicklinks .nav {
+        display:none;
+    }
+}
+
+/*Remove search panel from displaying on hover */
+body.linear.hd div.searchpanel {
+    float:none; 
+    width:auto;
+    display:block; 
+    background:none;
+    box-shadow:none;
+    margin-right:.5em;
+    flex-basis:50%;
+}
+
+
 
 /*--------#endregion Page Header--------*/
