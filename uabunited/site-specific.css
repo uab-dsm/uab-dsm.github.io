@@ -207,7 +207,7 @@ border-left:0;
 
 /*Change out uab logo for an svg */
 body.linear.hd div.topLinearLogo {
-    background-image: url(extreme-horizontal-white.svg) ;
+    background-image: url(https://dev.uab.edu/uabunited/extreme-horizontal-white.svg) ;
    height: 17px ;
 }
 
