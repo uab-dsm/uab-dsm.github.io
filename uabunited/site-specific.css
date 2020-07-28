@@ -147,4 +147,63 @@ body.ribbonFullwidth #whitebar {
 }
 
 
+
+
+
+/*Change background of site name to uab green*/
+#wrapper {
+    background-color: #1E6B52;
+}
+
+/*Change background color of main content area to white */
+#whitebox {
+background-color:#fff;
+}
+
+/*Add max-width on site name and quicklinks and verticaly center */
+#whitebar {
+max-width:1280px !important;
+display:flex;
+align-items: center;
+}
+
+/*Quicklinks adjustments */
+
+#quicklinks {
+display:flex;   
+align-items:center;
+float:none;
+}
+
+#quicklinks input {
+border-radius:0;
+margin-bottom:0;
+border-right:0;
+}
+
+#quicklinks .moduletable {
+height:auto;
+}
+
+body.linear.hd #quicklinks {
+margin-top:0;
+}
+
+/*Adjustments to search */
+
+.searchpanel .form-inline {
+display:flex;
+justify-content: center;    
+align-items: center;
+margin-right:20px;
+}
+
+.searchpanel  .btn-primary {
+border-radius:0;
+text-shadow:none;
+background-image:none;
+border-left:0;
+}
+
+
 /*--------#endregion Page Header--------*/
