@@ -13,3 +13,138 @@
 }
 
 /*#endregion Overrides */
+
+
+/*--------#region Page Header--------*/
+body.linear.hd.base .topLinearContainer {
+    background: #144b39;
+}
+
+#hidden-links {
+    z-index: 0;
+}
+
+#hidden-links a.un_jtt_hide {
+    display: flex;
+    top: 0;
+}
+
+/*hides site name, search bar, and quicklinks on homepage*/
+/*.fight-covid-homepage #whitebar {
+    display: none;
+}*/
+
+/*hides page header on homepage*/
+/*.fight-covid-homepage .page-header {
+    display: none;
+}*/
+
+#wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#banner {
+    margin: 0;
+    order: 1;
+}
+
+.navbar {
+    order: 2;
+}
+
+#whitebox {
+    order: 3;
+}
+
+.covidAlert {
+    order: 4;
+}
+
+.page-header {
+    max-width: 1280px;
+    margin: 30px auto 0;
+}
+
+@media all and (max-width:1280px) {
+    .page-header {
+        margin: 30px 20px 0;
+    }
+}
+
+.external-link:after {
+    content: "\e251";
+    content: "\e024";
+    font-family: IcoMoon;
+    font-weight: 400 !important;
+    margin-left: 5px;
+    font-size: 1.1rem
+}
+
+/*Quicklinks & UAB Header*/
+@media all and (min-width:1024px) {
+    body.linear.hd div.searchpanel {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translatex(-50%);
+        max-width: 1280px;
+    }
+
+    #quicklinks {
+        margin-top: 0 !important;
+        max-width: 1280px;
+        margin-right: 30px;
+    }
+
+    body.linear.hd #quicklinks .nav.menu.nav-pills>li>.separator {
+        color: #fff;
+    }
+
+    #quicklinks .separator:after {
+        content: "\e011";
+        font-family: 'IcoMoon';
+        font-size: .8em;
+    }
+}
+
+#quicklinks ul.nav li {
+    float: right;
+}
+
+/*@media all and (min-width: 1024px) {
+    body.linear.hd #quicklinks {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        margin-top: 0.75em;
+    }
+}*/
+
+body.linear.hd #siteName {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    float: none;
+}
+
+body.linear.hd .siteNameTop {
+    color: #fff;
+}
+
+body.ribbonFullwidth #whitebar {
+    height: auto;
+    border-bottom-width: 0px !important;
+}
+
+/*Displays separator menu items in mobile*/
+@media (max-width: 980px) {
+    body.hd #tray.white #ribbon li span {
+        display: inline-block;
+        color: #1E6B52 !important;
+    }
+}
+
+
+/*--------#endregion Page Header--------*/
