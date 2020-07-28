@@ -270,7 +270,7 @@ body.linear.hd div.searchpanel {
 }
 
 .uab-united-focus-box:before {
-    background-image: url('/uabunited/images/banners/focus-box-accent.jpg');
+    background-image: url('https://dev.uab.edu/uabunited//images/banners/focus-box-accent.jpg');
     height:100%;
     width:10px;
     content:'';
