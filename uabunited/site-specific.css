@@ -1,5 +1,7 @@
 
 
+
+
 /*#region Overrides */
 
 /*hides mobile search icon - it was causing a spacing issue on desktop.  This needs to be removed if site search is being used.*/
@@ -512,3 +514,66 @@ color: #fff;
 }
 
 /*#endregion Accent Icons */
+
+/*#region Color System */
+
+
+.united-color-system {
+		display: flex;
+		align-content: center;
+		padding: 20px;
+		background-color: #fff;
+
+
+	}
+
+	.united-color-system__swatch {
+		margin-right: 20px;
+	}
+
+	.united-color-system__color {
+		width: 60px;
+		height: 60px;
+		display: block;
+		border-radius: 50%;
+	}
+
+	.united-color-system__copy {
+		text-align: center;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: .9rem;
+	}
+
+	.united-color-system__description {
+		margin: 0;
+	}
+
+	.united-color-system__link {}
+
+	.united-color-system--current-level {
+		background-color: #eee;
+		position: relative;
+		padding: 0 10px 10px;
+
+	}
+
+	.united-color-system__level {
+		font-size: 1.1rem;
+		font-weight: 600;
+	}
+
+	.united-color-system__capacity {
+		display: block;
+		font-style: italic;
+	}
+
+
+
+	.united-color-system--current-level>span {
+		padding: 10px;
+		display: block;
+		font-weight: 600;
+    }
+    
+    /*#endregion Color System */
