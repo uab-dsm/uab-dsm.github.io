@@ -422,6 +422,10 @@ body.linear.hd div.searchpanel {
 
 /*Margin */
 
+.u-united-margin-top--remove {
+    margin-top:0 !important;
+}
+
 .u-united-margin-top--xs {
     margin-top:.5em !important;
 }
@@ -442,7 +446,11 @@ body.linear.hd div.searchpanel {
     margin-top:4em !important;
 }
 
-.u-united-margin-top--xs {
+.u-united-margin-bottom--remove {
+    margin-bottom:0 !important;
+}
+
+.u-united-margin-bottom--xs {
     margin-bottom:.5em !important;
 }
 
