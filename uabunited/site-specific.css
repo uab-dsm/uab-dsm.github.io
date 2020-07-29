@@ -514,7 +514,7 @@ color: #fff;
 }
 
 .o-united-accent-icon--green img {
-max-width: 20px; 
+max-width: 20px !important; 
 }
 
 /*#endregion Accent Icons */
