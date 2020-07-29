@@ -354,6 +354,21 @@ body.linear.hd div.searchpanel {
 
 
 /*#endregion Utility Classes */
+
+/*#region Widgekit */
+
+/*Grid with Icon */
+.grid-with-icon .uk-panel {
+    background-color:#eee;
+}
+
+.grid-with-icon h3 {
+    text-align:center;
+}
+
+
+/*#endregion Widgekit */
+
 /*#region Accent Icons */
 
 .o-united-accent-icon--green {
