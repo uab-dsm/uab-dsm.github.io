@@ -513,6 +513,10 @@ color: #fff;
   
 }
 
+.o-united-accent-icon--green img {
+max-width: 20px; 
+}
+
 /*#endregion Accent Icons */
 
 /*#region Color System */
@@ -583,6 +587,7 @@ color: #fff;
     .o-united-heading-w-sub {
     display:flex;
     align-items:center;
+    
 }
 
 .o-united-heading-w-sub__subheading {
