@@ -420,6 +420,32 @@ body.linear.hd div.searchpanel {
     margin-left: calc(5px + 0.3em);
 }
 
+/*Margin */
+
+.u-united-margin-top--small {
+    margin-top:10px;
+}
+
+.u-united-margin-top--medium {
+    margin-top:20px;
+}
+
+.u-united-margin-top--large {
+    margin-top:30px;
+}
+
+.u-united-margin-bottom--small {
+    margin-top:10px;
+}
+
+.u-united-margin-bottom--medium {
+    margin-top:20px;
+}
+
+.u-united-margin-bottom--large {
+    margin-top:30px;
+}
+
 
 /*#endregion Utility Classes */
 
