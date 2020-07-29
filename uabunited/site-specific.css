@@ -434,16 +434,24 @@ body.linear.hd div.searchpanel {
     margin-top:30px;
 }
 
+.u-united-margin-top--xlarge {
+    margin-top:40px;
+}
+
 .u-united-margin-bottom--small {
-    margin-top:10px;
+    margin-bottom:10px;
 }
 
 .u-united-margin-bottom--medium {
-    margin-top:20px;
+    margin-bottom:20px;
 }
 
 .u-united-margin-bottom--large {
-    margin-top:30px;
+    margin-bottom:30px;
+}
+
+.u-united-margin-bottom--xlarge {
+    margin-bottom:40px;
 }
 
 
