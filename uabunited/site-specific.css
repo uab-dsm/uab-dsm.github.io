@@ -675,22 +675,35 @@ body.linear.hd div.searchpanel {
 } */
 
 
+
 .entry-phase-table .uk-panel {
     border:1px solid #eee;
 }
 
-.entry-phase-table .uk-panel > div {
+.entry-phase-table__container {
     display:flex;
+    width:100%;
+    
 }
 
 
 .entry-phase-table__color {
     padding: 10px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
     text-transform: uppercase; 
     text-align: center;
-    flex-basis:10%;   
-    min-width:100px;
+    flex-basis:3%;   
+    min-width:20px;
     flex-grow:1;
+}
+
+.entry-phase-table__color-name {
+ transform: rotate(-90deg);
+    display:block;
+    font-weight:600;
+
 }
 
 .entry-phase-table__description {
