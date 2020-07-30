@@ -591,12 +591,7 @@ body.linear.hd div.searchpanel {
 
 .united-color-system__link {}
 
-.united-color-system--current-level {
-    background-color: #eee;
-    position: relative;
-    padding: 0 10px 10px;
 
-}
 
 .united-color-system__level {
     font-size: 1.1rem;
@@ -615,6 +610,14 @@ body.linear.hd div.searchpanel {
     display: block;
     font-weight: 600;
 }
+
+.o-united-entry--current-status {
+    background-color: #eee;
+    position: relative;
+    padding: 0 10px 10px;
+
+}
+
 
 /*#endregion Color System */
 
