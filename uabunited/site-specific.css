@@ -1,12 +1,8 @@
-
-
-
-
 /*#region Overrides */
 
 /*hides mobile search icon - it was causing a spacing issue on desktop.  This needs to be removed if site search is being used.*/
 #trigger {
-    display:none !important;
+    display: none !important;
 }
 
 /*adds extra padding to site name area*/
@@ -155,107 +151,108 @@ body.ribbonFullwidth #whitebar {
 
 /*Adds green background before and after the site name and quicklinks */
 #whitebar {
-    position:relative;
+    position: relative;
 }
+
 #whitebar:before {
-    content:'';
+    content: '';
     background-color: #1E6B52;
-    width:4000px;
-    height:100%;
-    display:block;
-    position:absolute;
-    left:-4000px;
-    top:0;
-    bottom:0
+    width: 4000px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: -4000px;
+    top: 0;
+    bottom: 0
 }
 
 #whitebar:after {
-    content:'';
+    content: '';
     background-color: #1E6B52;
-    width:4000px;
-    height:100%;
-    display:block;
-    position:absolute;
-    right:-4000px;
-    top:0;
-    bottom:0
+    width: 4000px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    right: -4000px;
+    top: 0;
+    bottom: 0
 }
 
 /*Makes it so the background color applied above doesn't cause a horizontal scroll */
 
 #wrapper {
-    overflow:hidden;
+    overflow: hidden;
 }
 
 
 
 /*Add max-width on site name and quicklinks and verticaly center */
 #whitebar {
-max-width:1280px !important;
-display:flex;
-align-items: center;
+    max-width: 1280px !important;
+    display: flex;
+    align-items: center;
 }
 
 /*Quicklinks adjustments */
 
 #quicklinks {
-display:flex;   
-align-items:center;
-float:none;
+    display: flex;
+    align-items: center;
+    float: none;
 }
 
 #quicklinks input {
-border-radius:0;
-margin-bottom:0;
-border-right:0;
+    border-radius: 0;
+    margin-bottom: 0;
+    border-right: 0;
 }
 
 #quicklinks .moduletable {
-height:auto;
+    height: auto;
 }
 
 body.linear.hd #quicklinks {
-margin-top:0;
+    margin-top: 0;
 }
 
 /*Adjustments to search */
 
 .searchpanel .form-inline {
-display:flex;
-justify-content: center;    
-align-items: center;
-margin-right:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
 }
 
-.searchpanel  .btn-primary {
-border-radius:0;
-text-shadow:none;
-background-image:none;
-border-left:0;
+.searchpanel .btn-primary {
+    border-radius: 0;
+    text-shadow: none;
+    background-image: none;
+    border-left: 0;
 }
 
 /*Change out uab logo for an svg */
 body.linear.hd div.topLinearLogo {
-    background-image: url(https://dev.uab.edu/uabunited/extreme-horizontal-white.svg) ;
-   height: 17px ;
+    background-image: url(https://dev.uab.edu/uabunited/extreme-horizontal-white.svg);
+    height: 17px;
 }
 
 /*Remove quicklinks on mobile */
 @media all and (max-width:1024px) {
     #quicklinks .nav {
-        display:none;
+        display: none;
     }
 }
 
 /*Remove search panel from displaying on hover */
 body.linear.hd div.searchpanel {
-    float:none; 
-    width:auto;
-    display:block; 
-    background:none;
-    box-shadow:none;
-    margin-right:.5em;
-    flex-basis:50%;
+    float: none;
+    width: auto;
+    display: block;
+    background: none;
+    box-shadow: none;
+    margin-right: .5em;
+    flex-basis: 50%;
 }
 
 
@@ -267,21 +264,21 @@ body.linear.hd div.searchpanel {
 
 
 .uab-united-focus-box {
-    position:relative;
-    background-color:#fafafa;
+    position: relative;
+    background-color: #fafafa;
 }
 
 .uab-united-focus-box:before {
     background-image: url('https://dev.uab.edu/uabunited//images/banners/focus-box-accent.jpg');
-    height:100%;
-    width:10px;
-    content:'';
-    display:block;
-    position:absolute;
-    left:0;
-    top:0;
-    background-size:contain;
-  
+    height: 100%;
+    width: 10px;
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-size: contain;
+
 }
 
 /*endregion UAB United Focus Box */
@@ -294,45 +291,45 @@ body.linear.hd div.searchpanel {
     overflow: hidden;
     padding-left: 40px;
     margin-bottom: 5px;
-   
+
 }
 
 .o-united-heading-line--green i {
-    font-size:1.1rem;
-      cursor: pointer;
+    font-size: 1.1rem;
+    cursor: pointer;
     color: #d3d3d3;
     position: relative;
 }
 
 .o-united-heading-line--green i:hover:after {
-        content: 'Copy link to clipboard.';
+    content: 'Copy link to clipboard.';
     position: absolute;
     top: -5px;
     width: 200px;
-  margin-left:5px;
+    margin-left: 5px;
     background-color: #eee;
     color: #444;
     text-align: center;
     border-radius: 3px;
     transition: all 1s ease-in;
     font-size: .9rem;
-        font-family: "proxima-nova", Arial, Helvetica, sans-serif !important;
-    font-weight:400;
-    padding:5px
+    font-family: "proxima-nova", Arial, Helvetica, sans-serif !important;
+    font-weight: 400;
+    padding: 5px
 }
 
 .o-united-heading-line--green i:active {
     color: #80bc00;
 }
-    
+
 .o-united-heading-line--green>span:first-child {
     display: inline-block;
     position: relative;
-     font-size: 1.6rem;
+    font-size: 1.6rem;
 }
 
-.o-united-heading-line--green> span::before,
-.o-united-heading-line--green> span::after {
+.o-united-heading-line--green>span::before,
+.o-united-heading-line--green>span::after {
     content: "";
     position: absolute;
     top: calc(50% - ((0.2px + 0.05em) / 2));
@@ -340,12 +337,12 @@ body.linear.hd div.searchpanel {
     border-bottom: calc(0.2px + 0.05em) solid #1E6B52;
 }
 
-.o-united-heading-line--green> span::before {
+.o-united-heading-line--green>span::before {
     right: 100%;
     margin-right: calc(5px + 0.3em);
 }
 
-.o-united-heading-line--green> span::after {
+.o-united-heading-line--green>span::after {
     left: 100%;
     margin-left: calc(5px + 1.3em);
 }
@@ -425,88 +422,88 @@ body.linear.hd div.searchpanel {
 /*Margin */
 
 .u-united-margin-top--remove {
-    margin-top:0 !important;
+    margin-top: 0 !important;
 }
 
 .u-united-margin-top--xs {
-    margin-top:.5em !important;
+    margin-top: .5em !important;
 }
 
 .u-united-margin-top--s {
-    margin-top:1em !important;
+    margin-top: 1em !important;
 }
 
 .u-united-margin-top--m {
-    margin-top:2em !important;
+    margin-top: 2em !important;
 }
 
 .u-united-margin-top--l {
-    margin-top:3em !important;
+    margin-top: 3em !important;
 }
 
 .u-united-margin-top--xl {
-    margin-top:4em !important;
+    margin-top: 4em !important;
 }
 
 .u-united-margin-bottom--remove {
-    margin-bottom:0 !important;
+    margin-bottom: 0 !important;
 }
 
 .u-united-margin-bottom--xs {
-    margin-bottom:.5em !important;
+    margin-bottom: .5em !important;
 }
 
 .u-united-margin-bottom--s {
-    margin-bottom:1em !important; 
+    margin-bottom: 1em !important;
 }
 
 .u-united-margin-bottom--m {
-    margin-bottom:2em !important;
+    margin-bottom: 2em !important;
 }
 
 .u-united-margin-bottom--l {
-    margin-bottom:3em !important;
+    margin-bottom: 3em !important;
 }
 
 .u-united-margin-bottom--xl {
-    margin-bottom:4em!important;
+    margin-bottom: 4em !important;
 }
 
 /*Display */
 
 
 .u-united-inline {
-    display:inline;
+    display: inline;
 }
 
 .u-united-inline-block {
-    display:inline;
+    display: inline;
 }
 
 .u-united-block {
-    display:block;
+    display: block;
 }
 
 /*Font */
 
 .u-united-font--xs {
-    font-size:.8rem;
+    font-size: .8rem;
 }
 
 .u-united-font--s {
-    font-size:1rem;
+    font-size: 1rem;
 }
 
 .u-united-font--m {
-    font-size:1.2rem;
+    font-size: 1.2rem;
 }
 
 .u-united-font--l {
-    font-size:1.4rem;
+    font-size: 1.4rem;
 }
 
 .u-united-font--xl {
-    font-size:1.6rem;
+    font-size: 1.6rem;
 }
 
 
@@ -516,11 +513,11 @@ body.linear.hd div.searchpanel {
 
 /*Grid with Icon */
 .grid-with-icon .uk-panel {
-    background-color:#eee;
+    background-color: #eee;
 }
 
 .grid-with-icon h3 {
-    text-align:center;
+    text-align: center;
 }
 
 
@@ -529,7 +526,7 @@ body.linear.hd div.searchpanel {
 /*#region Accent Icons */
 
 .o-united-accent-icon--green {
-top: -1.4em;
+    top: -1.4em;
     border-radius: 50%;
     width: 50px;
     height: 50px;
@@ -539,19 +536,19 @@ top: -1.4em;
     align-items: center;
     border: 5px solid #fff;
     background-color: #1E6B52;
-position:absolute;
-        left: 50%;
+    position: absolute;
+    left: 50%;
     transform: translateX(-50%);
     box-sizing: border-box;
 }
 
 .o-united-accent-icon--green i {
-color: #fff;
-  
+    color: #fff;
+
 }
 
 .o-united-accent-icon--green img {
-max-width: 20px !important; 
+    max-width: 20px !important;
 }
 
 /*#endregion Accent Icons */
@@ -560,86 +557,87 @@ max-width: 20px !important;
 
 
 .united-color-system {
-		display: flex;
-		align-content: center;
-		padding: 20px;
-		background-color: #fff;
+    display: flex;
+    align-content: center;
+    padding: 20px;
+    background-color: #fff;
 
 
-	}
+}
 
-	.united-color-system__swatch {
-		margin-right: 20px;
-	}
+.united-color-system__swatch {
+    margin-right: 20px;
+}
 
-	.united-color-system__color {
-		width: 60px;
-		height: 60px;
-		display: block;
-		border-radius: 50%;
-	}
+.united-color-system__color {
+    width: 60px;
+    height: 60px;
+    display: block;
+    border-radius: 50%;
+}
 
-	.united-color-system__copy {
-		text-align: center;
-		text-transform: uppercase;
-		font-weight: 600;
-		font-size: .9rem;
-	}
+.united-color-system__copy {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: .9rem;
+}
 
-	.united-color-system__description {
-		margin: 0;
-	}
+.united-color-system__description {
+    margin: 0;
+}
 
-	.united-color-system__link {}
+.united-color-system__link {}
 
-	.united-color-system--current-level {
-		background-color: #eee;
-		position: relative;
-		padding: 0 10px 10px;
+.united-color-system--current-level {
+    background-color: #eee;
+    position: relative;
+    padding: 0 10px 10px;
 
-	}
+}
 
-	.united-color-system__level {
-		font-size: 1.1rem;
-		font-weight: 600;
-	}
+.united-color-system__level {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
 
-	.united-color-system__capacity {
-		display: block;
-		font-style: italic;
-	}
+.united-color-system__capacity {
+    display: block;
+    font-style: italic;
+}
 
 
 
-	.united-color-system--current-level>span {
-		padding: 10px;
-		display: block;
-		font-weight: 600;
-    }
-    
-    /*#endregion Color System */
+.united-color-system--current-level>span {
+    padding: 10px;
+    display: block;
+    font-weight: 600;
+}
 
-    /*region Heading with sub */
+/*#endregion Color System */
 
-    .o-united-heading-w-sub {
-    display:flex;
-    align-items:center;
-    
+/*#region Heading with sub */
+
+.o-united-heading-w-sub {
+    display: flex;
+    align-items: center;
+
 }
 
 .o-united-heading-w-sub__subheading {
-    font-size:.9rem;
-        background-color: rgba(128, 188, 0, 0.08);
-    padding:5px;
-    letter-spacing:1px;
+    font-size: .9rem;
+    background-color: rgba(128, 188, 0, 0.08);
+    padding: 5px;
+    letter-spacing: 1px;
     text-transform: uppercase;
-    margin-left:10px;
-    box-sizing:border-box;
-    margin-top:3px;
-    color:#1E6B52;
+    margin-left: 10px;
+    box-sizing: border-box;
+    margin-top: 3px;
+    color: #1E6B52;
 }
 
-/*endregion Heading with sub */
+/*#endregion Heading with sub */
+
 
 /*#region Preheading */
 .o-united__preheading--blue,
@@ -654,8 +652,8 @@ max-width: 20px !important;
 }
 
 .o-united__preheading--blue {
-    color:#395BBD;
-    background-color:rgb(57,92,189, .1);
+    color: #395BBD;
+    background-color: rgb(57, 92, 189, .1);
 }
 
 .o-united__preheading--green {
