@@ -472,6 +472,43 @@ body.linear.hd div.searchpanel {
     margin-bottom:4em!important;
 }
 
+/*Display */
+
+
+.u-united-inline {
+    display:inline;
+}
+
+.u-united-inline-block {
+    display:inline;
+}
+
+.u-united-block {
+    display:block;
+}
+
+/*Font */
+
+.u-united-font--xs {
+    font-size:.8rem;
+}
+
+.u-united-font--s {
+    font-size:1rem;
+}
+
+.u-united-font--m {
+    font-size:1.2rem;
+}
+
+.u-united-font--l {
+    font-size:1.4rem;
+}
+
+.u-united-font--xl {
+    font-size:1.6rem;
+}
+
 
 /*#endregion Utility Classes */
 
