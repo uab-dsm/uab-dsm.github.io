@@ -266,6 +266,8 @@ body.linear.hd div.searchpanel {
 .uab-united-focus-box {
     position: relative;
     background-color: #fafafa;
+    padding:1.5em;
+    box-sizing:border-box;
 }
 
 .uab-united-focus-box:before {
