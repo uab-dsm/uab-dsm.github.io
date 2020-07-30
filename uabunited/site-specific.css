@@ -640,3 +640,27 @@ max-width: 20px !important;
 }
 
 /*endregion Heading with sub */
+
+/*#region Preheading */
+.o-united__preheading--blue,
+.o-united__preheading--green {
+    display: inline-block;
+    background-color: rgba(128, 188, 0, 0.08);
+    padding: 5px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: #1E6B52;
+    letter-spacing: 1px;
+}
+
+.o-united__preheading--blue {
+    color:#395BBD;
+    background-color:rgb(57,92,189, .1);
+}
+
+.o-united__preheading--green {
+    background-color: rgba(128, 188, 0, 0.08);
+    color: #1E6B52;
+}
+
+/*#endregion Preheading */
