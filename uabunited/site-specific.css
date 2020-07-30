@@ -604,18 +604,17 @@ body.linear.hd div.searchpanel {
 }
 
 
-
-.united-color-system--current-level>span {
-    padding: 10px;
-    display: block;
-    font-weight: 600;
-}
-
 .o-united-entry--current-status {
     background-color: #eee;
     position: relative;
     padding: 0 10px 10px;
 
+}
+
+.o-united-entry--current-status>span {
+    padding: 10px;
+    display: block;
+    font-weight: 600;
 }
 
 
