@@ -283,6 +283,65 @@ body.linear.hd div.searchpanel {
 
 }
 
+/*Focus Box 2 - Accent on all sides */
+
+.uab-united-focus-box-2 {
+    position: relative;
+    background-color: #eee;
+    padding: 1.5em;
+    box-sizing: border-box;
+}
+
+
+.uab-united-focus-box-2:before,
+.uab-united-focus-box-2:after,
+.uab-united-focus-box-2__top-bottom:before,
+.uab-united-focus-box-2__top-bottom:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background-size: contain;
+}
+
+.uab-united-focus-box-2:before,
+.uab-united-focus-box-2:after {
+    height: 100%;
+    width: 10px;
+
+    top: 0;
+    bottom: 0;
+
+}
+
+.uab-united-focus-box-2__top-bottom:before,
+.uab-united-focus-box-2__top-bottom:after {
+    height: 10px;
+    width: 100%;
+    right: 0;
+    left: 0;
+    right: 0;
+}
+
+.uab-united-focus-box-2:before {
+    background-image: url(images/banners/united-focus-box-2-left.png);
+    left: 0;
+}
+
+.uab-united-focus-box-2:after {
+    background-image: url(images/banners/united-focus-box-2-right.png);
+    right: 0;
+}
+
+.uab-united-focus-box-2__top-bottom:before {
+    background-image: url(images/banners/united-focus-box-2-top.png);
+    top: 0;
+}
+
+.uab-united-focus-box-2__top-bottom:after {
+    background-image: url(images/banners/united-focus-box-2-bottom.png);
+    bottom: 0;
+}
+
 /*endregion UAB United Focus Box */
 
 /*#region UAB United Heading Line */
