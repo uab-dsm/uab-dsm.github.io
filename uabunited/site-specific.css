@@ -582,6 +582,11 @@ body.linear.hd div.searchpanel {
     text-align: center;
 }
 
+/*Grid with Gray Background */
+.grid-with-gray-bg .uk-panel.uk-panel-box {
+    background-color: #eee;
+    padding-bottom: 39px;
+}
 
 /*#endregion Widgekit */
 
