@@ -272,7 +272,7 @@ body.linear.hd div.searchpanel {
 }
 
 .uab-united-focus-box:before {
-    background-image: url('https://dev.uab.edu/uabunited//images/banners/focus-box-accent.jpg');
+    background-image: url('https://dev.uab.edu/uabunited/images/banners/focus-box-accent.jpg');
     height: 100%;
     width: 10px;
     content: '';
@@ -324,22 +324,22 @@ body.linear.hd div.searchpanel {
 }
 
 .uab-united-focus-box-2:before {
-    background-image: url(images/banners/united-focus-box-2-left.png);
+    background-image: url('https://dev.uab.edu/uabunited/images/banners/united-focus-box-2-left.png');
     left: 0;
 }
 
 .uab-united-focus-box-2:after {
-    background-image: url(images/banners/united-focus-box-2-right.png);
+    background-image: url('https://dev.uab.edu/uabunited/images/images/banners/united-focus-box-2-right.png');
     right: 0;
 }
 
 .uab-united-focus-box-2__top-bottom:before {
-    background-image: url(images/banners/united-focus-box-2-top.png);
+    background-image: url('https://dev.uab.edu/uabunited/images/images/banners/united-focus-box-2-top.png');
     top: 0;
 }
 
 .uab-united-focus-box-2__top-bottom:after {
-    background-image: url(images/banners/united-focus-box-2-bottom.png);
+    background-image: url('https://dev.uab.edu/uabunited/images/images/banners/united-focus-box-2-bottom.png');
     bottom: 0;
 }
 
