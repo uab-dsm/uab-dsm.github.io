@@ -291,6 +291,8 @@ body.linear.hd div.searchpanel {
     background-color: #eee;
     padding: 1.5em;
     box-sizing: border-box;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
 }
 
 .uab-united-focus-box-2 p, 
