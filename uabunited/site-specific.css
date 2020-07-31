@@ -293,6 +293,10 @@ body.linear.hd div.searchpanel {
     box-sizing: border-box;
 }
 
+.uab-united-focus-box-2 p {
+    font-size: 1.4rem !important;
+}
+
 
 .uab-united-focus-box-2:before,
 .uab-united-focus-box-2:after,
