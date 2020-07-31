@@ -790,3 +790,225 @@ body.linear.hd div.searchpanel {
 }
 
 /*--------#endregion Schedule for Entry--------*/
+
+
+/*#region Horizontal Menu */
+
+/*--------BEGIN Horizontal Nav --------*/
+
+body.linear.hd .siteNameTop.noSub {
+    display: inline-flex;
+}
+
+@media all and (max-width:1280px) {
+    body.linear.hd .siteNameTop {
+        margin: 0 10px;
+    }
+}
+
+body.hd.ribbonFullwidth #ribbon {
+    width: 100%;
+}
+
+#ribbon ul.nav>li.alias-parent-active:hover {
+    background-color: #fafafa !important;
+}
+
+.navbar .alias-parent-active {
+    background-color: #fff !important;
+}
+
+body.hd #tray.white #ribbon .alias-parent-active>a {
+    color: #444 !important;
+}
+
+body.hd #tray.white #ribbon .nav-pills>.active {
+    background-color: #eee !important;
+
+}
+
+body.hd #tray.white #ribbon .nav-pills>.active>a {
+    color: #444 !important;
+}
+
+.navbar-static-top .navbar-inner {
+    border-bottom: none;
+
+}
+
+#ribbon {
+    background-color: #eee;
+}
+
+.menu {
+    font-size: 16px;
+}
+
+#ribbon ul.nav.menu li,
+#ribbon .nav.menu li span {
+    text-transform: initial;
+    background-color: transparent;
+    outline: none;
+    width: 100%;
+}
+
+
+@media all and (min-width:980px) {
+    #ribbon ul.nav.menu li {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+#ribbon ul.nav.menu li:hover {
+    background-color: #ddd;
+}
+
+#ribbon ul.nav.menu li.divider:hover {
+    background-color: transparent;
+}
+
+#ribbon ul.nav.menu li a,
+#ribbon ul.nav.menu li span {
+    font-size: 1.1em;
+}
+
+@media all and (max-width:980px) {
+
+    #ribbon ul.nav.menu li a,
+    #ribbon ul.nav.menu li span {
+        font-size: 1.3em;
+    }
+
+
+}
+
+#ribbon .nav .dropdown>span:after {
+    content: "\e011";
+    font-family: 'IcoMoon';
+    font-size: .8em;
+}
+
+#ribbon .moduletable {
+    display: flex;
+    justify-content: center;
+}
+
+body.hd #tray.white #ribbon .nav-pills>.active,
+body.hd #tray.white #ribbon .nav-pills>.active:focus,
+body.hd #tray.white #ribbon .nav-pills>.active:hover {
+    background-color: #fff !important;
+}
+
+body.hd #tray.white #ribbon .nav-pills>.active>a,
+body.hd #tray.white #ribbon .nav-pills>.active>a:focus,
+body.hd #tray.white #ribbon .nav-pills>.active>a:hover {
+    color: #444 !important;
+    line-height: 100%;
+}
+
+#ribbon .nav {
+    margin-top: 0;
+    max-width: 1280px;
+    width: 100% !important;
+    z-index: 200;
+    float: none;
+    margin: 0;
+}
+
+@media all and (min-width:980px) {
+    #ribbon .nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+}
+
+body.linear.hd div#tray {
+    min-height: auto;
+    padding: 0;
+}
+
+#ribbon .nav-pills>.active>a,
+#ribbon .nav-pills>.active>a:hover,
+#ribbon .nav-pills>.active>a:focus {
+    background-color: transparent;
+}
+
+@media all and (max-width:980px) {
+    body.hd.white #ribbon .nav-pills .dropdown-menu {
+        background-color: #eee;
+    }
+
+    body.hd #tray.white #ribbon .nav-pills>.active,
+    body.hd #tray.white #ribbon .nav-pills>.active:focus,
+    body.hd #tray.white #ribbon .nav-pills>.active:hover {
+        background-color: #eee !important;
+    }
+}
+
+.dropdown-menu {
+    border: 1px solid #ddd !important;
+}
+
+.nav.menu .parent .current.active:before {
+    border-left: 0px;
+}
+
+/*hover effect */
+body.hd #ribbon .nav>li>a:hover,
+body.hd #ribbon .nav>li>a:focus,
+body.hd #ribbon .nav>li>span:hover,
+body.hd #ribbon .nav>li>span:focus {
+    background-color: transparent;
+}
+
+
+#ribbon ul.nav:first-child>li a,
+#ribbon ul.nav:first-child>li span {
+    padding: 15px 8px;
+    font-weight: 600;
+    flex: 1;
+    text-align: center;
+    line-height: 120%;
+    width: 100%;
+}
+
+
+/*--------END Horizontal Nav--------*/
+
+/*-------- BEGIN Mobile Horizontal Menu--------*/
+
+@media all and (max-width: 978px) {
+
+    /*Closed Horizontal Trigger Styling */
+    body.linear.hd #tray #ribbon a.btn-navbar {
+        background: #1e6b52;
+        transition: all 0.2s ease-in;
+        padding: 10px;
+    }
+
+    body.linear.hd #tray #ribbon .btn-navbar span {
+        background-color: #fff !important;
+    }
+
+    body.linear.hd #tray #ribbon .btn-navbar:hover span {
+        background-color: #1e6b52 !important;
+    }
+
+
+    .navbar .btn-navbar .icon-bar {
+        width: 23px;
+        height: 3px;
+    }
+
+    body.hd.ribbonFullwidth #ribbon {
+        padding: 5px 10px;
+    }
+}
+
+/*--------END Mobile Horizontal Menu */
+
+
+/*#region Horizontal Menu */
