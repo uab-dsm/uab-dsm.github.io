@@ -136,13 +136,7 @@ body.ribbonFullwidth #whitebar {
     border-bottom-width: 0px !important;
 }
 
-/*Displays separator menu items in mobile*/
-@media (max-width: 980px) {
-    body.hd #tray.white #ribbon li span {
-        display: inline-block;
-        color: #1E6B52 !important;
-    }
-}
+
 
 
 
@@ -936,17 +930,7 @@ body.linear.hd div#tray {
     background-color: transparent;
 }
 
-@media all and (max-width:980px) {
-    body.hd.white #ribbon .nav-pills .dropdown-menu {
-        background-color: #eee;
-    }
 
-    body.hd #tray.white #ribbon .nav-pills>.active,
-    body.hd #tray.white #ribbon .nav-pills>.active:focus,
-    body.hd #tray.white #ribbon .nav-pills>.active:hover {
-        background-color: #eee !important;
-    }
-}
 
 .dropdown-menu {
     border: 1px solid #ddd !important;
@@ -982,11 +966,20 @@ body.hd #ribbon .nav>li>span:focus {
 
 @media all and (max-width: 978px) {
 
+
+/*Displays separator menu items in mobile*/
+    body.hd #tray.white #ribbon li span {
+        background-color:#1E6B52;
+        color:#fff !important;
+    }
+
+
     /*Closed Horizontal Trigger Styling */
     body.linear.hd #tray #ribbon a.btn-navbar {
         background: #1e6b52;
         transition: all 0.2s ease-in;
         padding: 10px;
+        margin: 0 0 5px 0;
     }
 
     body.linear.hd #tray #ribbon .btn-navbar span {
@@ -1004,8 +997,24 @@ body.hd #ribbon .nav>li>span:focus {
     }
 
     body.hd.ribbonFullwidth #ribbon {
-        padding: 5px 10px;
+        padding: 10px;
+        box-sizing:border-box;
     }
+
+    
+        body.hd.white #ribbon .nav-pills .dropdown-menu {
+            margin-left:0;
+            margin-right:0;
+             background-color: #fff;
+            border:none !important
+        }
+    
+        body.hd #tray.white #ribbon .nav-pills>.active,
+        body.hd #tray.white #ribbon .nav-pills>.active:focus,
+        body.hd #tray.white #ribbon .nav-pills>.active:hover {
+            background-color: #eee !important;
+        }
+
 }
 
 /*--------END Mobile Horizontal Menu */
