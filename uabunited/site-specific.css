@@ -267,8 +267,8 @@ body.linear.hd div.searchpanel {
 .uab-united-focus-box {
     position: relative;
     background-color: #eee;
-    padding:1.5em;
-    box-sizing:border-box;
+    padding: 1.5em;
+    box-sizing: border-box;
 }
 
 .uab-united-focus-box:before {
@@ -739,40 +739,40 @@ body.linear.hd div.searchpanel {
 
 
 .entry-phase-table .uk-panel {
-    border:1px solid #eee;
+    border: 1px solid #eee;
 }
 
 .entry-phase-table__container {
-    display:flex;
-    width:100%;
-    background-color:#fff;
-    
+    display: flex;
+    width: 100%;
+    background-color: #fff;
+
 }
 
 
 .entry-phase-table__color {
     padding: 10px;
-    display:flex;
+    display: flex;
     justify-content: center;
-    align-items:center;
-    text-transform: uppercase; 
+    align-items: center;
+    text-transform: uppercase;
     text-align: center;
-    flex-basis:3%;   
-    min-width:20px;
-    flex-grow:1;
+    flex-basis: 3%;
+    min-width: 20px;
+    flex-grow: 1;
 }
 
 .entry-phase-table__color-name {
- transform: rotate(-90deg);
-    display:block;
-    font-weight:600;
+    transform: rotate(-90deg);
+    display: block;
+    font-weight: 600;
 
 }
 
 .entry-phase-table__description {
     padding: 20px;
-    flex-basis:90%;   
-    flex-grow:1;
+    flex-basis: 90%;
+    flex-grow: 1;
 }
 
 /*--------#endregion Schedule for Entry--------*/
