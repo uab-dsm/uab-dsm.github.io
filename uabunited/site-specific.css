@@ -805,7 +805,8 @@ body.linear.hd .siteNameTop.noSub {
 }
 
 @media all and (max-width:1280px) {
-    body.linear.hd .siteNameTop {
+    body.linear.hd .siteNameTop,
+    body.linear.hd .siteNameSub {
         margin: 0 10px;
     }
 }
