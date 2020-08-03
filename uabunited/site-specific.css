@@ -249,6 +249,7 @@ body.linear.hd div.searchpanel {
     box-shadow: none;
     margin-right: .5em;
     flex-basis: 50%;
+    position:relative;
 }
 
 
