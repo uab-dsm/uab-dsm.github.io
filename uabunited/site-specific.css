@@ -229,7 +229,7 @@ body.linear.hd #quicklinks {
 
 /*Change out uab logo for an svg */
 body.linear.hd div.topLinearLogo {
-    background-image: url(https://dev.uab.edu/uabunited/extreme-horizontal-white.svg);
+    background-image: url('/uabunited/extreme-horizontal-white.svg');
     height: 17px;
 }
 
@@ -276,7 +276,7 @@ body.linear.hd div.searchpanel {
 }
 
 .uab-united-focus-box:before {
-    background-image: url('https://dev.uab.edu/uabunited/images/banners/focus-box-accent.jpg');
+    background-image: url('/uabunited/images/banners/focus-box-accent.jpg');
     height: 100%;
     width: 10px;
     content: '';
@@ -338,26 +338,72 @@ body.linear.hd div.searchpanel {
 }
 
 .uab-united-focus-box-2:before {
-    background-image: url('https://dev.uab.edu/uabunited/images/banners/united-focus-box-2-left.png');
+    background-image: url('/uabunited/images/banners/united-focus-box-2-left.png');
     left: 0;
 }
 
 .uab-united-focus-box-2:after {
-    background-image: url('https://dev.uab.edu/uabunited/images/banners/united-focus-box-2-right.png');
+    background-image: url('/uabunited/images/banners/united-focus-box-2-right.png');
     right: 0;
 }
 
 .uab-united-focus-box-2__top-bottom:before {
-    background-image: url('https://dev.uab.edu/uabunited/images/banners/united-focus-box-2-top.png');
+    background-image: url('/uabunited/images/banners/united-focus-box-2-top.png');
     top: 0;
 }
 
 .uab-united-focus-box-2__top-bottom:after {
-    background-image: url('https://dev.uab.edu/uabunited/images/banners/united-focus-box-2-bottom.png');
+    background-image: url('/uabunited/images/banners/united-focus-box-2-bottom.png');
     bottom: 0;
 }
 
-/*endregion UAB United Focus Box */
+
+/*Focus Box 3 */
+
+.uab-united-focus-box-3--right {
+    position: relative;
+    background-color: #eee;
+    padding: 1.5em;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+@media all and (min-width:700px) {
+
+    .uab-united-focus-box-3--right {
+        float: right;
+        max-width: 450px;
+        margin-left: 1em;
+        margin-bottom: 1em;
+    }
+}
+
+.uab-united-focus-box-3__top-bottom:before,
+.uab-united-focus-box-3__top-bottom:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background-size: contain;
+    height: 10px;
+    width: 100%;
+    right: 0;
+    left: 0;
+    right: 0;
+}
+
+.uab-united-focus-box-3__top-bottom:before {
+    background-image: url('/uabunited/images/banners/united-focus-box-2-top.png');
+    top: 0;
+}
+
+.uab-united-focus-box-3__top-bottom:after {
+    background-image: url('/uabunited/images/banners/united-focus-box-2-bottom.png');
+    bottom: 0;
+}
+
+
+
+/*#endregion UAB United Focus Box */
 
 /*#region UAB United Heading Line */
 
@@ -1058,7 +1104,7 @@ body.hd #ribbon .nav>li>span:focus {
     right: 0;
     left: 0;
 
-    background-image: url('https://dev.uab.edu/uabunited/images/banners/united-focus-box-2-top.png');
+    background-image: url('/uabunited/images/banners/united-focus-box-2-top.png');
     top: -13px;
 }
 
@@ -1072,7 +1118,7 @@ body.hd #ribbon .nav>li>span:focus {
     padding: 10px;
     text-align: center;
     vertical-align: middle !important;
-    min-width: 150px;
+    min-width: 120px;
     background-color: #fff;
 }
 
@@ -1102,3 +1148,1330 @@ td.not-exposed {
 }
 
 /*#endregion Exposure Guidance Table */
+
+
+
+
+
+/*#region Custom CSS from Module  */
+
+
+	/*#region Search Page */
+	#content>.search-page {
+		max-width: 980px;
+		margin: 2em auto !important;
+		padding: 0 1em;
+	}
+
+	/*#endregion Search Page */
+
+
+	/*--------#region Reduces padding for right float focus box--------*/
+	@media all and (max-width: 768px) {
+		.uab-united-focus-box-3--right {
+			padding: 1.5em 0.5em;
+		}
+	}
+
+	/*--------#endregion Reduces padding for right float focus box--------*/
+	/*--------#region Widgetkit Gallery lightbox--------*/
+	.uk-modal-dialog {
+		padding: 1em !important;
+	}
+
+	/*--------#endregion Widgetkit Gallery lightbox--------*/
+	/*--------#region uab united focus box--------*/
+	.uab-united-focus-box h3,
+	.uab-united-focus-box h2 {
+		margin-top: 0px;
+	}
+
+	.uab-united-focus-box {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
+	/*--------#endregion uab united focus box--------*/
+	/*--------#region uab united video containers--------*/
+	.uab-united-video {
+		text-align: center;
+		background-color: #eee;
+		padding-bottom: 1em;
+		border: 1px solid #e5e5e5;
+	}
+
+	/*--------#endregion uab united video containers--------*/
+	/*--------#region video grids on town hall page--------*/
+	.video-grid .uk-panel-box {
+		padding: 0px;
+		border: 1px solid #e5e5e5;
+		background-color: #eee;
+	}
+
+	.video-grid h3 {
+		padding: 0 1em;
+	}
+
+	.video-grid p {
+		padding: 0 1em 0.75em;
+	}
+
+	/*--------#endregion video grids on town hall page--------*/
+	/*--------#region guidesafe page--------*/
+	.guidesafe-banner {
+		margin-bottom: 1em;
+		background-color: rgba(57, 92, 189, .05);
+		padding: 2em;
+	}
+
+	/*--------#endregion guidesafe page--------*/
+	/*--------#region UAB Off-Campus Guidelines--------*/
+
+
+	.united-guideline-icons {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		list-style-type: none;
+		margin-left: 0;
+	}
+
+	.united-guideline-icons li {
+		display: flex;
+		flex-direction: column;
+		/*align-items: center;*/
+		align-self: stretch;
+		flex-basis: calc(100%/5 - 40px);
+		margin: 10px;
+		text-align: center;
+		min-width: 150px;
+	}
+
+	.united-guideline-icons__circle {
+		background-color: #1E6B52;
+		padding: 20px;
+		border-radius: 50%;
+		color: #fff;
+		margin-bottom: 10px;
+	}
+
+	.united-guideline-icons__circle i {
+		font-size: 1.7rem;
+	}
+
+	.united-guideline-icons img {
+		max-width: 110px !important;
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	/*Changes Flex Basis for Vendor page*/
+	.vendor-icons li {
+		flex-basis: calc(100%/3 - 40px);
+	}
+
+	/*--------#endregion UAB Off-Campus Guidelines--------*/
+
+	/*--------#region Guiding Principles--------*/
+	.guiding-principles .o-united-accent-icon--green p {
+		color: #fff;
+		font-weight: bold;
+	}
+
+	.guiding-principles h3 {
+		font-size: 1.1em;
+	}
+
+	.guiding-principles.uk-grid {
+		justify-content: center !important;
+	}
+
+	/*.principle {
+		display: flex;
+	}
+
+	span.number {
+		font-size: 1.5rem;
+		background-color: #1E6B52;
+		margin-right: 0.5em;
+		margin-bottom: 0.5em;
+		color: #fff;
+		font-weight: bold;
+		border-radius: 50%;
+		float: left;
+	}
+
+	.principle p {
+		font-weight: bold;
+		font-size: 1.2rem;
+	}*/
+
+	/*--------#endregion Guiding Principles--------*/
+	/*--------#region HOMEPAGE - Banner--------*/
+	body.united-home.ribbonFullwidth #whitebox {
+		margin-top: 0em !important;
+	}
+
+	.home-banner {
+		margin-top: -20px !important;
+	}
+
+	/*--------#endregion HOMEPAGE--------*/
+	/*--------#region HOMEPAGE--------*/
+	body.united-home #content {
+		margin-bottom: 0px;
+	}
+
+	/*--------#endregion HOMEPAGE--------*/
+	/*--------#region Full-Width Override--------*/
+	body.hd #maincolumn-wide {
+		max-width: 100%;
+
+	}
+
+	body.hd.ribbonFullwidth #content {
+		width: 100%;
+	}
+
+	body.hd.ribbonFullwidth #whitebox {
+		max-width: 100%;
+		min-height: 800px;
+	}
+
+	body.hd.sidebars #maincolumn-l,
+	body.hd.sidebars #maincolumn-r,
+	body.hd.sidebars #maincolumn-l-r {
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+
+	@media all and (max-width:700px) {
+
+		body.hd.sidebars #maincolumn-l,
+		body.hd.sidebars #maincolumn-r,
+		body.hd.sidebars #maincolumn-l-r {
+			margin: 0 !important;
+			margin-top: 1em !important;
+
+		}
+	}
+
+
+
+	/*--------#endregion Full-Width Override--------*/
+	/*--------#region Page Section Margins--------*/
+	.u-united-1280 {
+		margin: 0 20px;
+	}
+
+	@media all and (min-width:1300px) {
+		.u-united-1280 {
+			max-width: 1280px;
+			margin: 0 auto;
+		}
+	}
+
+	.u-united-980 {
+		max-width: 980px;
+		margin: 0 auto;
+		padding: 0 20px;
+	}
+
+	.u-united-padding-tb-40px {
+		padding: 40px 0;
+		box-sizing: border-box;
+	}
+
+	.u-united-margin-tb-40px {
+		margin: 40px 0;
+	}
+
+	/*--------#endregion Page Section Margins--------*/
+
+	/*--------#region Typography--------*/
+
+	body {
+		hyphens: manual;
+	}
+
+	h3,
+	h3 strong,
+	h3 span,
+	h3 em,
+	h3 a,
+	h4,
+	h4 strong,
+	h4 span,
+	h4 em,
+	h4 a,
+	h5,
+	h5 strong,
+	h5 span,
+	h5 em,
+	h5 a,
+	.rsform-input-box,
+	input,
+	button,
+	select,
+	textarea {
+		font-family: "proxima-nova", sans-serif !important;
+	}
+
+	h1,
+	h1 strong,
+	h1 span,
+	h1 em,
+	h1 a,
+	h2,
+	h2 strong,
+	h2 span,
+	h2 em,
+	h2 a,
+	h6,
+	h6 strong,
+	h6 span,
+	h6 em,
+	h6 a {
+		font-family: "kulturista-web", serif !important;
+	}
+
+	body,
+	p,
+	span,
+	div,
+	a,
+	button,
+	em {
+		font-family: "proxima-nova", sans-serif !important;
+		line-height: 150%;
+		font-weight: 400;
+		font-size: 16px;
+	}
+
+	h1,
+	h1 strong,
+	h1 span,
+	h1 em,
+	h1 a {
+		font-size: 2rem;
+		line-height: 120% !important;
+		font-weight: 600 !important;
+	}
+
+	h2,
+	h2 strong,
+	h2 span,
+	h2 em,
+	h2 a {
+		font-size: 1.8rem;
+		line-height: 120% !important;
+		font-weight: 600 !important;
+		font-family: "proxima-nova", Arial, Helvetica, sans-serif !important;
+	}
+
+	h3,
+	h3 span,
+	h3 strong,
+	h3 em,
+	h3 a {
+		font-size: 1.4rem;
+		line-height: 120% !important;
+		text-shadow: none;
+		font-weight: 600 !important;
+	}
+
+	h4,
+	h4 strong,
+	h4 span,
+	h4 em,
+	h4 a {
+		font-size: 1.2rem;
+		font-weight: 600 !important;
+		line-height: 120%;
+	}
+
+	h5,
+	h5 strong,
+	h5 span,
+	h5 em,
+	h5 a {
+		font-size: 1.2rem;
+		font-weight: 500 !important;
+		line-height: 120%;
+	}
+
+	h6,
+	h6 strong,
+	h6 span,
+	h6 em,
+	h6 a {
+		font-size: 1.1rem;
+		font-weight: 500 !important;
+	}
+
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		line-height: 120% !important;
+		margin: 1em 0 10px;
+	}
+
+	h1 {
+		line-height: 120% !important;
+		margin: 0 0 0.2em;
+	}
+
+	h1+p,
+	h2+p,
+	h3+p,
+	h4+p,
+	h5+p,
+	h6+p {
+		margin-top: 0 !important;
+	}
+
+	@media only screen and (max-width: 1024px) {
+		html {
+			font-size: 92.5%;
+		}
+	}
+
+	/*!Adjustments to HTML size for when using REMS*/
+
+	@media only screen and (max-width: 768px) {
+		html {
+			font-size: 92.5%;
+		}
+	}
+
+	/*!Adjustments to HTML size for when using REMS*/
+
+	/*Removes margin on h2s with this class */
+	.united-latest-updates__heading {
+		margin-top: 0;
+		background-color: #1E6B52;
+		color: #fff;
+		padding: 5px 10px;
+		margin-top: 10px;
+		margin-bottom: 5px;
+		font-size: 1.4em;
+	}
+
+	.page-header {
+		border-bottom: 0;
+	}
+
+	/*Section Headings with Anchor Links*/
+	.u-united-heading--style-1 {
+		padding: 5px 0;
+		margin-top: 20px;
+		margin-bottom: 5px;
+		font-size: 1.6em;
+		display: inline-block;
+	}
+
+	/*Fixes bullets getting cut off*/
+	ul {
+		margin: 0 0 5px 20px;
+	}
+
+	/*--------#endregion Typography--------*/
+
+	/*--------#region Link Styling--------*/
+
+	.item-page p a,
+	.uk-accordion-content li a {
+		border-bottom: 2px solid #949494;
+		color: #444;
+		transition: all 0.4s ease 0s;
+	}
+
+	.item-page p a:hover,
+	.uk-accordion-content li a:hover {
+		text-decoration: none;
+		border-bottom: 2px solid #80bc00;
+	}
+
+	.item-page li a {
+		border-bottom: 2px solid #949494;
+		color: #444 !important;
+		transition: all 0.4s ease 0s;
+	}
+
+	.item-page li a:hover {
+		text-decoration: none;
+		color: #000 !important;
+		border-bottom: 2px solid #80bc00;
+	}
+
+	.item-page a:hover {
+		text-decoration: none;
+	}
+
+	/*--------#endregion Link Styling--------*/
+
+	/*--------#region site name, search and quicklinks--------*/
+
+	body.hd #whitebar {
+		z-index: 250;
+		background-color: #1E6B52;
+		max-width: 100%;
+	}
+
+	/*changes z-index when off canvas nav is on page */
+
+	.uk-offcanvas-container #whitebar {
+		z-index: 0;
+	}
+
+	body.linear.hd #siteName {
+		max-width: 1280px;
+		width: 100%;
+		margin: 0 auto;
+		float: none;
+		flex-basis: 50%;
+		margin: 0;
+		flex-grow: 1;
+	}
+
+	body.linear.hd .siteNameTop {
+		color: #fff;
+	}
+
+	body.linear.hd .siteNameSub {
+		color: #fff;
+	}
+
+	body.ribbonFullwidth #whitebar {
+		height: auto;
+		border-bottom: 3px solid #80bc00;
+	}
+
+	/*--------#endregion site name, search and quicklinks--------*/
+
+
+	/*--------#region Back to Top--------*/
+
+	a.back-to-top {
+		border: 2px solid #ccc;
+		bottom: 5%;
+		color: #787878;
+		font-family: "din-condensed", "din-condensed-web", sans-serif !important;
+		font-size: 16px;
+		font-weight: normal !important;
+		left: auto;
+		opacity: 0.7;
+		padding: 0.5em 0.7em 0.4em;
+		right: 0;
+		text-transform: uppercase;
+	}
+
+	a.back-to-top:hover {
+		background-color: rgba(235, 235, 235, 0.8);
+	}
+
+	@media screen and (max-width: 1024px) {
+		a.back-to-top {
+			background-color: rgba(235, 235, 235, 0.8);
+			bottom: 0;
+			display: none;
+			font-size: 12px;
+			position: fixed;
+			right: 0;
+			text-decoration: none;
+		}
+	}
+
+	/*--------#endregion Back to Top--------*/
+
+	/*--------#region Button Styles--------*/
+
+	.united-btn--style-1 {
+		padding: 5px 10px;
+		display: inline-block;
+		background-color: #fff;
+		margin: 5px;
+		font-weight: 500 !important;
+		transition: background-color .3s ease-in !important;
+	}
+
+	.united-btn--style-1:hover {
+		text-decoration: none;
+		background-color: #fafafa;
+
+	}
+
+	.united-btn--style-2 {
+		padding: 5px 10px;
+		display: inline-block;
+		background-color: #1E6B52;
+		color: #fff !important;
+		margin: 5px;
+		font-weight: 500 !important;
+		transition: background-color .3s ease-in !important;
+	}
+
+	.united-btn--style-2:hover {
+		text-decoration: none;
+		background-color: #295135;
+		color: #fff !important;
+	}
+
+
+	.united-btn--style-3 {
+		padding: 5px 10px;
+		display: inline-block;
+		background-color: #eee;
+		margin: 5px;
+		font-weight: 500 !important;
+	}
+
+	.united-btn--style-3 {
+		background-color: #d3d3d3;
+	}
+
+	/*--------#endregion Button Styles--------*/
+
+	/*--------#region More News Button--------*/
+
+	.united-more-news-btn__container {
+		text-align: right;
+	}
+
+	.united-more-news-btn {
+		border-radius: 0;
+		margin: 10px 20px 10px;
+		background-color: transparent;
+		background: none;
+		color: #444;
+		text-shadow: none;
+		font-weight: 500;
+		background-color: #fff;
+		padding: 5px 10px;
+		font-family: "proxima-nova", Arial, Helvetica, sans-serif !important;
+		background-color: #eee;
+		transition: background-color .3s ease-in;
+	}
+
+	.united-more-news-btn:hover {
+		background-color: #d3d3d3;
+		color: #1E6B52;
+	}
+
+	/*--------#endregion More News Button--------*/
+
+	/*--------#region Widgekit Accordion--------*/
+
+	.uk-accordion-title:before {
+		content: none !important;
+	}
+
+	.uk-accordion-title:after {
+		content: "\e007";
+		position: absolute;
+		right: 10px;
+		font-family: 'IcoMoon';
+		color: #1E6B52;
+		top: 50%;
+		transform: translateY(-50%);
+		background: none !important;
+		left: unset;
+	}
+
+	h3.uk-accordion-title {
+		margin-top: .3em !important;
+		padding-left: 5px !important;
+		font-size: 1.2em;
+	}
+
+	.uk-accordion-title {
+		position: relative;
+	}
+
+	.uk-accordion {
+		margin-bottom: 10px;
+	}
+
+	.uk-accordion-title.uk-active:after {
+		content: "\e005";
+		color: #fff;
+	}
+
+	.uk-accordion-title {
+		margin-bottom: 0;
+		padding: 10px 40px 10px 5px;
+		box-sizing: border-box;
+		font-weight: 500 !important;
+		background-color: #fff;
+		border-bottom: 1px solid #ddd;
+	}
+
+	.uk-accordion-title.uk-active {
+		background-color: #1E6B52;
+		color: #fff;
+		border-bottom: none;
+	}
+
+	.uk-accordion-title.uk-active strong {
+		color: #fff;
+
+	}
+
+	.uk-accordion-content.uk-active {
+		border-bottom: none;
+	}
+
+	.uk-accordion-content {
+		padding: 10px 20px 20px;
+	}
+
+	.uk-accordion-title span {
+		font-size: 1.1em;
+		font-weight: 600 !important;
+		display: block;
+	}
+
+	.uk-accordion-title.uk-active span {
+		color: #fff;
+	}
+
+	/*--------#endregion Widgekit Accordion--------*/
+
+	/*--------#region Anchor Link--------*/
+
+	.united-anchor-link {
+		cursor: pointer;
+		color: #d3d3d3;
+		position: relative;
+	}
+
+	.united-anchor-link:active {
+		color: #80bc00;
+	}
+
+	.united-anchor-link:hover:after {
+		content: 'Copy link to clipboard.';
+		position: absolute;
+		top: -22px;
+		width: 150px;
+		background-color: #eee;
+		color: #444;
+		text-align: center;
+		border-radius: 3px;
+		transition: all 1s ease-in;
+		font-size: .9em;
+	}
+
+
+
+	/*--------#endregion Anchor Link--------*/
+
+	/*--------#region Sidebar Sticky Nav--------*/
+
+	body.ribbonFullwidth #whitebox {
+		overflow: visible;
+		display: flex;
+	}
+
+	#leftcolumn {
+		margin-top: 10px;
+		float: none;
+		align-self: flex-start;
+		min-width: 180px !important;
+	}
+
+	#leftcolumn {
+		flex-basis: 25%;
+		flex-grow: 1;
+	}
+
+	#maincolumn-l {
+		flex-basis: 75%;
+        flex-grow: 1;
+        overflow:hidden;
+	}
+
+	.sidebars #maincolumn-l {
+		padding-left: 2em !important;
+		padding-right: 2em !important;
+	}
+
+
+	#leftcolumn .moduletable {
+		padding: 10px 10px 25px 15px;
+	}
+
+	#leftcolumn ul.nav.menu a {
+		padding: 0;
+		margin-bottom: 0.5em;
+	}
+
+	@media all and (min-width:1200px) {
+		#leftcolumn {
+			top: 0;
+			position: sticky;
+		}
+	}
+
+	.sidebar a {
+		border-bottom: 2px solid transparent;
+		display: inline !important;
+		font-weight: 500;
+		line-height: 100%;
+	}
+
+	.sidebar ul.menu li {
+		padding-top: 16px;
+	}
+
+	.sidebar .uk-active a {
+		border-bottom: 2px solid #80bc00;
+    }
+    
+
+    @media all and (min-width:700px) {
+		.sidebar-sticky {
+			position: fixed;
+			top: 0;
+			box-sizing: border-box;
+			padding: 1em !important;
+			max-width: 215px;
+		}
+    }
+    
+    @media all and (min-width:1100px) {
+		.sidebar-sticky {
+			max-width: 275px;
+		}
+	}
+
+
+
+	/*--------END Sidebar Sticky Nav--------*/
+
+	/*--------#region Sidebar Adjustments--------*/
+
+	@media all and (max-width:700px) {
+
+		body.hd div.sidebar.gray,
+		body.hd div.sidebar.no-seal,
+		body.hd #leftcolumn.sidebarpanel.gray,
+		body.hd #sidebar_trigger.gray,
+		body.hd #leftcolumn.sidebarpanel.no-seal,
+		body.hd #sidebar_trigger.no-seal {
+			background-color: #f5f5f5;
+		}
+
+		body.hd.sidebars #maincolumn-l,
+		body.hd.sidebars #maincolumn-r,
+		body.hd.sidebars #maincolumn-l-r {
+			padding-left: 1em !important;
+			padding-right: 1em !important;
+			box-sizing: border-box;
+		}
+	}
+
+	@media all and (min-width:700px) {
+
+		body.hd div.sidebar.gray,
+		body.hd div.sidebar.no-seal,
+		body.hd #leftcolumn.sidebarpanel.gray,
+		body.hd #sidebar_trigger.gray,
+		body.hd #leftcolumn.sidebarpanel.no-seal,
+		body.hd #sidebar_trigger.no-seal {
+			background-color: transparent;
+		}
+	}
+
+	/*--------#endregion Sidebar Adjustments--------*/
+
+	/*--------#region Sidebar Link Styling--------*/
+	body.hd #leftcolumn.sidebarpanel.no-seal {
+		border-right-width: 0px;
+	}
+
+	body.hd #leftcolumn.sidebarpanel.no-seal li {
+		text-align: left;
+	}
+
+	#leftcolumn ul.nav.menu>li>a:first-child,
+	#leftcolumn ul.nav.menu>li>a {
+		font-family: "proxima-nova", sans-serif !important;
+		font-size: 16px;
+		text-transform: none;
+	}
+
+	#leftcolumn ul.nav.menu>li>a:after {
+		font-size: 16px;
+	}
+
+	.sidebar ul.menu li {
+		padding-top: 16px !important;
+	}
+
+	.sidebar .uk-active a {
+		border-bottom: 2px solid #80bc00;
+	}
+
+	#leftcolumn.sidebarpanel ul.nav.menu a:hover {
+		background-color: transparent;
+	}
+
+	#leftcolumn.sidebarpanel ul.nav.menu a:hover:before {
+		border-left-width: 0px;
+	}
+
+	.sidebar a:hover {
+		color: #1e6b52 !important;
+	}
+
+	/*--------#endregion Sidebar Link Styling--------*/
+
+	/*--------#region WidgetKit Accordion--------*/
+	.virtual-events-wk-accordion .uk-accordion-title:before {
+		font-family: 'IcoMoon';
+		margin-right: 10px;
+		color: #1E6B52 !important;
+	}
+
+	.virtual-events-wk-accordion .uk-accordion-title.uk-active:before {
+		color: #fff !important;
+	}
+
+	.virtual-events-wk-accordion .uk-accordion-title:nth-of-type(1):before {
+		content: "\e014";
+	}
+
+	.virtual-events-wk-accordion .uk-accordion-title:nth-of-type(2):before {
+		content: "\e271";
+	}
+
+	.virtual-events-wk-accordion .uk-accordion-title:nth-of-type(3):before {
+		content: "\6a";
+	}
+
+	.virtual-events-wk-accordion .uk-accordion-title:nth-of-type(4):before {
+		content: "\e277";
+	}
+
+	/*Home - Latest Updates WidgetKit*/
+	.coronavirus-latest-news-wk .uk-accordion-title {
+		background-color: rgba(255, 255, 255, 0);
+	}
+
+	.coronavirus-latest-news-wk .uk-accordion-title.uk-active {
+		background-color: #1E6B52;
+	}
+
+	.coronavirus-latest-news-wk .uk-accordion-content.uk-active {
+		background-color: #fff;
+	}
+
+	/*Home - Task Force*/
+	.task-force-accordion .uk-accordion-title {
+		background-color: transparent;
+		font-weight: 600 !important;
+		color: #000;
+	}
+
+	.task-force-accordion .uk-accordion-title.uk-active {
+		background-color: #1E6B52;
+		color: #fff;
+	}
+
+	.task-force-accordion .uk-accordion-content.uk-active {
+		background-color: #fff;
+	}
+
+	/*--------#endregion WidgetKit Accordion--------*/
+
+
+	/***************united more updates button*****************/
+	.united-more-updates-btn__container {
+		text-align: center;
+	}
+
+	.united-more-updates-btn {
+		border-radius: 0;
+		margin: 10px 20px 10px;
+		text-shadow: none;
+		font-weight: 500;
+		padding: 5px 10px;
+		font-family: "proxima-nova", Arial, Helvetica, sans-serif !important;
+		background: none;
+		transition: background-color .3s ease-in;
+		background-color: #1E6B52;
+		color: #fff;
+	}
+
+	.united-more-updates-btn:hover {
+		background-color: #d3d3d3;
+		color: #1E6B52;
+	}
+
+	.highlighted-yellow-box {
+		font-size: 0.85rem;
+		letter-spacing: 2px;
+		background-color: #ffd400;
+		padding: 2px 6px 1px;
+		border-radius: 2px;
+	}
+
+	.united-bulletedList {
+		padding-left: 20px;
+	}
+
+	.extra-spacing {
+		margin-top: 30px;
+	}
+
+	.focus-box-minus-border-shadow {
+		border-left: none;
+		box-shadow: none;
+		background: #fff;
+		border-radius: 0;
+	}
+
+	/*--------#region WidgetKit Grid--------*/
+	.uk-grid h4 {
+		margin-top: 10px;
+	}
+
+	.uk-button {
+		background-color: #1E6B52;
+		border: 1px solid #1E6B52;
+		margin-bottom: 15px;
+	}
+
+	.item-page p a.uk-button {
+		color: #fff;
+	}
+
+	.uk-button:hover {
+		border: 1px solid #80bc00 !important;
+	}
+
+	/*--------#endregion WidgetKit Grid--------*/
+
+
+
+	/*--------#region Checklists--------*/
+	ul.checklist {
+		list-style-type: circle;
+	}
+
+	/*ul.checklist>li:before {
+		content: "\3d";
+	}
+
+	ul.checklist>li:before {
+		font-family: 'IcoMoon';
+		font-style: normal;
+		speak: none;
+		margin-right: 10px;
+		color: #1E6B52;
+		font-weight: bold;
+	}*/
+
+	/*--------#endregion Checklists--------*/
+
+	/*--------#region Signage Gallery & Tabs--------*/
+	.signage-gallery .uk-panel-teaser {
+		border: 1px solid #e5e5e5;
+	}
+
+	.uk-modal-dialog-lightbox .uk-modal-caption {
+		display: none;
+	}
+
+	.uk-modal-dialog-lightbox .uk-close-alt:after {
+		display: block;
+		content: "\f00d";
+		font-family: FontAwesome;
+		opacity: 1;
+	}
+
+	.signage-tabs .uk-tab>li.uk-active>a {
+		color: #fff !important;
+		border-bottom: 1px solid #1e6b52 !important;
+	}
+
+	.signage-tabs .item-page .uk-tab li a:hover {
+		border-bottom: 1px solid #eee;
+	}
+
+	/*--------#endregion Signage Gallery--------*/
+
+	/*--------#region Switcher--------*/
+	.uk-tab>li>a {
+		font-size: 18px;
+	}
+
+	.uk-tab>li.uk-active>a {
+		background: #1e6b52;
+		color: #fff;
+		border: none;
+		border-bottom: 1px solid #1e6b52;
+		-webkit-transition: color 0s;
+		-o-transition: color 0s;
+		transition: color 0s;
+	}
+
+	.uk-tab>li.uk-active>a:hover {
+		color: #fff !important;
+	}
+
+	.uk-tab>li>a {
+		border: 1px solid #eee;
+		font-family: proxima-nova, sans-serif !important;
+		font-weight: 600;
+		font-size: 18px;
+	}
+
+	/*--------#endregion Switcher--------*/
+
+	/*--------#region horizontal line separator for page sections--------*/
+	hr.section-separator {
+		border-top: 2px solid #80bc00;
+		margin: 50px auto 20px;
+		clear: both;
+	}
+
+	/*--------#endregion horizontal line separator for page sections--------*/
+
+	/*--------#region Fall Semester Schedule Grid--------*/
+	/*.fall-schedule {
+		background-color: rgba(128, 188, 0, 0.08);
+	}*/
+
+	.fall-schedule .uk-panel-box {
+		background-color: transparent;
+		text-align: center;
+		border: 0px;
+	}
+
+	.fall-schedule .uk-panel-box h3 {
+		color: #1E6B52;
+		text-align: center;
+	}
+
+	.schedule-month {
+		font-weight: bold;
+		letter-spacing: 2px;
+		background-color: #1E6B52;
+		color: #fff;
+		padding: 0.2em 0.25em 0.25em;
+		width: 90px;
+		margin: 0 auto;
+		font-size: 0.85rem;
+		text-transform: uppercase;
+		box-sizing: border-box;
+	}
+
+	.schedule-day {
+		color: #1E6B52;
+		font-size: 2.5rem;
+		background-color: rgba(128, 188, 0, 0.08);
+		margin: 0 auto;
+		width: 90px;
+		padding: 0.15em;
+		box-sizing: border-box;
+	}
+
+	body.linear.hd p.schedule-day {
+		font-family: "kulturista-web", serif !important;
+	}
+
+	.schedule-range {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		max-width: 220px;
+		margin: 0 auto;
+	}
+
+	.schedule-date {
+		flex: 2 1 60px;
+		margin-top: 0.75em;
+	}
+
+	.schedule-to {
+		flex-grow: 1;
+		height: 3px;
+		background-color: #1E6B52;
+	}
+
+	#ot-sdk-btn.ot-sdk-show-settings {
+		color: #fff;
+	}
+
+	/*--------#endregion Fall Semester Schedule Grid--------*/
+
+	/*--------#region WidgetKit Grid Boxes with Icon--------*/
+	/*.grid-with-icon .fas {
+		box-sizing: border-box;
+		width: 65px;
+		height: 65px;
+		border-radius: 500px;
+		background: #1E6B52;
+		vertical-align: middle;
+		display: inline-flex;
+		justify-content: center;
+		align-items: center;
+		transition: .1s ease-in-out;
+		font-size: 30px;
+		color: #fff;
+	}
+
+	.grid-with-icon .uk-margin {
+		margin-top: 10px;
+	}
+
+	.grid-with-icon h3 {
+		text-align: center;
+		color: #1E6B52;
+	}
+
+	.grid-with-icon .uk-panel-box {
+		background-color: #f5f5f5;
+		border: 0px;
+	}*/
+	.grid-with-icon .uk-panel {
+		padding-top: 30px;
+	}
+
+	/*--------#endregion WidgetKit Grid Boxes with Icon--------*/
+
+	/*--------#region Focus Boxes with Short Call-Out--------*/
+	/*.important-focus-box {
+		background-color: rgba(128, 188, 0, 0.08);
+		padding: 1em 1.5em;
+		margin: 1.5em 0;
+		text-align: center;
+	}
+
+	.important-focus-box p,
+	.important-focus-box a,
+	.important-focus-box p span {
+		font-size: 1.4rem !important;
+	}*/
+
+	/*--------#endregion Focus Boxes with Short Call-Out--------*/
+
+	/*--------#region Flex Box with 1/3 + 2/3 sections--------*/
+	.two-thirds-flex-box {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 1em 0;
+	}
+
+	.two-thirds-flex-box>div:first-child {
+		flex: 1 1 200px;
+		padding-right: 30px;
+	}
+
+	.two-thirds-flex-box>div:nth-child(2) {
+		flex: 3 1 600px;
+	}
+
+	.two-thirds-flex-box h4 {
+		margin-top: 0px;
+	}
+
+	/*--------#endregion Flex Box with 1/3 + 2/3 sections--------*/
+
+	/*--------#region Flex Box with 2/3 + 1/3 sections--------*/
+	.two-thirds-flex-box-right {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 1em 0;
+	}
+
+	.two-thirds-flex-box-right>div:first-child {
+		flex: 3 1 600px;
+		padding-right: 30px;
+	}
+
+	.two-thirds-flex-box-right>div:nth-child(2) {
+		flex: 2 1 200px;
+	}
+
+	.two-thirds-flex-box-right h4 {
+		margin-top: 0px;
+	}
+
+	/*--------#endregion Flex Box with 1/3 + 2/3 sections--------*/
+
+	/*--------#region Flex Box with Two Columns--------*/
+	.two-columns {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 1.5em 0;
+	}
+
+	.two-columns>div {
+		flex-grow: 2;
+		flex-shrink: 1;
+		flex-basis: 45%;
+		margin-right: 1.5em;
+	}
+
+	@media all and (max-width: 1000px) {
+		.two-columns {
+			display: block;
+		}
+
+		.two-columns>div {
+			margin-right: 0em;
+		}
+	}
+
+	/*--------#endregion Flex Box with Two Columns--------*/
+
+	/***********************************Media Queries***********************************/
+	@media all and (max-width:700px) {
+		.image--mobile-full-width {
+			width: 100% !important;
+			float: none !important;
+			margin: .5em 0 !important;
+		}
+
+		.image--mobile-remove {
+			display: none;
+		}
+	}
+
+	@media all and (max-width:1024px) {
+		.wide-image-mobile {
+			width: 100% !important;
+			float: none !important;
+			margin: .5em 0 !important;
+		}
+	}
+
+
+	/*--------#region Operational Color System--------*/
+	@media all and (max-width: 980px) {
+		.red {
+			order: 1;
+		}
+
+		.orange {
+			order: 2;
+		}
+
+		.yellow {
+			order: 3;
+		}
+
+		.green {
+			order: 4;
+		}
+	}
+
+	/*--------#endregion Operational Color System--------*/
+
+
+/*#endregion Custom CSS from Module */
