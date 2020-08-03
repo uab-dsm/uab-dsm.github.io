@@ -1024,3 +1024,72 @@ body.hd #ribbon .nav>li>span:focus {
 
 
 /*#region Horizontal Menu */
+
+
+/*#region Exposure Guidance Table */
+
+.exposure-guidance-table tr:nth-of-type(2n+1) {
+    background-color: transparent;
+}
+
+.exposure-guidance-table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 20px;
+    position: relative;
+}
+
+.exposure-guidance-table:after {
+    content: '';
+    display: block;
+    position: absolute;
+    background-size: contain;
+    height: 15px;
+    width: 100%;
+    right: 0;
+    left: 0;
+
+    background-image: url('https://dev.uab.edu/uabunited/images/banners/united-focus-box-2-top.png');
+    top: -13px;
+}
+
+.exposure-guidance-table th {
+    display: table-cell !important;
+}
+
+.exposure-guidance-table td {
+    border: 1px solid #016243;
+    padding: 15px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle !important;
+    min-width: 150px;
+    background-color: #fff;
+}
+
+td.exposed {
+    text-transform: uppercase;
+}
+
+td.exposed {
+    background-color: #fef4e8;
+}
+
+td.not-exposed {
+    background-color: #f2f8ec;
+}
+
+.exposure-guidance-table tr td:first-child {
+    text-align: right;
+}
+
+.table-wrapper-for-overflow {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch
+}
+
+.aerosol-generating {
+    border-top: 8px solid #016243;
+}
+
+/*#endregion Exposure Guidance Table */
