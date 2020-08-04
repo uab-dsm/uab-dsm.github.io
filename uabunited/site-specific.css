@@ -470,6 +470,14 @@ body.linear.hd div.searchpanel {
 }
 
 
+@media all and (min-width:600px) {
+
+    .o-united-heading-line--green {
+        padding-left: 40px;
+    }
+}
+
+
 /*#endregion UAB United Heading Line */
 
 
