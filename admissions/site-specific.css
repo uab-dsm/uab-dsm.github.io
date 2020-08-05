@@ -23,7 +23,7 @@
 
 .profile-heading__wrapper .profile-heading__name {
 	font-size: 1.5em;
-	font-family: kulturista;
+	font-family: kulturista-web, serif;
 	font-weight: 600 !important;
 	margin: 0
 }
@@ -111,7 +111,7 @@
 
 .profile-heading-trailblazers__wrapper .profile-heading__name {
 	font-size: 1.3em;
-	font-family: kulturista;
+	font-family: kulturista-web, serif;
 	font-weight: 600 !important;
 	margin: 0
 }
@@ -596,6 +596,32 @@ img.dir-photo:nth-of-type(1) {
 }
 
 /*#endregion Admission Counselors */
+
+/*#region Admissions Contacts */
+
+/*overrides to the wk card layout */
+
+
+.admissions-contacts__container .uab-card-header {
+    background-color:#eee;
+    border-bottom:0;
+}
+
+.admissions-contacts__container .uab-card-title {
+    font-family: kulturista-web,serif;
+    font-weight:600;
+    color:#444;
+}
+
+.admissions-contacts__container .uab-text-meta {
+    color: #1e6b52;
+   font-weight:500;
+    font-size:.9rem;
+    letter-spacing:.5px;
+}
+
+/*#endregion Admissions Contacts */
+
 
 /*#region Homepage Banner Button */
 .admissions-banner-button:hover {
