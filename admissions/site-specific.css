@@ -575,6 +575,7 @@ img.dir-photo:nth-of-type(1) {
 .admissions-counselors-filter li.uab-active a {
 	background-color: #1E6B52;
 	color: #fff;
+	border:1px solid #80bc00;
 
 }
 
