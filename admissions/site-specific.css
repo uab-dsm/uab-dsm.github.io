@@ -606,6 +606,7 @@ img.dir-photo:nth-of-type(1) {
 		display: block;
 		margin-top: 1.5em;
 		margin-bottom: .2em;
+		max-width: 600px;
 }
 
 /*#endregion Subheading*/
