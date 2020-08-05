@@ -607,6 +607,13 @@ img.dir-photo:nth-of-type(1) {
     margin-bottom:0;
 }
 
+/*adds spacing between admissions contacts */
+.admissions-contacts__container > li {
+    margin-bottom:2em;
+}
+
+
+
 
 /*#endregion Admission Counselors */
 
