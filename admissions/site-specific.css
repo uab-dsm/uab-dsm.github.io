@@ -1,44 +1,44 @@
 /*#region Orientation Leaders Directory ***/
 
 .orientation-leaders-directory .uk-panel {
-    box-shadow: 0 1px 6px 1px #d3d3d3;
+	box-shadow: 0 1px 6px 1px #d3d3d3;
 }
 
 .orientation-leaders-directory .profile-heading__wrapper {
-    margin-top: -25px;
+	margin-top: -25px;
 }
 
 .orientation-leaders-directory .profile-intro-text {
-    padding: 20px;
+	padding: 20px;
 }
 
 .profile-heading__wrapper {
-    border-top: 3px solid #80bc00;
-    padding: 10px 20px 5px;
-    order: 2;
-    position: relative;
-    background-color: #eee;
-    margin-bottom: 10px;
+	border-top: 3px solid #80bc00;
+	padding: 10px 20px 5px;
+	order: 2;
+	position: relative;
+	background-color: #eee;
+	margin-bottom: 10px;
 }
 
 .profile-heading__wrapper .profile-heading__name {
-    font-size: 1.5em;
-    font-family: kulturista;
-    font-weight: 600 !important;
-    margin: 0
+	font-size: 1.5em;
+	font-family: kulturista;
+	font-weight: 600 !important;
+	margin: 0
 }
 
 .profile-heading__name,
 .profile-heading__credential {
-    color: #1e6b52;
+	color: #1e6b52;
 }
 
 .profile-heading__credential {
-    color: #444;
+	color: #444;
 }
 
 .profile-title {
-    display: block
+	display: block
 }
 
 /*#endregion Orientation Leaders Directory ***/
@@ -46,50 +46,50 @@
 /*#region Trailblazers Mosaic */
 
 .c-image-mosaic {
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
+	display: grid;
+	grid-template-columns: repeat(16, 1fr);
 }
 
 .c-image-mosiac__copy {
-    grid-column: 5 / 13;
-    grid-row: 2 /4;
+	grid-column: 5 / 13;
+	grid-row: 2 /4;
 }
 
 @media all and (min-width:1280px) {
-    .c-image-mosaic {
-        grid-template-columns: repeat(14, 1fr);
-    }
+	.c-image-mosaic {
+		grid-template-columns: repeat(14, 1fr);
+	}
 
-    .c-image-mosiac__copy {
-        grid-column: 9 / 13;
-        grid-row: 2 / 4;
-    }
+	.c-image-mosiac__copy {
+		grid-column: 9 / 13;
+		grid-row: 2 / 4;
+	}
 }
 
 .c-image-mosaic img {
-    max-width: 300px;
-    width: 100%;
+	max-width: 300px;
+	width: 100%;
 }
 
 .c-image-mosiac__copy {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
 }
 
 .c-image-mosiac__p {
-    padding: 0 2rem 2rem;
-    font-size: 1.1em;
+	padding: 0 2rem 2rem;
+	font-size: 1.1em;
 }
 
 .c-image-mosiac__link {
 
-    text-align: center;
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
+	text-align: center;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
 }
 
 
@@ -98,81 +98,81 @@
 /*#region Trailblazers Directory ***/
 
 .item-page .profile-heading-trailblazers__wrapper {
-    display: none;
+	display: none;
 }
 
 .profile-heading-trailblazers__wrapper {
-    border-top: 3px solid #80bc00;
-    padding: 10px 20px 5px;
-    position: relative;
-    background-color: #eee;
-    margin-bottom: 10px;
+	border-top: 3px solid #80bc00;
+	padding: 10px 20px 5px;
+	position: relative;
+	background-color: #eee;
+	margin-bottom: 10px;
 }
 
 .profile-heading-trailblazers__wrapper .profile-heading__name {
-    font-size: 1.3em;
-    font-family: kulturista;
-    font-weight: 600 !important;
-    margin: 0
+	font-size: 1.3em;
+	font-family: kulturista;
+	font-weight: 600 !important;
+	margin: 0
 }
 
 .blog.trailblazers-blog .uab-card-title {
-    display: none;
+	display: none;
 }
 
 .trailblazers-blog .profile-intro-text {
-    padding: 10px 20px;
+	padding: 10px 20px;
 }
 
 .blog.trailblazers-blog .profile-hometown {
-    display: none;
+	display: none;
 }
 
 .blog.trailblazers-blog .profile-class {
-    display: none;
+	display: none;
 }
 
 .profile-heading__status {
-    margin: 0;
+	margin: 0;
 }
 
 .profile-heading__status span:first-child:after {
-    height: 10px;
-    width: 1px;
-    background-color: #1E6B52;
-    content: '';
-    display: inline-block;
-    margin-left: 5px;
+	height: 10px;
+	width: 1px;
+	background-color: #1E6B52;
+	content: '';
+	display: inline-block;
+	margin-left: 5px;
 }
 
 /*Changes card to a flex item so that the footer can be pushed to the bottom of the card using margin-top auto */
 .blog.trailblazers-blog .uab-card {
-    display: flex;
-    flex-direction: column;
-    border-radius: 10px 10px 10px 10px;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px 10px 10px 10px;
 }
 
 /*removes ui kit default padding and border and pushes item to bottom of card*/
 .blog.trailblazers-blog .uab-card-footer {
-    margin-top: auto;
-    /*look at removing default padding in footer from uikit */
-    padding: 0;
-    /*look at removing default border in footer from uikit */
-    border-top: 0 !important;
+	margin-top: auto;
+	/*look at removing default padding in footer from uikit */
+	padding: 0;
+	/*look at removing default border in footer from uikit */
+	border-top: 0 !important;
 }
 
 /*adds curved edge to button, changes size of button, and extends the button the full-width of the card */
 .blog.trailblazers-blog .uab-button-primary {
-    font-size: .9rem;
-    width: 100%;
-    border-radius: 0px 0px 10px 10px;
+	font-size: .9rem;
+	width: 100%;
+	border-radius: 0px 0px 10px 10px;
 }
 
 
 /*adds curved edge to image */
 
 .blog.trailblazers-blog img {
-    border-radius: 10px 10px 0 0;
+	border-radius: 10px 10px 0 0;
 }
 
 
@@ -244,7 +244,7 @@
 
 .field-figure.dir-photogrid {
 	display: -ms-grid;
-	display:     grid;
+	display: grid;
 	height: 220px;
 	margin: 0;
 	transition: all linear 0.3s;
@@ -265,15 +265,15 @@
 	transition: all linear 0.3s;
 
 	-o-object-fit: cover;
-	   object-fit: cover;
+	object-fit: cover;
 }
 
 img.dir-photo:nth-of-type(1) {
 	-ms-grid-column: 1;
-	    grid-column: 1 / 3;
+	grid-column: 1 / 3;
 	-ms-grid-column-span: 2;
 	-ms-grid-row: 1;
-	    grid-row: 1 / 3;
+	grid-row: 1 / 3;
 	-ms-grid-row-span: 2;
 }
 
@@ -290,49 +290,49 @@ img.dir-photo:nth-of-type(1) {
 }
 
 
-.field-figure.dir-photogrid > :nth-child(1) {
+.field-figure.dir-photogrid> :nth-child(1) {
 	-ms-grid-column: 1;
 	-ms-grid-column-span: 3;
 	-ms-grid-row: 1;
 	-ms-grid-row-span: 3;
 }
 
-.field-figure.dir-photogrid > :nth-child(2) {
+.field-figure.dir-photogrid> :nth-child(2) {
 	-ms-grid-column: 5;
 	-ms-grid-column-span: 1;
 	-ms-grid-row: 1;
 	-ms-grid-row-span: 1;
 }
 
-.field-figure.dir-photogrid > :nth-child(3) {
+.field-figure.dir-photogrid> :nth-child(3) {
 	-ms-grid-column: 7;
 	-ms-grid-column-span: 1;
 	-ms-grid-row: 1;
 	-ms-grid-row-span: 1;
 }
 
-.field-figure.dir-photogrid > :nth-child(4) {
+.field-figure.dir-photogrid> :nth-child(4) {
 	-ms-grid-column: 9;
 	-ms-grid-column-span: 1;
 	-ms-grid-row: 1;
 	-ms-grid-row-span: 1;
 }
 
-.field-figure.dir-photogrid > :nth-child(5) {
+.field-figure.dir-photogrid> :nth-child(5) {
 	-ms-grid-column: 5;
 	-ms-grid-column-span: 1;
 	-ms-grid-row: 3;
 	-ms-grid-row-span: 1;
 }
 
-.field-figure.dir-photogrid > :nth-child(6) {
+.field-figure.dir-photogrid> :nth-child(6) {
 	-ms-grid-column: 7;
 	-ms-grid-column-span: 1;
 	-ms-grid-row: 3;
 	-ms-grid-row-span: 1;
 }
 
-.field-figure.dir-photogrid > :nth-child(7) {
+.field-figure.dir-photogrid> :nth-child(7) {
 	-ms-grid-column: 9;
 	-ms-grid-column-span: 1;
 	-ms-grid-row: 3;
@@ -366,7 +366,7 @@ img.dir-photo:nth-of-type(1) {
 		grid-column: 1 / 4;
 	}
 
-	.field-figure.dir-photogrid > :nth-child(1) {
+	.field-figure.dir-photogrid> :nth-child(1) {
 		max-height: none;
 
 		-ms-grid-column: 1;
@@ -375,49 +375,49 @@ img.dir-photo:nth-of-type(1) {
 		-ms-grid-row-span: 1;
 	}
 
-	.field-figure.dir-photogrid > :nth-child(2) {
+	.field-figure.dir-photogrid> :nth-child(2) {
 		-ms-grid-column: 1;
 		-ms-grid-column-span: 1;
 		-ms-grid-row: 3;
 		-ms-grid-row-span: 1;
 	}
 
-	.field-figure.dir-photogrid > :nth-child(2) {
+	.field-figure.dir-photogrid> :nth-child(2) {
 		-ms-grid-column: 1;
 		-ms-grid-column-span: 1;
 		-ms-grid-row: 3;
 		-ms-grid-row-span: 1;
 	}
 
-	.field-figure.dir-photogrid > :nth-child(3) {
+	.field-figure.dir-photogrid> :nth-child(3) {
 		-ms-grid-column: 3;
 		-ms-grid-column-span: 1;
 		-ms-grid-row: 3;
 		-ms-grid-row-span: 1;
 	}
 
-	.field-figure.dir-photogrid > :nth-child(4) {
+	.field-figure.dir-photogrid> :nth-child(4) {
 		-ms-grid-column: 1;
 		-ms-grid-column-span: 1;
 		-ms-grid-row: 5;
 		-ms-grid-row-span: 1;
 	}
 
-	.field-figure.dir-photogrid > :nth-child(5) {
+	.field-figure.dir-photogrid> :nth-child(5) {
 		-ms-grid-column: 3;
 		-ms-grid-column-span: 1;
 		-ms-grid-row: 5;
 		-ms-grid-row-span: 1;
 	}
 
-	.field-figure.dir-photogrid > :nth-child(6) {
+	.field-figure.dir-photogrid> :nth-child(6) {
 		-ms-grid-column: 1;
 		-ms-grid-column-span: 1;
 		-ms-grid-row: 7;
 		-ms-grid-row-span: 1;
 	}
 
-	.field-figure.dir-photogrid > :nth-child(7) {
+	.field-figure.dir-photogrid> :nth-child(7) {
 		-ms-grid-column: 3;
 		-ms-grid-column-span: 1;
 		-ms-grid-row: 7;
@@ -432,62 +432,62 @@ img.dir-photo:nth-of-type(1) {
 /*#region Bham Highlights */
 
 .c-bham-highlight {
-    padding: 1rem;
+	padding: 1rem;
 }
 
 .c-bham-highlight__heading {
-    font-size: 1.6rem;
-    position: relative;
+	font-size: 1.6rem;
+	position: relative;
 }
 
 
 .c-bham-highlight__heading:after {
-    width: 40px;
-    height: 2px;
-    background-color: #80bc00;
-    content: '';
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: translatex(-50%);
+	width: 40px;
+	height: 2px;
+	background-color: #80bc00;
+	content: '';
+	position: absolute;
+	bottom: -10px;
+	left: 50%;
+	transform: translatex(-50%);
 }
 
 .c-bham-highlight__ul {
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 0;
-    justify-content: center;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0;
+	justify-content: center;
 }
 
 .c-bham-highlight__item {
-    flex-basis: calc(33% - 20px);
-    margin: 10px;
-    padding: 10px;
-    box-sizing: border-box;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    background-color: #fff;
+	flex-basis: calc(33% - 20px);
+	margin: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
 }
 
 .c-bham-highlight__award {
-    display: inline-block;
+	display: inline-block;
 }
 
 .c-bham-highlight__source {
-    display: block;
-    font-size: .9rem;
-    margin-top: auto;
+	display: block;
+	font-size: .9rem;
+	margin-top: auto;
 }
 
 .c-bham-highlight__award-emphasis {
-    display: block;
-    font-size: 1.2rem;
-    line-height: 1;
-    font-weight: 600;
-    font-family: kulturista-web, serif;
-    color: #1E6B52;
+	display: block;
+	font-size: 1.2rem;
+	line-height: 1;
+	font-weight: 600;
+	font-family: kulturista-web, serif;
+	color: #1E6B52;
 }
 
 
@@ -497,102 +497,102 @@ img.dir-photo:nth-of-type(1) {
 /*#region Admission Counselors */
 
 
-	.admissions-counselors-filter__state-filter {
-		background-color: #eee;
-		padding: 10px;
+.admissions-counselors-filter__state-filter {
+	background-color: #eee;
+	padding: 10px;
 
-		box-sizing: border-box;
-		list-style-type: none;
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		margin-bottom: 2rem;
-	}
+	box-sizing: border-box;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 2rem;
+}
 
-	.admissions-counselors-filter__state-filter li a {
-		margin: 5px 20px;
-		display: inline-block;
-		text-decoration: none;
-	}
+.admissions-counselors-filter__state-filter li a {
+	margin: 5px 20px;
+	display: inline-block;
+	text-decoration: none;
+}
 
-	.admissions-counselors-filter__state-filter .uab-active a {
-		text-decoration: underline;
-	}
+.admissions-counselors-filter__state-filter .uab-active a {
+	text-decoration: underline;
+}
 
-	.admissions-counselors-filter__state-filter {}
+.admissions-counselors-filter__state-filter {}
 
-	.admissions-counselors-filter__container {
-		margin-bottom: 2rem;
-	}
+.admissions-counselors-filter__container {
+	margin-bottom: 2rem;
+}
 
-	.admissions-counselors-filter__container:after {
-		width: 100px;
-		background-color: #80bc00;
-		height: 2px;
-		display: block;
-		content: '';
-		margin: 0 auto;
+.admissions-counselors-filter__container:after {
+	width: 100px;
+	background-color: #80bc00;
+	height: 2px;
+	display: block;
+	content: '';
+	margin: 0 auto;
 
-	}
+}
 
-	.admissions-counselors-filter {
-		list-style-type: none;
-		padding: 0;
-		
-		/* text-align: center;
+.admissions-counselors-filter {
+	list-style-type: none;
+	padding: 0;
+
+	/* text-align: center;
 		flex-wrap: wrap;
 		display: flex;
 		justify-content: center; */
-	}
+}
 
-	/* .admissions-counselors-filter li {
+/* .admissions-counselors-filter li {
 		margin: 10px;
 		flex-basis: calc(33% - 20px);
 	} */
 
 
 
-	.admissions-counselors-filter a {
-		color: #1E6B52;
-		background-color: #fff;
-		outline: 1px solid #eee;
-		text-decoration: none;
-		display: block;
-		position: relative;
-		line-height: 1.2;
-		padding: 20px;
-		font-weight:500;
-	}
+.admissions-counselors-filter a {
+	color: #1E6B52;
+	background-color: #fff;
+	outline: 1px solid #eee;
+	text-decoration: none;
+	display: block;
+	position: relative;
+	line-height: 1.2;
+	padding: 20px;
+	font-weight: 500;
+}
 
-	.admissions-counselors-filter li:nth-child(1) a,
-	.admissions-counselors-filter li:nth-child(2) a {
-		color: #1E6B52;
-		background-color: #fff;
-		text-decoration: none;
-		display: block;
-	}
+.admissions-counselors-filter li:nth-child(1) a,
+.admissions-counselors-filter li:nth-child(2) a {
+	color: #1E6B52;
+	background-color: #fff;
+	text-decoration: none;
+	display: block;
+}
 
-	.admissions-counselors-filter li.uab-active a {
-		background-color: #1E6B52;
-		color: #fff;
-	
-	}
+.admissions-counselors-filter li.uab-active a {
+	background-color: #1E6B52;
+	color: #fff;
 
-	.admissions-counselors-filter li.uab-active a:after {
-		content: '\f0d7';
-		font-family: "Font Awesome 5 Free";
-		font-weight: 600;
-		position: absolute;
-		bottom: 3px;
-		left: 50%;
-		transform: translatex(-50%);
-	}
+}
+
+.admissions-counselors-filter li.uab-active a:after {
+	content: '\f0d7';
+	font-family: "Font Awesome 5 Free";
+	font-weight: 600;
+	position: absolute;
+	bottom: 3px;
+	left: 50%;
+	transform: translatex(-50%);
+}
 
 /*#endregion Admission Counselors */
 
 /*#region Homepage Banner Button */
 .admissions-banner-button:hover {
-	background-color:#1E6B52;
+	background-color: #1E6B52;
 }
 
 /*#endregion Homepage Banner Button */
@@ -601,12 +601,12 @@ img.dir-photo:nth-of-type(1) {
 
 .admissions-subheading--style-1 {
 	color: #1E6B52;
-    font-size: 1.5rem;
-    line-height: 1.3;
-    display: block;
-    margin-top: 1.2em;
-    margin-bottom: .2em;
-    max-width: 600px;
+	font-size: 1.5rem;
+	line-height: 1.3;
+	display: block;
+	margin-top: 1.2em;
+	margin-bottom: .2em;
+	max-width: 600px;
 }
 
 /*#endregion Subheading*/
@@ -616,74 +616,114 @@ img.dir-photo:nth-of-type(1) {
 /*#region Icon Styles */
 
 
-	.o-admissions-rounded-icon,
-	.o-admissions-rounded-icon--has-hover {
-		font-size: 2.5rem;
-		background-color: #eee;
-		padding: 40px;
-		border-radius: 50%;
-		color: #1E6B52;
-		transition: background-color .2s ease-in;
-	}
+.o-admissions-rounded-icon,
+.o-admissions-rounded-icon--has-hover {
+	font-size: 2.5rem;
+	background-color: #eee;
+	padding: 40px;
+	border-radius: 50%;
+	color: #1E6B52;
+	transition: background-color .2s ease-in;
+}
 
-	.o-admissions-rounded-icon--has-hover:hover {
-		color: #eee;
-		background-color: #1E6B52;
-	}
+.o-admissions-rounded-icon--has-hover:hover {
+	color: #eee;
+	background-color: #1E6B52;
+}
 
-	.o-admissions-accent-icon {
-		top: -1em;
-	
-		border-radius: 50%;
-		width: 50px;
-		height: 50px;
-		font-size: 1.3rem;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		border: 4px solid #fff;
-	}
+.o-admissions-accent-icon {
+	top: -1em;
 
-	/*#endregion Icon Styles */
+	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+	font-size: 1.3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 4px solid #fff;
+}
+
+/*#endregion Icon Styles */
 
 
 /*#region Estimated Costs Table */
 
-	.est-costs-accent {
-		position: relative;
-	}
+.est-costs-accent {
+	position: relative;
+}
 
-	.est-costs-accent:before {
-		content: '';
-		height: 103%;
-		width: 2px;
-		display: block;
-		position: absolute;
-		left: -10px;
-		background-color: #eee;
-		bottom: 0;
+.est-costs-accent:before {
+	content: '';
+	height: 103%;
+	width: 2px;
+	display: block;
+	position: absolute;
+	left: -10px;
+	background-color: #eee;
+	bottom: 0;
 
-	}
+}
 
-	.est-costs-accent--first:before {
-		height: 50%;
-	}
+.est-costs-accent--first:before {
+	height: 50%;
+}
 
-	.est-costs-accent--last:before {
-		height: 53%;
-		top: -1px;
-	}
+.est-costs-accent--last:before {
+	height: 53%;
+	top: -1px;
+}
 
 
-	.est-costs-accent:after {
-		content: '';
-		height: 2px;
-		width: 15px;
-		display: block;
-		position: absolute;
-		left: -10px;
-		background-color: #eee;
-		bottom: 50%;
-	}
+.est-costs-accent:after {
+	content: '';
+	height: 2px;
+	width: 15px;
+	display: block;
+	position: absolute;
+	left: -10px;
+	background-color: #eee;
+	bottom: 50%;
+}
 
-	/*#endregion Estimated Costs Table */
+/*#endregion Estimated Costs Table */
+
+
+/*#region Video Grid */
+.admissions-video-grid-button {
+	padding: 40px 30px;
+	transition: all .1s ease-in;
+	background-color: #fff;
+	position: relative;
+	border: 1px solid #80bc00;
+
+}
+
+.admissions-video-grid-button:hover {
+
+	background-color: #1E6B52;
+	color: #fff;
+
+}
+
+.fa-play-circle {
+	display: block;
+	font-size: 1.8rem;
+	color: #1E6B52;
+	transition: all .1s ease-in;
+	top: -20px;
+	color: #fff;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, 0);
+	background-color: #1E6B52;
+	padding: 1px;
+	border-radius: 50%;
+}
+
+.admissions-video-grid-button:hover .fa-play-circle {
+	background-color: #fff;
+	color: #1E6B52;
+}
+
+/*#endregion Video Grid */
