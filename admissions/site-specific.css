@@ -597,6 +597,17 @@ img.dir-photo:nth-of-type(1) {
 	transform: translatex(-50%);
 }
 
+
+/*Removes margin on paragraphs and ul */
+.admissions-contacts__container .uab-card ul {
+    margin-top:0;
+}
+
+.admissions-contacts__container .uab-card p {
+    margin-bottom:0;
+}
+
+
 /*#endregion Admission Counselors */
 
 /*#region Admissions Contacts */
