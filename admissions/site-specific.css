@@ -120,6 +120,10 @@
 	display: none;
 }
 
+.blog.trailblazers-blog .uab-card-media-top {
+	flex-shrink:0;
+}
+
 .trailblazers-blog .profile-intro-text {
 	padding: 10px 20px;
 }
