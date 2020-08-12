@@ -58,6 +58,10 @@
 /*from module */
 
 .c-image-mosiac__copy {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 	position: absolute;
 	max-width:400px;
 	left:50%;
@@ -66,13 +70,22 @@
 	background-color:#fff;
 }
 
+.c-image-mosaic {
+	position:relative;
+}
+
+.c-image-mosiac__p {
+    padding: 0 2rem 2rem;
+    font-size: 1.1em;
+}
+
 @supports (display: grid) {
 
 .c-image-mosaic {
     grid-template-columns: repeat(12, 1fr);
 	display:grid;
 	background-color:#1E6B52;
-	position:relative;
+	
 }
 
 .c-image-mosaic img {
@@ -81,9 +94,7 @@
 }
 
 .c-image-mosiac__copy {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    
 	
 	/*remove IE styles */
 	position: relative;
@@ -93,10 +104,6 @@
 	transform: inherit;
 }
 
-.c-image-mosiac__p {
-    padding: 0 2rem 2rem;
-    font-size: 1.1em;
-}
 
 .c-image-mosiac__link {
     text-align: center;
