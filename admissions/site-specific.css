@@ -72,6 +72,7 @@
 
 .c-image-mosaic {
 	position:relative;
+	min-height:600px;
 }
 
 .c-image-mosiac__p {
@@ -89,6 +90,7 @@
     grid-template-columns: repeat(12, 1fr);
 	display:grid;
 	background-color:#1E6B52;
+	min-height:initial;
 	
 }
 
