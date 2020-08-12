@@ -68,11 +68,13 @@
 	top:50%;
 	transform: translate(-50%);
 	background-color:#fff;
+	padding:30px;
 }
 
 .c-image-mosaic {
 	position:relative;
-	min-height:600px;
+	min-height:400px;
+	background-color:#1E6B52;
 }
 
 .c-image-mosiac__p {
@@ -89,7 +91,7 @@
 .c-image-mosaic {
     grid-template-columns: repeat(12, 1fr);
 	display:grid;
-	background-color:#1E6B52;
+	
 	min-height:initial;
 	
 }
@@ -109,6 +111,7 @@
 	left:inherit;
 	top:inherit;
 	transform: inherit;
+	padding:initial;
 }
 
 
