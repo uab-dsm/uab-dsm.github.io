@@ -79,6 +79,10 @@
     font-size: 1.1em;
 }
 
+.c-image-mosaic img {
+	display:none;
+}
+
 @supports (display: grid) {
 
 .c-image-mosaic {
@@ -89,6 +93,7 @@
 }
 
 .c-image-mosaic img {
+	display:inherit;
     max-width: 300px;
     width: 100%;
 }
